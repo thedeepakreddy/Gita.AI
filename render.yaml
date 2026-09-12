@@ -1,0 +1,88 @@
+# Render blueprint for Gita Counsel.
+#
+#   https://render.com/docs/blueprint-spec
+#
+# Two notes that will save you an afternoon:
+#
+# 1. `plan: standard` is not padding. The embedding encoder holds ~1.3GB of
+#    weights in the process, so /chat and /search are OOM-killed on smaller
+#    plans while /study keeps working — a confusing half-broken state. Both
+#    cheaper escapes were measured and rejected (see README, "Deploying to
+#    Render"). If you must run smaller, drop to `starter` and set
+#    EMBED_BACKEND=service with the Python sidecar hosted separately.
+#
+# 2. APP_ENCRYPTION_KEY is NOT generated here. Render's generator produces a
+#    random string; this app needs base64 that decodes to exactly 32 bytes, and
+#    anything else fails at the moment a user saves their first provider key.
+#    Generate it yourself:  openssl rand -base64 32
+#
+#    Changing it later makes every stored key undecryptable.
+
+databases:
+  - name: gita-counsel-db
+    plan: free
+    databaseName: gita_counsel
+    user: gita_counsel
+
+services:
+  - type: web
+    name: gita-counsel
+    runtime: node
+    plan: standard
+    healthCheckPath: /api/health
+
+    buildCommand: >-
+      npm ci &&
+      npx prisma generate --schema=prisma/postgres/schema.prisma &&
+      npm run build
+
+    # Migrations run here, not in the build: the build may be reused across
+    # deploys, and a schema change must be applied exactly once against the
+    # live database.
+    preDeployCommand: npx prisma migrate deploy --schema=prisma/postgres/schema.prisma
+
+    startCommand: npm start
+
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: gita-counsel-db
+          property: connectionString
+
+      # Any random string is fine for session signing.
+      - key: NEXTAUTH_SECRET
+        generateValue: true
+
+      # Must decode to exactly 32 bytes — set it yourself, see note 2 above.
+      - key: APP_ENCRYPTION_KEY
+        sync: false
+
+      # Your Render URL, e.g. https://gita-counsel.onrender.com
+      # The same origin + /api/auth/callback/google must be an authorised
+      # redirect URI in the Google console, or sign-in fails.
+      - key: NEXTAUTH_URL
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+
+      # Who can reach /admin. Comma-separated.
+      - key: ADMIN_EMAILS
+        sync: false
+
+      # Leave TRIAL_API_KEY empty for pure bring-your-own-key. Setting it
+      # spends your own quota — see README, "The trial".
+      - key: TRIAL_PROVIDER
+        value: gemini
+      - key: TRIAL_API_KEY
+        sync: false
+      - key: TRIAL_MESSAGE_LIMIT
+        value: "10"
+      - key: TRIAL_DAILY_CAP
+        value: "200"
+
+      - key: EMBED_BACKEND
+        value: local
+      - key: NODE_VERSION
+        value: "20"
