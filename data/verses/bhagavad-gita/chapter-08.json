@@ -1,0 +1,582 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 8,
+  "title": {
+    "en": "Akshara Brahma Yoga — The Yoga of the Imperishable",
+    "hu": "Aksara-brahma-jóga — A elmúlhatatlan jógája",
+    "hi": "अक्षरब्रह्मयोग"
+  },
+  "titleSanskrit": "अक्षरब्रह्मयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:18:29.468Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:8:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nकिं तद् ब्रह्म किमध्यात्मं किं कर्म पुरुषोत्तम |\nअधिभूतं च किं प्रोक्तमधिदैवं किमुच्यते ||८-१||",
+      "transliteration": "arjuna uvāca .\nkiṃ tad brahma kimadhyātmaṃ kiṃ karma puruṣottama .\nadhibhūtaṃ ca kiṃ proktamadhidaivaṃ kimucyate ||8-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: What is that Eternal, what Self -knowledge, what Action, O Purushottama? And what is declared to be the knowledge of the Elements, what is called the knowledge of the Shining Ones?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 2,
+      "sanskrit": "अधियज्ञः कथं कोऽत्र देहेऽस्मिन्मधुसूदन |\nप्रयाणकाले च कथं ज्ञेयोऽसि नियतात्मभिः ||८-२||",
+      "transliteration": "adhiyajñaḥ kathaṃ ko.atra dehe.asminmadhusūdana .\nprayāṇakāle ca kathaṃ jñeyo.asi niyatātmabhiḥ ||8-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "What is the knowledge of Sacrifice in this body, and how, O, Madhusûdana? And how, at the time of forthgoing art Thou known by the Self -controlled?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 3,
+      "sanskrit": "श्रीभगवानुवाच |\nअक्षरं ब्रह्म परमं स्वभावोऽध्यात्ममुच्यते |\nभूतभावोद्भवकरो विसर्गः कर्मसंज्ञितः ||८-३||",
+      "transliteration": "śrībhagavānuvāca .\nakṣaraṃ brahma paramaṃ svabhāvo.adhyātmamucyate .\nbhūtabhāvodbhavakaro visargaḥ karmasaṃjñitaḥ ||8-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: The indestructible, the supreme is the Eternal; His essential nature is called Self -knowledge; the emanation that causes the birth of beings is named Action;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 4,
+      "sanskrit": "अधिभूतं क्षरो भावः पुरुषश्चाधिदैवतम् |\nअधियज्ञोऽहमेवात्र देहे देहभृतां वर ||८-४||",
+      "transliteration": "adhibhūtaṃ kṣaro bhāvaḥ puruṣaścādhidaivatam .\nadhiyajño.ahamevātra dehe dehabhṛtāṃ vara ||8-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Knowledge of the Elements concerns My perishable nature, and knowledge of the Shining Ones concerns the life-giving energy; the knowledge of Sacrifice tells of Me, as wearing the body, O best of living beings."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 5,
+      "sanskrit": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् |\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ||८-५||",
+      "transliteration": "antakāle ca māmeva smaranmuktvā kalevaram .\nyaḥ prayāti sa madbhāvaṃ yāti nāstyatra saṃśayaḥ ||8-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And he who, casting off the body, goeth forth thinking upon Me only at the time of the end, he entereth into My being: there is no doubt of that."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 6,
+      "sanskrit": "यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेवरम् |\nतं तमेवैति कौन्तेय सदा तद्भावभावितः ||८-६||",
+      "transliteration": "yaṃ yaṃ vāpi smaranbhāvaṃ tyajatyante kalevaram .\ntaṃ tamevaiti kaunteya sadā tadbhāvabhāvitaḥ ||8-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Whosoever at the end abandoneth the body, thinking upon any being, to that being only he goeth, O Kaunteya, ever to that conformed in nature."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 7,
+      "sanskrit": "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च |\nमय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयः (orसंशयम्) ||८-७||",
+      "transliteration": "tasmātsarveṣu kāleṣu māmanusmara yudhya ca .\nmayyarpitamanobuddhirmāmevaiṣyasyasaṃśayaḥ ||8-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore at all times think upon Me only and fight. With mind and Reason set on Me, without doubt thou shalt come to Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 8,
+      "sanskrit": "अभ्यासयोगयुक्तेन चेतसा नान्यगामिना |\nपरमं पुरुषं दिव्यं याति पार्थानुचिन्तयन् ||८-८||",
+      "transliteration": "orsaṃśayama abhyāsayogayuktena cetasā nānyagāminā .\nparamaṃ puruṣaṃ divyaṃ yāti pārthānucintayan ||8-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "With the mind not wandering after aught else, harmonised by continual practice, constantly meditating, O Pârtha, one goeth to the Spirit supreme, divine."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 9,
+      "sanskrit": "कविं पुराणमनुशासितार-\nमणोरणीयंसमनुस्मरेद्यः |\nसर्वस्य धातारमचिन्त्यरूप-\nमादित्यवर्णं तमसः परस्तात् ||८-९||",
+      "transliteration": "kaviṃ purāṇamanuśāsitāraṃ aṇoraṇīyaṃsamanusmaredyaḥ .\nsarvasya dhātāramacintyarūpaṃ ādityavarṇaṃ tamasaḥ parastāt ||8-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who thinketh upon the Ancient, the Omniscient, the All-Ruler, minuter than the minute, the supporter of all, of form unimaginable, refulgent as the sun beyond the darkness,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 10,
+      "sanskrit": "प्रयाणकाले मनसाऽचलेन\nभक्त्या युक्तो योगबलेन चैव |\nभ्रुवोर्मध्ये प्राणमावेश्य सम्यक्\nस तं परं पुरुषमुपैति दिव्यम् ||८-१०||",
+      "transliteration": "prayāṇakāle manasā.acalena bhaktyā yukto yogabalena caiva .\nbhruvormadhye prāṇamāveśya samyak sa taṃ paraṃ puruṣamupaiti divyam ||8-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "In the time of forthgoing, with unshaken mind, fixed in devotion, by the power of yoga drawing together his life-breath in the centre of the two eyebrows, he goeth to this Spirit, supreme, divine."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 11,
+      "sanskrit": "यदक्षरं वेदविदो वदन्ति\nविशन्ति यद्यतयो वीतरागाः |\nयदिच्छन्तो ब्रह्मचर्यं चरन्ति\nतत्ते पदं संग्रहेण प्रवक्ष्ये ||८-११||",
+      "transliteration": "yadakṣaraṃ vedavido vadanti viśanti yadyatayo vītarāgāḥ .\nyadicchanto brahmacaryaṃ caranti tatte padaṃ saṃgraheṇa pravakṣye ||8-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That which is declared indestructible by the Veda-knowers, that which the controlled and passion-free enter, that desiring which Brahmacharya is performed, that path I will declare to thee with brevity."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 12,
+      "sanskrit": "सर्वद्वाराणि संयम्य मनो हृदि निरुध्य च |\nमूध्न्यार्धायात्मनः प्राणमास्थितो योगधारणाम् ||८-१२||",
+      "transliteration": "sarvadvārāṇi saṃyamya mano hṛdi nirudhya ca .\nmūdhnyā^^rdhāyātmanaḥ prāṇamāsthito yogadhāraṇām ||8-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "All the gates closed, the mind confined in the heart, the life-breath fixed in his own head, concentrated by yoga,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 13,
+      "sanskrit": "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन् |\nयः प्रयाति त्यजन्देहं स याति परमां गतिम् ||८-१३||",
+      "transliteration": "omityekākṣaraṃ brahma vyāharanmāmanusmaran .\nyaḥ prayāti tyajandehaṃ sa yāti paramāṃ gatim ||8-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"Aum!\" the one syllabled Eternal, reciting, thinking upon Me, he who goeth forth, abandoning the body, he goeth on the highest path."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 14,
+      "sanskrit": "अनन्यचेताः सततं यो मां स्मरति नित्यशः |\nतस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः ||८-१४||",
+      "transliteration": "ananyacetāḥ satataṃ yo māṃ smarati nityaśaḥ .\ntasyāhaṃ sulabhaḥ pārtha nityayuktasya yoginaḥ ||8-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who constantly thinketh upon Me, not thinking ever of another, of him I am easily reached, O Pârtha, of this ever-harmonised Yogî."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 15,
+      "sanskrit": "मामुपेत्य पुनर्जन्म दुःखालयमशाश्वतम् |\nनाप्नुवन्ति महात्मानः संसिद्धिं परमां गताः ||८-१५||",
+      "transliteration": "māmupetya punarjanma duḥkhālayamaśāśvatam .\nnāpnuvanti mahātmānaḥ saṃsiddhiṃ paramāṃ gatāḥ ||8-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having come to Me, these Mahâtmâs come not again to birth, the place of pain, non-eternal; they have gone to the highest bliss."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 16,
+      "sanskrit": "आब्रह्मभुवनाल्लोकाः पुनरावर्तिनोऽर्जुन |\nमामुपेत्य तु कौन्तेय पुनर्जन्म न विद्यते ||८-१६||",
+      "transliteration": "ābrahmabhuvanāllokāḥ punarāvartino.arjuna .\nmāmupetya tu kaunteya punarjanma na vidyate ||8-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The worlds, beginning with the world of Brahmâ, they come and go, O Arjuna; but he who cometh unto Me, O Kaunteya, he knoweth birth no more."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 17,
+      "sanskrit": "सहस्रयुगपर्यन्तमहर्यद् ब्रह्मणो विदुः |\nरात्रिं युगसहस्रान्तां तेऽहोरात्रविदो जनाः ||८-१७||",
+      "transliteration": "sahasrayugaparyantamaharyad brahmaṇo viduḥ .\nrātriṃ yugasahasrāntāṃ te.ahorātravido janāḥ ||8-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The people who know the day of Brahmâ, a thousand ages in duration, and the night a thousand ages in ending, they know day and night."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 18,
+      "sanskrit": "अव्यक्ताद् व्यक्तयः सर्वाः प्रभवन्त्यहरागमे |\nरात्र्यागमे प्रलीयन्ते तत्रैवाव्यक्तसंज्ञके ||८-१८||",
+      "transliteration": "avyaktād vyaktayaḥ sarvāḥ prabhavantyaharāgame .\nrātryāgame pralīyante tatraivāvyaktasaṃjñake ||8-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "From the unmanifested all the manifested stream forth at the coming of day; at the coming of night they dissolve, even in That called the unmanifested."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 19,
+      "sanskrit": "भूतग्रामः स एवायं भूत्वा भूत्वा प्रलीयते |\nरात्र्यागमेऽवशः पार्थ प्रभवत्यहरागमे ||८-१९||",
+      "transliteration": "bhūtagrāmaḥ sa evāyaṃ bhūtvā bhūtvā pralīyate .\nrātryāgame.avaśaḥ pārtha prabhavatyaharāgame ||8-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This multitude of beings, going forth repeatedly, is dissolved at the coming of night: by ordination, O Pârtha, it streams forth at the coming of day."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 20,
+      "sanskrit": "परस्तस्मात्तु भावोऽन्योऽव्यक्तोऽव्यक्तात्सनातनः |\nयः स सर्वेषु भूतेषु नश्यत्सु न विनश्यति ||८-२०||",
+      "transliteration": "parastasmāttu bhāvo.anyo.avyakto.avyaktātsanātanaḥ .\nyaḥ sa sarveṣu bhūteṣu naśyatsu na vinaśyati ||8-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore verily there existeth, higher than that unmanifested, another unmanifested, eternal, which in the destroying of all beings, is not destroyed."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 21,
+      "sanskrit": "अव्यक्तोऽक्षर इत्युक्तस्तमाहुः परमां गतिम् |\nयं प्राप्य न निवर्तन्ते तद्धाम परमं मम ||८-२१||",
+      "transliteration": "avyakto.akṣara ityuktastamāhuḥ paramāṃ gatim .\nyaṃ prāpya na nivartante taddhāma paramaṃ mama ||8-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That unmanifested, \"the Indestructible,\" It is called; It is named the highest Path. They who reach It return not. That is My supreme abode."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 22,
+      "sanskrit": "पुरुषः स परः पार्थ भक्त्या लभ्यस्त्वनन्यया |\nयस्यान्तःस्थानि भूतानि येन सर्वमिदं ततम् ||८-२२||",
+      "transliteration": "puruṣaḥ sa paraḥ pārtha bhaktyā labhyastvananyayā .\nyasyāntaḥsthāni bhūtāni yena sarvamidaṃ tatam ||8-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He, the highest Spirit, O Pârtha, may be reached by unswerving devotion to Him alone, in whom all beings abide, by whom all This is pervaded."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 23,
+      "sanskrit": "यत्र काले त्वनावृत्तिमावृत्तिं चैव योगिनः |\nप्रयाता यान्ति तं कालं वक्ष्यामि भरतर्षभ ||८-२३||",
+      "transliteration": "yatra kāle tvanāvṛttimāvṛttiṃ caiva yoginaḥ .\nprayātā yānti taṃ kālaṃ vakṣyāmi bharatarṣabha ||8-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That time wherein going forth Yogîs return not, and also that wherein going forth they return, that time shall I declare to thee, O prince of the Bhâratas."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 24,
+      "sanskrit": "अग्निर्जोतिरहः शुक्लः षण्मासा उत्तरायणम् |\nतत्र प्रयाता गच्छन्ति ब्रह्म ब्रह्मविदो जनाः ||८-२४||",
+      "transliteration": "agnirjotirahaḥ śuklaḥ ṣaṇmāsā uttarāyaṇam .\ntatra prayātā gacchanti brahma brahmavido janāḥ ||8-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Fire, light, day-time, the bright fortnight, the six months of the northern path—then, going forth, the men who know the Eternal go to the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 25,
+      "sanskrit": "धूमो रात्रिस्तथा कृष्णः षण्मासा दक्षिणायनम् |\nतत्र चान्द्रमसं ज्योतिर्योगी प्राप्य निवर्तते ||८-२५||",
+      "transliteration": "dhūmo rātristathā kṛṣṇaḥ ṣaṇmāsā dakṣiṇāyanam .\ntatra cāndramasaṃ jyotiryogī prāpya nivartate ||8-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Smoke, night-time, the dark fortnight also, the six months of the southern path—then the Yogî, obtaining the moonlight, returneth."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 26,
+      "sanskrit": "शुक्लकृष्णे गती ह्येते जगतः शाश्वते मते |\nएकया यात्यनावृत्तिमन्ययावर्तते पुनः ||८-२६||",
+      "transliteration": "śuklakṛṣṇe gatī hyete jagataḥ śāśvate mate .\nekayā yātyanāvṛttimanyayāvartate punaḥ ||8-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Light and darkness, these are thought to be the world's everlasting paths; by the one he goeth who returneth not, by the other he who returneth again."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 27,
+      "sanskrit": "नैते सृती पार्थ जानन्योगी मुह्यति कश्चन |\nतस्मात्सर्वेषु कालेषु योगयुक्तो भवार्जुन ||८-२७||",
+      "transliteration": "naite sṛtī pārtha jānanyogī muhyati kaścana .\ntasmātsarveṣu kāleṣu yogayukto bhavārjuna ||8-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Knowing these paths, O Pârtha, the Yogi is nowise perplexed. Therefore in all times be firm in yoga, O Arjuna."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:8:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 8,
+      "verse": 28,
+      "sanskrit": "वेदेषु यज्ञेषु तपःसु चैव\nदानेषु यत्पुण्यफलं प्रदिष्टम् |\nअत्येति तत्सर्वमिदं विदित्वा\nयोगी परं स्थानमुपैति चाद्यम् ||८-२८||",
+      "transliteration": "vedeṣu yajñeṣu tapaḥsu caiva dāneṣu yatpuṇyaphalaṃ pradiṣṭam .\natyeti tatsarvamidaṃ viditvā yogī paraṃ sthānamupaiti cādyam ||8-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The fruit of meritorious deeds, attached in the Vedas to sacrifices, to austerities, and also to almsgiving, the Yogî passeth all these by having known this, and goeth to the supreme and ancient Seat."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

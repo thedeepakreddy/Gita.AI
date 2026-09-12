@@ -1,0 +1,622 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 7,
+  "title": {
+    "en": "Jnana Vijnana Yoga — The Yoga of Knowledge and Realisation",
+    "hu": "Gjána-vigjána-jóga — A tudás és a megvalósítás jógája",
+    "hi": "ज्ञानविज्ञानयोग"
+  },
+  "titleSanskrit": "ज्ञानविज्ञानयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:18:15.501Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:7:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nमय्यासक्तमनाः पार्थ योगं युञ्जन्मदाश्रयः |\nअसंशयं समग्रं मां यथा ज्ञास्यसि तच्छृणु ||७-१||",
+      "transliteration": "śrībhagavānuvāca .\nmayyāsaktamanāḥ pārtha yogaṃ yuñjanmadāśrayaḥ .\nasaṃśayaṃ samagraṃ māṃ yathā jñāsyasi tacchṛṇu ||7-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: With the mind clinging to me, O Pârtha, performing yoga, refuged in Me, how thou shalt without doubt know Me to the uttermost, that hear thou."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 2,
+      "sanskrit": "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः |\nयज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते ||७-२||",
+      "transliteration": "jñānaṃ te.ahaṃ savijñānamidaṃ vakṣyāmyaśeṣataḥ .\nyajjñātvā neha bhūyo.anyajjñātavyamavaśiṣyate ||7-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I will declare to thee this knowledge and wisdom in its completeness, which, having known, there is nothing more here needeth to be known."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 3,
+      "sanskrit": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये |\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ||७-३||",
+      "transliteration": "manuṣyāṇāṃ sahasreṣu kaścidyatati siddhaye .\nyatatāmapi siddhānāṃ kaścinmāṃ vetti tattvataḥ ||7-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Among thousands of men scarce one striveth for perfection; of the successful strivers scarce one knoweth Me in essence."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 4,
+      "sanskrit": "भूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च |\nअहंकार इतीयं मे भिन्ना प्रकृतिरष्टधा ||७-४||",
+      "transliteration": "bhūmirāpo.analo vāyuḥ khaṃ mano buddhireva ca .\nahaṃkāra itīyaṃ me bhinnā prakṛtiraṣṭadhā ||7-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Earth, water, fire, air, ether, Mind, and Reason also and Egoism—these are the eightfold division of My nature."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 5,
+      "sanskrit": "अपरेयमितस्त्वन्यां प्रकृतिं विद्धि मे पराम् |\nजीवभूतां महाबाहो ययेदं धार्यते जगत् ||७-५||",
+      "transliteration": "apareyamitastvanyāṃ prakṛtiṃ viddhi me parām .\njīvabhūtāṃ mahābāho yayedaṃ dhāryate jagat ||7-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This the inferior. Know My other nature, the higher, the life-element, O mighty-armed, by which the universe is upheld."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 6,
+      "sanskrit": "एतद्योनीनि भूतानि सर्वाणीत्युपधारय |\nअहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा ||७-६||",
+      "transliteration": "etadyonīni bhūtāni sarvāṇītyupadhāraya .\nahaṃ kṛtsnasya jagataḥ prabhavaḥ pralayastathā ||7-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Know this to be the womb of all beings. I am the source of the forthgoing of the whole universe and likewise the place of its dissolving."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 7,
+      "sanskrit": "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय |\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ||७-७||",
+      "transliteration": "mattaḥ parataraṃ nānyatkiñcidasti dhanañjaya .\nmayi sarvamidaṃ protaṃ sūtre maṇigaṇā iva ||7-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "There is naught whatsoever higher than I, O Dhananjaya. All this is threaded on Me, as rows of pearls on a string."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 8,
+      "sanskrit": "रसोऽहमप्सु कौन्तेय प्रभास्मि शशिसूर्ययोः |\nप्रणवः सर्ववेदेषु शब्दः खे पौरुषं नृषु ||७-८||",
+      "transliteration": "raso.ahamapsu kaunteya prabhāsmi śaśisūryayoḥ .\npraṇavaḥ sarvavedeṣu śabdaḥ khe pauruṣaṃ nṛṣu ||7-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I the sapidity in waters, O son of Kuntî, I the radiance in moon and sun; the Word of Power in all the Vedas, sound in ether, and virility in men;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 9,
+      "sanskrit": "पुण्यो गन्धः पृथिव्यां च तेजश्चास्मि विभावसौ |\nजीवनं सर्वभूतेषु तपश्चास्मि तपस्विषु ||७-९||",
+      "transliteration": "puṇyo gandhaḥ pṛthivyāṃ ca tejaścāsmi vibhāvasau .\njīvanaṃ sarvabhūteṣu tapaścāsmi tapasviṣu ||7-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The pure fragrance of earths and the bril liance in fire am I; the life in all beings am I, and the austerity in ascetics."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 10,
+      "sanskrit": "बीजं मां सर्वभूतानां विद्धि पार्थ सनातनम् |\nबुद्धिर्बुद्धिमतामस्मि तेजस्तेजस्विनामहम् ||७-१०||",
+      "transliteration": "bījaṃ māṃ sarvabhūtānāṃ viddhi pārtha sanātanam .\nbuddhirbuddhimatāmasmi tejastejasvināmaham ||7-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Know Me, O Pârtha! as the eternal seed of all beings. I am the Reason of the Reason-endowed, the splendour of splendid things am I."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 11,
+      "sanskrit": "बलं बलवतां चाहं कामरागविवर्जितम् |\nधर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ ||७-११||",
+      "transliteration": "balaṃ balavatāṃ cāhaṃ kāmarāgavivarjitam .\ndharmāviruddho bhūteṣu kāmo.asmi bharatarṣabha ||7-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And I the strength of the strong, devoid of desire and passion. In beings I am desire not contrary to duty, O Lord of the Bharatas."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 12,
+      "sanskrit": "ये चैव सात्त्विका भावा राजसास्तामसाश्च ये |\nमत्त एवेति तान्विद्धि न त्वहं तेषु ते मयि ||७-१२||",
+      "transliteration": "ye caiva sāttvikā bhāvā rājasāstāmasāśca ye .\nmatta eveti tānviddhi na tvahaṃ teṣu te mayi ||7-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The natures that are harmonious, active, slothful, these know as from Me; not I in them, but they in me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 13,
+      "sanskrit": "त्रिभिर्गुणमयैर्भावैरेभिः सर्वमिदं जगत् |\nमोहितं नाभिजानाति मामेभ्यः परमव्ययम् ||७-१३||",
+      "transliteration": "tribhirguṇamayairbhāvairebhiḥ sarvamidaṃ jagat .\nmohitaṃ nābhijānāti māmebhyaḥ paramavyayam ||7-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "All this world, deluded by these natures made by the three qualities, knoweth not Me, above these, imperishable."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 14,
+      "sanskrit": "दैवी ह्येषा गुणमयी मम माया दुरत्यया |\nमामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ||७-१४||",
+      "transliteration": "daivī hyeṣā guṇamayī mama māyā duratyayā .\nmāmeva ye prapadyante māyāmetāṃ taranti te ||7-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This divine illusion of Mine, caused by the qualities, is hard to pierce; they who come to Me, they cross over this illusion."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 15,
+      "sanskrit": "न मां दुष्कृतिनो मूढाः प्रपद्यन्ते नराधमाः |\nमाययापहृतज्ञाना आसुरं भावमाश्रिताः ||७-१५||",
+      "transliteration": "na māṃ duṣkṛtino mūḍhāḥ prapadyante narādhamāḥ .\nmāyayāpahṛtajñānā āsuraṃ bhāvamāśritāḥ ||7-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The evil-doing, the deluded, the vilest men, they come not to Me, they whose wisdom is destroyed by illusion, who have embraced the nature of demons."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 16,
+      "sanskrit": "चतुर्विधा भजन्ते मां जनाः सुकृतिनोऽर्जुन |\nआर्तो जिज्ञासुरर्थार्थी ज्ञानी च भरतर्षभ ||७-१६||",
+      "transliteration": "caturvidhā bhajante māṃ janāḥ sukṛtino.arjuna .\nārto jijñāsurarthārthī jñānī ca bharatarṣabha ||7-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Fourfold in division are the righteous ones who worship me, O Arjuna; the suffering, the seeker for knowledge, the self-interested and the wise, O Lord of the Bhâratas."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 17,
+      "sanskrit": "तेषां ज्ञानी नित्ययुक्त एकभक्तिर्विशिष्यते |\nप्रियो हि ज्ञानिनोऽत्यर्थमहं स च मम प्रियः ||७-१७||",
+      "transliteration": "teṣāṃ jñānī nityayukta ekabhaktirviśiṣyate .\npriyo hi jñānino.atyarthamahaṃ sa ca mama priyaḥ ||7-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Of these the wise, constantly harmonised, worshipping the One, is the best; I am supremely dear to the wise, and he is dear to Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 18,
+      "sanskrit": "उदाराः सर्व एवैते ज्ञानी त्वात्मैव मे मतम् |\nआस्थितः स हि युक्तात्मा मामेवानुत्तमां गतिम् ||७-१८||",
+      "transliteration": "udārāḥ sarva evaite jñānī tvātmaiva me matam .\nāsthitaḥ sa hi yuktātmā māmevānuttamāṃ gatim ||7-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Noble are all these, but I hold the wise as verily Myself; he, Self united, is fixed on Me, the highest Path."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 19,
+      "sanskrit": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते |\nवासुदेवः सर्वमिति स महात्मा सुदुर्लभः ||७-१९||",
+      "transliteration": "bahūnāṃ janmanāmante jñānavānmāṃ prapadyate .\nvāsudevaḥ sarvamiti sa mahātmā sudurlabhaḥ ||7-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "At the close of many births the man full of wisdom cometh unto Me; \"Vâsudeva is all.\" saith he, the Mahâtmâ, very difficult to find."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 20,
+      "sanskrit": "कामैस्तैस्तैर्हृतज्ञानाः प्रपद्यन्तेऽन्यदेवताः |\nतं तं नियममास्थाय प्रकृत्या नियताः स्वया ||७-२०||",
+      "transliteration": "kāmaistaistairhṛtajñānāḥ prapadyante.anyadevatāḥ .\ntaṃ taṃ niyamamāsthāya prakṛtyā niyatāḥ svayā ||7-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They whose wisdom hath been rent away by desires go forth to other Shining Ones, resorting to various external observances, according to their own natures."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 21,
+      "sanskrit": "यो यो यां यां तनुं भक्तः श्रद्धयार्चितुमिच्छति |\nतस्य तस्याचलां श्रद्धां तामेव विदधाम्यहम् ||७-२१||",
+      "transliteration": "yo yo yāṃ yāṃ tanuṃ bhaktaḥ śraddhayārcitumicchati .\ntasya tasyācalāṃ śraddhāṃ tāmeva vidadhāmyaham ||7-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Any devotee who seeketh to worship with faith any such aspect, I verily bestow the unswerving faith of that man."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 22,
+      "sanskrit": "स तया श्रद्धया युक्तस्तस्याराधनमीहते |\nलभते च ततः कामान्मयैव विहितान्हि तान् ||७-२२||",
+      "transliteration": "sa tayā śraddhayā yuktastasyārādhanamīhate .\nlabhate ca tataḥ kāmānmayaivavihitānhi tān ||7-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He endowed with that faith, seeketh the worship of such a one, and from him he obtaineth his desires, I verily decreeing the benefits;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 23,
+      "sanskrit": "अन्तवत्तु फलं तेषां तद्भवत्यल्पमेधसाम् |\nदेवान्देवयजो यान्ति मद्भक्ता यान्ति मामपि ||७-२३||",
+      "transliteration": "antavattu phalaṃ teṣāṃ tadbhavatyalpamedhasām .\ndevāndevayajo yānti madbhaktā yānti māmapi ||7-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Finite indeed the fruit that belongeth to those who are of small intelligence. To the Shining Ones go the worshippers of the Shining Ones, but my devotees come unto Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 24,
+      "sanskrit": "अव्यक्तं व्यक्तिमापन्नं मन्यन्ते मामबुद्धयः |\nपरं भावमजानन्तो ममाव्ययमनुत्तमम् ||७-२४||",
+      "transliteration": "avyaktaṃ vyaktimāpannaṃ manyante māmabuddhayaḥ .\nparaṃ bhāvamajānanto mamāvyayamanuttamam ||7-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Those devoid of Reason think of Me, the unmanifest, as having manifestation, knowing not My supreme nature, imperishable, most excellent."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 25,
+      "sanskrit": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः |\nमूढोऽयं नाभिजानाति लोको मामजमव्ययम् ||७-२५||",
+      "transliteration": "nāhaṃ prakāśaḥ sarvasya yogamāyāsamāvṛtaḥ .\nmūḍho.ayaṃ nābhijānāti loko māmajamavyayam ||7-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor am I of all discovered, enveloped in My creation-illusion. This deluded world knoweth Me not, the unborn, the imperishable."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 26,
+      "sanskrit": "वेदाहं समतीतानि वर्तमानानि चार्जुन |\nभविष्याणि च भूतानि मां तु वेद न कश्चन ||७-२६||",
+      "transliteration": "vedāhaṃ samatītāni vartamānāni cārjuna .\nbhaviṣyāṇi ca bhūtāni māṃ tu veda na kaścana ||7-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I know the beings that are past, that are present, that are to come, O Arjuna, but no one knoweth Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 27,
+      "sanskrit": "इच्छाद्वेषसमुत्थेन द्वन्द्वमोहेन भारत |\nसर्वभूतानि सम्मोहं सर्गे यान्ति परन्तप ||७-२७||",
+      "transliteration": "icchādveṣasamutthena dvandvamohena bhārata .\nsarvabhūtāni sammohaṃ sarge yānti parantapa ||7-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "By the delusion of the pairs of opposites, sprung from attraction and repulsion, O Bhârata, all beings walk this universe wholly deluded, O Parantapa."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 28,
+      "sanskrit": "येषां त्वन्तगतं पापं जनानां पुण्यकर्मणाम् |\nते द्वन्द्वमोहनिर्मुक्ता भजन्ते मां दृढव्रताः ||७-२८||",
+      "transliteration": "yeṣāṃ tvantagataṃ pāpaṃ janānāṃ puṇyakarmaṇām .\nte dvandvamohanirmuktā bhajante māṃ dṛḍhavratāḥ ||7-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But those men of pure deeds, in whom sin is come to an end, they, freed from the delusive pairs of opposites, worship Me, steadfast in vows."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 29,
+      "sanskrit": "जरामरणमोक्षाय मामाश्रित्य यतन्ति ये |\nते ब्रह्म तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् ||७-२९||",
+      "transliteration": "jarāmaraṇamokṣāya māmāśritya yatanti ye .\nte brahma tadviduḥ kṛtsnamadhyātmaṃ karma cākhilam ||7-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They who, refuged in Me, strive for liberation from birth and death, they know the Eternal, the whole Self -knowledge, and all action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:7:30",
+      "scripture": "bhagavad-gita",
+      "chapter": 7,
+      "verse": 30,
+      "sanskrit": "साधिभूताधिदैवं मां साधियज्ञं च ये विदुः |\nप्रयाणकालेऽपि च मां ते विदुर्युक्तचेतसः ||७-३०||",
+      "transliteration": "sādhibhūtādhidaivaṃ māṃ sādhiyajñaṃ ca ye viduḥ .\nprayāṇakāle.api ca māṃ te viduryuktacetasaḥ ||7-30||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They who know Me as the knowledge of the elements, as that of the Shining Ones, and as that of the Sacrifice, they harmonised in mind, know Me verily even in the time of forthgoing."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

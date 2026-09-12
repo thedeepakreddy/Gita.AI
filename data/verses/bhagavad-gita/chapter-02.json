@@ -1,0 +1,1462 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 2,
+  "title": {
+    "en": "Sankhya Yoga — The Yoga of Discernment",
+    "hu": "Szánkhja-jóga — A megkülönböztetés jógája",
+    "hi": "सांख्ययोग"
+  },
+  "titleSanskrit": "सांख्ययोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:16:39.464Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:2:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 1,
+      "sanskrit": "सञ्जय उवाच |\nतं तथा कृपयाविष्टमश्रुपूर्णाकुलेक्षणम् |\nविषीदन्तमिदं वाक्यमुवाच मधुसूदनः ||२-१||",
+      "transliteration": "sañjaya uvāca .\ntaṃ tathā kṛpayāviṣṭamaśrupūrṇākulekṣaṇam .\nviṣīdantamidaṃ vākyamuvāca madhusūdanaḥ ||2-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Sanjaya said: To him thus with pity overcome, with smarting brimming eyes, despondent, Madhusûdana spake these words:"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 2,
+      "sanskrit": "श्रीभगवानुवाच |\nकुतस्त्वा कश्मलमिदं विषमे समुपस्थितम् |\nअनार्यजुष्टमस्वर्ग्यमकीर्तिकरमर्जुन ||२-२||",
+      "transliteration": "śrībhagavānuvāca .\nkutastvā kaśmalamidaṃ viṣame samupasthitam .\nanāryajuṣṭamasvargyamakīrtikaramarjuna ||2-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: Whence hath this dejection befallen thee in this perilous strait, ignoble, heaven-closing, infamous, O Arjuna?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 3,
+      "sanskrit": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते |\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ||२-३||",
+      "transliteration": "klaibyaṃ mā sma gamaḥ pārtha naitattvayyupapadyate .\nkṣudraṃ hṛdayadaurbalyaṃ tyaktvottiṣṭha parantapa ||2-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yield not to impotence, O Partha! it doth not befit thee. Shake off this paltry faint-heartedness! Stand up, Parantapa!"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 4,
+      "sanskrit": "अर्जुन उवाच |\nकथं भीष्ममहं सङ्ख्ये द्रोणं च मधुसूदन |\nइषुभिः प्रतियोत्स्यामि पूजार्हावरिसूदन ||२-४||",
+      "transliteration": "arjuna uvāca .\nkathaṃ bhīṣmamahaṃ saṅkhye droṇaṃ ca madhusūdana .\niṣubhiḥ pratiyotsyāmi pūjārhāvarisūdana ||2-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: How, O Madhusûdana, shall I attack Bhîshma and Drona with arrows in battle, they who are worthy of reverence, O slayer of foes?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 5,
+      "sanskrit": "गुरूनहत्वा हि महानुभावान्\nश्रेयो भोक्तुं भैक्ष्यमपीह लोके |\nहत्वार्थकामांस्तु गुरूनिहैव\nभुञ्जीय भोगान् रुधिरप्रदिग्धान् ||२-५||",
+      "transliteration": "gurūnahatvā hi mahānubhāvān śreyo bhoktuṃ bhaikṣyamapīha loke .\nhatvārthakāmāṃstu gurūnihaiva bhuñjīya bhogān rudhirapradigdhān ||2-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Better in this world to eat even the beggar's crust than to slay these most noble Gurus. Slaying these Gurus, our well-wishers, I should taste of blood-besprinkled feasts."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 6,
+      "sanskrit": "न चैतद्विद्मः कतरन्नो गरीयो\nयद्वा जयेम यदि वा नो जयेयुः |\nयानेव हत्वा न जिजीविषामस्-\nतेऽवस्थिताः प्रमुखे धार्तराष्ट्राः ||२-६||",
+      "transliteration": "na caitadvidmaḥ kataranno garīyo yadvā jayema yadi vā no jayeyuḥ .\nyāneva hatvā na jijīviṣāmaḥ te.avasthitāḥ pramukhe dhārtarāṣṭrāḥ ||2-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor know I which for us be the better, that we conquer them or they conquer us—these, whom having slain we should not care to live, even these arrayed against us, the sons of Dhritarâshtra."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 7,
+      "sanskrit": "कार्पण्यदोषोपहतस्वभावः\nपृच्छामि त्वां धर्मसम्मूढचेताः |\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे\nशिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ||२-७||",
+      "transliteration": "kārpaṇyadoṣopahatasvabhāvaḥ pṛcchāmi tvāṃ dharmasammūḍhacetāḥ .\nyacchreyaḥ syānniścitaṃ brūhi tanme śiṣyaste.ahaṃ śādhi māṃ tvāṃ prapannam ||2-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "My heart is weighed down with the vice of faintness; my mind is confused as to duty. I ask thee which may be the better—that tell me decisively. I am thy disciple, suppliant to Thee; teach me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 8,
+      "sanskrit": "न हि प्रपश्यामि ममापनुद्याद्\nयच्छोकमुच्छोषणमिन्द्रियाणाम् |\nअवाप्य भूमावसपत्नमृद्धं\nराज्यं सुराणामपि चाधिपत्यम् ||२-८||",
+      "transliteration": "na hi prapaśyāmi mamāpanudyād yacchokamucchoṣaṇamindriyāṇām .\navāpya bhūmāvasapatnamṛddhaṃ rājyaṃ surāṇāmapi cādhipatyam ||2-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For I see not that it would drive away this anguish that withers up my senses, if I should attain unrivalled monarchy on earth, or even the sovereignty of the Shining Ones."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 9,
+      "sanskrit": "सञ्जय उवाच |\nएवमुक्त्वा हृषीकेशं गुडाकेशः परन्तप |\nन योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह ||२-९||",
+      "transliteration": "sañjaya uvāca .\nevamuktvā hṛṣīkeśaṃ guḍākeśaḥ parantapaḥ .\nna yotsya iti govindamuktvā tūṣṇīṃ babhūva ha ||2-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Sanjaya said: Gudâkesha, conqueror of his foes, having thus addressed Hrishîkesha and said to Govinda, \"I will not fight!\", became silent."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 10,
+      "sanskrit": "तमुवाच हृषीकेशः प्रहसन्निव भारत |\nसेनयोरुभयोर्मध्ये विषीदन्तमिदं वचः ||२-१०||",
+      "transliteration": "tamuvāca hṛṣīkeśaḥ prahasanniva bhārata .\nsenayorubhayormadhye viṣīdantamidaṃ vacaḥ ||2-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Then Hrishîkesha, smiling, as it were, O Bhârata, spake these words to him, despondent, in the midst of the two armies:"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 11,
+      "sanskrit": "श्रीभगवानुवाच |\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे |\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ||२-११||",
+      "transliteration": "śrībhagavānuvāca .\naśocyānanvaśocastvaṃ prajñāvādāṃśca bhāṣase .\ngatāsūnagatāsūṃśca nānuśocanti paṇḍitāḥ ||2-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: Thou grievest for those that should not be griev ed for, yet speakest words of wisdom. The wise grieve neither for the living nor for the dead."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 12,
+      "sanskrit": "न त्वेवाहं जातु नासं न त्वं नेमे जनाधिपाः |\nन चैव न भविष्यामः सर्वे वयमतः परम् ||२-१२||",
+      "transliteration": "na tvevāhaṃ jātu nāsaṃ na tvaṃ neme janādhipāḥ .\nna caiva na bhaviṣyāmaḥ sarve vayamataḥ param ||2-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor at any time verily was I not, nor thou, nor these princes of men, nor verily shall we ever cease to be, hereafter."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 13,
+      "sanskrit": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा |\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ||२-१३||",
+      "transliteration": "dehino.asminyathā dehe kaumāraṃ yauvanaṃ jarā .\ntathā dehāntaraprāptirdhīrastatra na muhyati ||2-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As the dweller in the body experienceth in the body childhood, youth, old age, so passeth he on to another body; the steadfast one grieveth not thereat."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 14,
+      "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः |\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ||२-१४||",
+      "transliteration": "mātrāsparśāstu kaunteya śītoṣṇasukhaduḥkhadāḥ .\nāgamāpāyino.anityāstāṃstitikṣasva bhārata ||2-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The contacts of matter, O son of Kuntî, giving cold and heat, pleasure and pain, they come and go, impermanent; endure them bravely, O Bhârata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 15,
+      "sanskrit": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ |\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ||२-१५||",
+      "transliteration": "yaṃ hi na vyathayantyete puruṣaṃ puruṣarṣabha .\nsamaduḥkhasukhaṃ dhīraṃ so.amṛtatvāya kalpate ||2-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The man whom these torment not, O chief of men, balanced in pain and pleasure, steadfast, he is fitted for immortality."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 16,
+      "sanskrit": "नासतो विद्यते भावो नाभावो विद्यते सतः |\nउभयोरपि दृष्टोऽन्तस्त्वनयोस्तत्त्वदर्शिभिः ||२-१६||",
+      "transliteration": "nāsato vidyate bhāvo nābhāvo vidyate sataḥ .\nubhayorapi dṛṣṭo.antastvanayostattvadarśibhiḥ ||2-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The unreal hath no being; the real never ceaseth to be; the truth about both hath been perceived by the seers of the essence of things."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 17,
+      "sanskrit": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम् |\nविनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति ||२-१७||",
+      "transliteration": "avināśi tu tadviddhi yena sarvamidaṃ tatam .\nvināśamavyayasyāsya na kaścitkartumarhati ||2-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Know That to be indestructible by whom all this is pervaded. Nor can any work the destruction of that imperishable One."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 18,
+      "sanskrit": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः |\nअनाशिनोऽप्रमेयस्य तस्माद्युध्यस्व भारत ||२-१८||",
+      "transliteration": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ .\nanāśino.aprameyasya tasmādyudhyasva bhārata ||2-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "These bodies of the embodied One, who is eternal, indestructible and immeasurable, are known as finite. Therefore fight, O Bhârata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 19,
+      "sanskrit": "य एनं वेत्ति हन्तारं यश्चैनं मन्यते हतम् |\nउभौ तौ न विजानीतो नायं हन्ति न हन्यते ||२-१९||",
+      "transliteration": "ya enaṃ vetti hantāraṃ yaścainaṃ manyate hatam ubhau tau na vijānīto nāyaṃ hanti na hanyate ||2-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who regardeth this as a slayer, and he who thinketh he is slain, both of them are ignorant. He slayeth not, nor is he slain."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 20,
+      "sanskrit": "न जायते म्रियते वा कदाचिन्\nनायं भूत्वा भविता वा न भूयः |\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे ||२-२०||",
+      "transliteration": "na jāyate mriyate vā kadācin nāyaṃ bhūtvā bhavitā vā na bhūyaḥ .\najo nityaḥ śāśvato.ayaṃ purāṇo na hanyate hanyamāne śarīre ||2-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He is not born, nor doth he die; nor having been, ceaseth he any more to be; unborn, perpetual, eternal and ancient, he is not slain when the body is slaughtered."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 21,
+      "sanskrit": "वेदाविनाशिनं नित्यं य एनमजमव्ययम् |\nकथं स पुरुषः पार्थ कं घातयति हन्ति कम् ||२-२१||",
+      "transliteration": "vedāvināśinaṃ nityaṃ ya enamajamavyayam .\nkathaṃ sa puruṣaḥ pārtha kaṃ ghātayati hanti kam ||2-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Who knoweth him indestructible, perpetual, unborn, undiminishing, how can that man slay, O Pârtha, or cause to be slain?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 22,
+      "sanskrit": "वासांसि जीर्णानि यथा विहाय\nनवानि गृह्णाति नरोऽपराणि |\nतथा शरीराणि विहाय जीर्णा-\nन्यन्यानि संयाति नवानि देही ||२-२२||",
+      "transliteration": "vāsāṃsi jīrṇāni yathā vihāya navāni gṛhṇāti naro.aparāṇi .\ntathā śarīrāṇi vihāya jīrṇāni anyāni saṃyāti navāni dehī ||2-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As a man, casting off worn-out garments, taketh new ones, so the dweller in the body, casting off worn-out bodies, entereth into others that are new."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 23,
+      "sanskrit": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः |\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः ||२-२३||",
+      "transliteration": "nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ .\nna cainaṃ kledayantyāpo na śoṣayati mārutaḥ ||2-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Weapons cleave him not, nor fire burneth him, nor waters wet him, nor wind drieth him away."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 24,
+      "sanskrit": "अच्छेद्योऽयमदाह्योऽयमक्लेद्योऽशोष्य एव च |\nनित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ||२-२४||",
+      "transliteration": "acchedyo.ayamadāhyo.ayamakledyo.aśoṣya eva ca .\nnityaḥ sarvagataḥ sthāṇuracalo.ayaṃ sanātanaḥ ||2-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Uncleavable he, incombustible he, and indeed neither to be wetted nor dried away; perpetual, all-pervasive, stable, immovable, ancient."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 25,
+      "sanskrit": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयमुच्यते |\nतस्मादेवं विदित्वैनं नानुशोचितुमर्हसि ||२-२५||",
+      "transliteration": "avyakto.ayamacintyo.ayamavikāryo.ayamucyate .\ntasmādevaṃ viditvainaṃ nānuśocitumarhasi ||2-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Unmanifest, unthinkable, immutable, he is called; therefore knowing him as such, thou shouldst not grieve."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 26,
+      "sanskrit": "अथ चैनं नित्यजातं नित्यं वा मन्यसे मृतम् |\nतथापि त्वं महाबाहो नैवं शोचितुमर्हसि ||२-२६||",
+      "transliteration": "atha cainaṃ nityajātaṃ nityaṃ vā manyase mṛtam .\ntathāpi tvaṃ mahābāho naivaṃ śocitumarhasi ||2-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Or if thou thinkest of him as being constantly born and constantly dying, even then, O mighty-armed, thou shouldst not grieve."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 27,
+      "sanskrit": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च |\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ||२-२७||",
+      "transliteration": "jātasya hi dhruvo mṛtyurdhruvaṃ janma mṛtasya ca .\ntasmādaparihārye.arthe na tvaṃ śocitumarhasi ||2-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For certain is death for the born, and certain is birth for the dead; therefore over the inevitable thou shouldst not grieve."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 28,
+      "sanskrit": "अव्यक्तादीनि भूतानि व्यक्तमध्यानि भारत |\nअव्यक्तनिधनान्येव तत्र का परिदेवना ||२-२८||",
+      "transliteration": "avyaktādīni bhūtāni vyaktamadhyāni bhārata .\navyaktanidhanānyeva tatra kā paridevanā ||2-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Beings are unmanifest in their origin, manifest in their midmost state, O Bhârata, unmanifest likewise are they in dissolution. What room then for lamentation?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 29,
+      "sanskrit": "आश्चर्यवत्पश्यति कश्चिदेन-\nमाश्चर्यवद्वदति तथैव चान्यः |\nआश्चर्यवच्चैनमन्यः शृणोति\nश्रुत्वाप्येनं वेद न चैव कश्चित् ||२-२९||",
+      "transliteration": "āścaryavatpaśyati kaścidenam āścaryavadvadati tathaiva cānyaḥ .\nāścaryavaccainamanyaḥ śṛṇoti śrutvāpyenaṃ veda na caiva kaścit ||2-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As marvellous one regardeth him; as marvellous another speaketh thereof; as marvellous another heareth thereof; yet having heard none indeed understandeth."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:30",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 30,
+      "sanskrit": "देही नित्यमवध्योऽयं देहे सर्वस्य भारत |\nतस्मात्सर्वाणि भूतानि न त्वं शोचितुमर्हसि ||२-३०||",
+      "transliteration": "dehī nityamavadhyo.ayaṃ dehe sarvasya bhārata .\ntasmātsarvāṇi bhūtāni na tvaṃ śocitumarhasi ||2-30||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This dweller in the body of everyone is ever invulnerable, O Bhârata; therefore thou shouldst not grieve for any creature."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:31",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 31,
+      "sanskrit": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि |\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ||२-३१||",
+      "transliteration": "svadharmamapi cāvekṣya na vikampitumarhasi .\ndharmyāddhi yuddhācchreyo.anyatkṣatriyasya na vidyate ||2-31||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Further, looking to thine own duty thou shouldst not tremble; for there is nothing more welcome to a Kshattriya than righteous war."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:32",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 32,
+      "sanskrit": "यदृच्छया चोपपन्नं स्वर्गद्वारमपावृतम् |\nसुखिनः क्षत्रियाः पार्थ लभन्ते युद्धमीदृशम् ||२-३२||",
+      "transliteration": "yadṛcchayā copapannaṃ svargadvāramapāvṛtam .\nsukhinaḥ kṣatriyāḥ pārtha labhante yuddhamīdṛśam ||2-32||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Happy the Kshattriyas, O Pârtha, who obtain such a fight, offered unsought as an open door to heaven."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:33",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 33,
+      "sanskrit": "अथ चेत्त्वमिमं धर्म्यं संग्रामं न करिष्यसि |\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि ||२-३३||",
+      "transliteration": "atha cettvamimaṃ dharmyaṃ saṃgrāmaṃ na kariṣyasi .\ntataḥ svadharmaṃ kīrtiṃ ca hitvā pāpamavāpsyasi ||2-33||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But if thou wilt not carry on this righteous warfare, then casting away thine own duty and thine honour, thou wilt incur sin."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:34",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 34,
+      "sanskrit": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम् |\nसम्भावितस्य चाकीर्तिर्मरणादतिरिच्यते ||२-३४||",
+      "transliteration": "akīrtiṃ cāpi bhūtāni kathayiṣyanti te.avyayām .\nsambhāvitasya cākīrtirmaraṇādatiricyate ||2-34||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Men will recount thy perpetual dishonour, and, to one highly esteemed, dishonour exceedeth death."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:35",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 35,
+      "sanskrit": "भयाद्रणादुपरतं मंस्यन्ते त्वां महारथाः |\nयेषां च त्वं बहुमतो भूत्वा यास्यसि लाघवम् ||२-३५||",
+      "transliteration": "bhayādraṇāduparataṃ maṃsyante tvāṃ mahārathāḥ .\nyeṣāṃ ca tvaṃ bahumato bhūtvā yāsyasi lāghavam ||2-35||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The great car-warriors will think thee fled from the battle from fear, and thou, that wast highly thought of by them, wilt be lightly held."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:36",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 36,
+      "sanskrit": "अवाच्यवादांश्च बहून्वदिष्यन्ति तवाहिताः |\nनिन्दन्तस्तव सामर्थ्यं ततो दुःखतरं नु किम् ||२-३६||",
+      "transliteration": "avācyavādāṃśca bahūnvadiṣyanti tavāhitāḥ .\nnindantastava sāmarthyaṃ tato duḥkhataraṃ nu kim ||2-36||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Many unseemly words will be spoken by thine enemies, slandering thy strength; what more painful than that?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:37",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 37,
+      "sanskrit": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् |\nतस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः ||२-३७||",
+      "transliteration": "hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm .\ntasmāduttiṣṭha kaunteya yuddhāya kṛtaniścayaḥ ||2-37||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Slain, thou wilt obtain heaven; victorious, thou wilt enjoy the earth; therefore stand up, O son of Kuntî, resolute to fight."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:38",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 38,
+      "sanskrit": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ |\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ||२-३८||",
+      "transliteration": "sukhaduḥkhe same kṛtvā lābhālābhau jayājayau .\ntato yuddhāya yujyasva naivaṃ pāpamavāpsyasi ||2-38||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Taking as equal pleasure and pain, gain and loss, victory and defeat, gird thee for the battle; thus thou shalt not incur sin."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:39",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 39,
+      "sanskrit": "एषा तेऽभिहिता साङ्ख्ये बुद्धिर्योगे त्विमां शृणु |\nबुद्ध्या युक्तो यया पार्थ कर्मबन्धं प्रहास्यसि ||२-३९||",
+      "transliteration": "eṣā te.abhihitā sāṅkhye buddhiryoge tvimāṃ śṛṇu .\nbuddhyā yukto yayā pārtha karmabandhaṃ prahāsyasi ||2-39||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This teaching set forth to thee is in accordance with the Sâñkhya; hear it now according to the Yoga, imbued with which teaching, O Pârtha, thou shalt cast away the bonds of action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:40",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 40,
+      "sanskrit": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते |\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ||२-४०||",
+      "transliteration": "nehābhikramanāśo.asti pratyavāyo na vidyate .\nsvalpamapyasya dharmasya trāyate mahato bhayāt ||2-40||",
+      "word_meanings": [],
+      "translations": {
+        "en": "In this there is no loss of effort, nor is there transgression. Even a little of this knowledge protects from great fear."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:41",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 41,
+      "sanskrit": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन |\nबहुशाखा ह्यनन्ताश्च बुद्धयोऽव्यवसायिनाम् ||२-४१||",
+      "transliteration": "vyavasāyātmikā buddhirekeha kurunandana .\nbahuśākhā hyanantāśca buddhayo.avyavasāyinām ||2-41||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The determinate Reason is but one-pointed, O joy of the Kurus; many-branched and endless are the thoughts of the irresolute."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:42",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 42,
+      "sanskrit": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः |\nवेदवादरताः पार्थ नान्यदस्तीति वादिनः ||२-४२||",
+      "transliteration": "yāmimāṃ puṣpitāṃ vācaṃ pravadantyavipaścitaḥ .\nvedavādaratāḥ pārtha nānyadastīti vādinaḥ ||2-42||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Flowery speech is uttered by the foolish, rejoicing in the letter of the Vedas, O Pârtha, saying: \"There is naught but this\";"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:43",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 43,
+      "sanskrit": "कामात्मानः स्वर्गपरा जन्मकर्मफलप्रदाम् |\nक्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति ||२-४३||",
+      "transliteration": "kāmātmānaḥ svargaparā janmakarmaphalapradām .\nkriyāviśeṣabahulāṃ bhogaiśvaryagatiṃ prati ||2-43||",
+      "word_meanings": [],
+      "translations": {
+        "en": "With desire for self, with heaven for goal, they offer birth as the fruit of action, and prescribe many and various ceremonies for the attainment of pleasure and lordship."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:44",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 44,
+      "sanskrit": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् |\nव्यवसायात्मिका बुद्धिः समाधौ न विधीयते ||२-४४||",
+      "transliteration": "bhogaiśvaryaprasaktānāṃ tayāpahṛtacetasām .\nvyavasāyātmikā buddhiḥ samādhau na vidhīyate ||2-44||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For them who cling to pleasure and lordship, whose minds are captivated by such teaching, is not designed this determinate Reason, on contemplation steadily bent."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:45",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 45,
+      "sanskrit": "त्रैगुण्यविषया वेदा निस्त्रैगुण्यो भवार्जुन |\nनिर्द्वन्द्वो नित्यसत्त्वस्थो निर्योगक्षेम आत्मवान् ||२-४५||",
+      "transliteration": "traiguṇyaviṣayā vedā nistraiguṇyo bhavārjuna .\nnirdvandvo nityasattvastho niryogakṣema ātmavān ||2-45||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Vedas deal with the three attributes; be thou above these three attributes, O Arjuna; beyond the pairs of opposites, ever steadfast in purity, careless of possessions, full of the Self."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:46",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 46,
+      "sanskrit": "यावानर्थ उदपाने सर्वतः सम्प्लुतोदके |\nतावान्सर्वेषु वेदेषु ब्राह्मणस्य विजानतः ||२-४६||",
+      "transliteration": "yāvānartha udapāne sarvataḥ samplutodake .\ntāvānsarveṣu vedeṣu brāhmaṇasya vijānataḥ ||2-46||",
+      "word_meanings": [],
+      "translations": {
+        "en": "All the Vedas are as useful to an enlightened Brâhmana as is a tank in a place covered all over with water."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:47",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 47,
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन |\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ||२-४७||",
+      "transliteration": "karmaṇyevādhikāraste mā phaleṣu kadācana .\nmā karmaphalaheturbhūrmā te saṅgo.astvakarmaṇi ||2-47||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Thy business is with the action only, never with its fruits; so let not the fruit of action be thy motive, nor be thou to inaction attached."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:48",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 48,
+      "sanskrit": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय |\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ||२-४८||",
+      "transliteration": "yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya .\nsiddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||2-48||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Perform action, O Dhananjaya, dwelling in union with the divine, renouncing attachments and balanced evenly in success and failure: equilibrium is called yoga."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:49",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 49,
+      "sanskrit": "दूरेण ह्यवरं कर्म बुद्धियोगाद्धनञ्जय |\nबुद्धौ शरणमन्विच्छ कृपणाः फलहेतवः ||२-४९||",
+      "transliteration": "dūreṇa hyavaraṃ karma buddhiyogāddhanañjaya .\nbuddhau śaraṇamanviccha kṛpaṇāḥ phalahetavaḥ ||2-49||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Far lower than the Yoga of Discrimination is action, O Dhananjaya. Take thou refuge in the Pure Reason; pitiable are they who work for fruit."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:50",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 50,
+      "sanskrit": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते |\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ||२-५०||",
+      "transliteration": "buddhiyukto jahātīha ubhe sukṛtaduṣkṛte .\ntasmādyogāya yujyasva yogaḥ karmasu kauśalam ||2-50||",
+      "word_meanings": [],
+      "translations": {
+        "en": "United to the Pure Reason one abandoneth here both good and evil deeds; therefore cleave thou to yoga; yoga is skill in action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:51",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 51,
+      "sanskrit": "कर्मजं बुद्धियुक्ता हि फलं त्यक्त्वा मनीषिणः |\nजन्मबन्धविनिर्मुक्ताः पदं गच्छन्त्यनामयम् ||२-५१||",
+      "transliteration": "karmajaṃ buddhiyuktā hi phalaṃ tyaktvā manīṣiṇaḥ .\njanmabandhavinirmuktāḥ padaṃ gacchantyanāmayam ||2-51||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Sages, united to the Pure Reason, renounce the fruit which action yieldeth, and, liberated from the bonds of birth, they go to the blissful seat."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:52",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 52,
+      "sanskrit": "यदा ते मोहकलिलं बुद्धिर्व्यतितरिष्यति |\nतदा गन्तासि निर्वेदं श्रोतव्यस्य श्रुतस्य च ||२-५२||",
+      "transliteration": "yadā te mohakalilaṃ buddhirvyatitariṣyati .\ntadā gantāsi nirvedaṃ śrotavyasya śrutasya ca ||2-52||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When thy mind shall escape from this tangle of delusion, then thou shalt rise to indifference as to what has been heard and shall be heard."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:53",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 53,
+      "sanskrit": "श्रुतिविप्रतिपन्ना ते यदा स्थास्यति निश्चला |\nसमाधावचला बुद्धिस्तदा योगमवाप्स्यसि ||२-५३||",
+      "transliteration": "śrutivipratipannā te yadā sthāsyati niścalā .\nsamādhāvacalā buddhistadā yogamavāpsyasi ||2-53||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When thy mind, bewildered by the Scriptures, shall stand immovable, fixed in contemplation, then shalt thou attain unto yoga."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:54",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 54,
+      "sanskrit": "अर्जुन उवाच |\nस्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव |\nस्थितधीः किं प्रभाषेत किमासीत व्रजेत किम् ||२-५४||",
+      "transliteration": "arjuna uvāca .\nsthitaprajñasya kā bhāṣā samādhisthasya keśava .\nsthitadhīḥ kiṃ prabhāṣeta kimāsīta vrajeta kim ||2-54||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: What the mark, of him who is stable of mind, steadfast in contemplation, O Keshava? How doth the stable-minded talk, how doth he sit, how walk?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:55",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 55,
+      "sanskrit": "श्रीभगवानुवाच |\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् |\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ||२-५५||",
+      "transliteration": "śrībhagavānuvāca .\nprajahāti yadā kāmānsarvānpārtha manogatān .\nātmanyevātmanā tuṣṭaḥ sthitaprajñastadocyate ||2-55||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: When a man abandoneth, O Pârtha, all the desires of the heart, and is satisfied in the Self by the Self, then is he called stable in mind."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:56",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 56,
+      "sanskrit": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः |\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ||२-५६||",
+      "transliteration": "duḥkheṣvanudvignamanāḥ sukheṣu vigataspṛhaḥ .\nvītarāgabhayakrodhaḥ sthitadhīrmunirucyate ||2-56||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He whose mind is free from anxiety amid pains, indifferent amid pleasures, loosed from passion, fear and anger, is called a sage of stable mind."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:57",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 57,
+      "sanskrit": "यः सर्वत्रानभिस्नेहस्तत्तत्प्राप्य शुभाशुभम् |\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता ||२-५७||",
+      "transliteration": "yaḥ sarvatrānabhisnehastattatprāpya śubhāśubham .\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā ||2-57||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who on every side is without attachments, whatever hap of fair and foul, who neither likes nor dislikes, of such a one the understanding is well poised."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:58",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 58,
+      "sanskrit": "यदा संहरते चायं कूर्मोऽङ्गानीव सर्वशः |\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||२-५८||",
+      "transliteration": "yadā saṃharate cāyaṃ kūrmo.aṅgānīva sarvaśaḥ .\nindriyāṇīndriyārthebhyastasya prajñā pratiṣṭhitā ||2-58||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When, again, as a tortoise draws in on all sides its limbs, he withdraws his senses from the objects of sense, then is his understanding well poised."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:59",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 59,
+      "sanskrit": "विषया विनिवर्तन्ते निराहारस्य देहिनः |\nरसवर्जं रसोऽप्यस्य परं दृष्ट्वा निवर्तते ||२-५९||",
+      "transliteration": "viṣayā vinivartante nirāhārasya dehinaḥ .\nrasavarjaṃ raso.apyasya paraṃ dṛṣṭvā nivartate ||2-59||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The objects of sense, but not the relish for them, turn away from an abstemious dweller in the body; and even relish turneth away from him after the Supreme is seen."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:60",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 60,
+      "sanskrit": "यततो ह्यपि कौन्तेय पुरुषस्य विपश्चितः |\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः ||२-६०||",
+      "transliteration": "yatato hyapi kaunteya puruṣasya vipaścitaḥ .\nindriyāṇi pramāthīni haranti prasabhaṃ manaḥ ||2-60||",
+      "word_meanings": [],
+      "translations": {
+        "en": "O son of Kuntî, the excited senses of even a wise man, though he be striving, impetuously carry away his mind."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:61",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 61,
+      "sanskrit": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः |\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता ||२-६१||",
+      "transliteration": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ .\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā ||2-61||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having restrained them all, he should sit harmonised, I his supreme goal; for, whose senses are mastered, of him the understanding is well poised."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:62",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 62,
+      "sanskrit": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते |\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ||२-६२||",
+      "transliteration": "dhyāyato viṣayānpuṃsaḥ saṅgasteṣūpajāyate .\nsaṅgātsañjāyate kāmaḥ kāmātkrodho.abhijāyate ||2-62||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Man, musing on the objects of sense, conceiveth an attachment to these; from attachment ariseth desire; from desire anger cometh forth;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:63",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 63,
+      "sanskrit": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः |\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ||२-६३||",
+      "transliteration": "krodhādbhavati sammohaḥ sammohātsmṛtivibhramaḥ .\nsmṛtibhraṃśād buddhināśo buddhināśātpraṇaśyati ||2-63||",
+      "word_meanings": [],
+      "translations": {
+        "en": "From anger proceedeth delusion; from delusion confused memory; from confused memory the destruction of Reason; from destruction of Reason he perishes."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:64",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 64,
+      "sanskrit": "रागद्वेषविमुक्तैस्तु विषयानिन्द्रियैश्चरन् | (or वियुक्तैस्तु)\nआत्मवश्यैर्विधेयात्मा प्रसादमधिगच्छति ||२-६४||",
+      "transliteration": "rāgadveṣavimuktaistu viṣayānindriyaiścaran .\norviyuktaistu ātmavaśyairvidheyātmā prasādamadhigacchati ||2-64||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But the disciplined self, moving among sense-objects with senses free from attraction and repulsion, mastered by the Self, goeth to peace."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:65",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 65,
+      "sanskrit": "प्रसादे सर्वदुःखानां हानिरस्योपजायते |\nप्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते ||२-६५||",
+      "transliteration": "prasāde sarvaduḥkhānāṃ hānirasyopajāyate .\nprasannacetaso hyāśu buddhiḥ paryavatiṣṭhate ||2-65||",
+      "word_meanings": [],
+      "translations": {
+        "en": "In that Peace the extinction of all pains ariseth for him, for of him whose heart is peaceful the Reason soon attaineth equilibrium."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:66",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 66,
+      "sanskrit": "नास्ति बुद्धिरयुक्तस्य न चायुक्तस्य भावना |\nन चाभावयतः शान्तिरशान्तस्य कुतः सुखम् ||२-६६||",
+      "transliteration": "nāsti buddhirayuktasya na cāyuktasya bhāvanā .\nna cābhāvayataḥ śāntiraśāntasya kutaḥ sukham ||2-66||",
+      "word_meanings": [],
+      "translations": {
+        "en": "There is no Pure Reason for the non-harmonised, nor for the non-harmonised is there concentration; for him without concentration there is no peace, and for the unpeaceful how can there be happiness?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:67",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 67,
+      "sanskrit": "इन्द्रियाणां हि चरतां यन्मनोऽनुविधीयते |\nतदस्य हरति प्रज्ञां वायुर्नावमिवाम्भसि ||२-६७||",
+      "transliteration": "indriyāṇāṃ hi caratāṃ yanmano.anuvidhīyate .\ntadasya harati prajñāṃ vāyurnāvamivāmbhasi ||2-67||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Such of the roving senses as the mind yieldeth to, that hurries away the understanding, just as the gale hurries away a ship upon the waters."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:68",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 68,
+      "sanskrit": "तस्माद्यस्य महाबाहो निगृहीतानि सर्वशः |\nइन्द्रियाणीन्द्रियार्थेभ्यस्तस्य प्रज्ञा प्रतिष्ठिता ||२-६८||",
+      "transliteration": "tasmādyasya mahābāho nigṛhītāni sarvaśaḥ .\nindriyāṇīndriyārthebhyastasya prajñā pratiṣṭhitā ||2-68||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore, O mighty-armed, whose senses are all completely restrained from the objects of sense, of him the understanding is well poised."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:69",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 69,
+      "sanskrit": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी |\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः ||२-६९||",
+      "transliteration": "yā niśā sarvabhūtānāṃ tasyāṃ jāgarti saṃyamī .\nyasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ ||2-69||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That which is the night of all beings, for the disciplined man is the time of waking; when other beings are waking, then is it night for the sage who seeth."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:70",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 70,
+      "sanskrit": "आपूर्यमाणमचलप्रतिष्ठं\nसमुद्रमापः प्रविशन्ति यद्वत् |\nतद्वत्कामा यं प्रविशन्ति सर्वे\nस शान्तिमाप्नोति न कामकामी ||२-७०||",
+      "transliteration": "āpūryamāṇamacalapratiṣṭhaṃ samudramāpaḥ praviśanti yadvat .\ntadvatkāmā yaṃ praviśanti sarve sa śāntimāpnoti na kāmakāmī ||2-70||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He attaineth Peace, into whom all desires flow as rivers flow into the ocean, which is filled with water, but remaineth unmoved—not he who desireth desires."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:71",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 71,
+      "sanskrit": "विहाय कामान्यः सर्वान्पुमांश्चरति निःस्पृहः |\nनिर्ममो निरहङ्कारः स शान्तिमधिगच्छति ||२-७१||",
+      "transliteration": "vihāya kāmānyaḥ sarvānpumāṃścarati niḥspṛhaḥ .\nnirmamo nirahaṅkāraḥ sa śāntimadhigacchati ||2-71||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Whoso forsaketh all desires and goeth onwards free from yearnings, selfless and without egoism—he goeth to Peace."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:2:72",
+      "scripture": "bhagavad-gita",
+      "chapter": 2,
+      "verse": 72,
+      "sanskrit": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति |\nस्थित्वास्यामन्तकालेऽपि ब्रह्मनिर्वाणमृच्छति ||२-७२||",
+      "transliteration": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati .\nsthitvāsyāmantakāle.api brahmanirvāṇamṛcchati ||2-72||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This is the Eternal state, O son of Prithâ. Having attained thereto, none is bewildered. Who, even at the death-hour, is established therein, he goeth to the Nirvâna of the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

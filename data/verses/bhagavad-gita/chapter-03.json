@@ -1,0 +1,882 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 3,
+  "title": {
+    "en": "Karma Yoga — The Yoga of Action",
+    "hu": "Karma-jóga — A cselekvés jógája",
+    "hi": "कर्मयोग"
+  },
+  "titleSanskrit": "कर्मयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:17:00.979Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:3:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nज्यायसी चेत्कर्मणस्ते मता बुद्धिर्जनार्दन |\nतत्किं कर्मणि घोरे मां नियोजयसि केशव ||३-१||",
+      "transliteration": "arjuna uvāca .\njyāyasī cetkarmaṇaste matā buddhirjanārdana .\ntatkiṃ karmaṇi ghore māṃ niyojayasi keśava ||3-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: If it be thought by Thee that knowledge is superior to action, O Janârdana, why dost Thou, O Keshava, enjoin on me this terrible action?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 2,
+      "sanskrit": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे |\nतदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम् ||३-२||",
+      "transliteration": "vyāmiśreṇeva vākyena buddhiṃ mohayasīva me .\ntadekaṃ vada niścitya yena śreyo.ahamāpnuyām ||3-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "With these perplexing words Thou only confusest my understanding; therefore tell me with certainty the one way by which I may reach bliss."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 3,
+      "sanskrit": "श्रीभगवानुवाच |\nलोकेऽस्मिन् द्विविधा निष्ठा पुरा प्रोक्ता मयानघ |\nज्ञानयोगेन साङ्ख्यानां कर्मयोगेन योगिनाम् ||३-३||",
+      "transliteration": "śrībhagavānuvāca .\nloke.asmina dvividhā niṣṭhā purā proktā mayānagha .\njñānayogena sāṅkhyānāṃ karmayogena yoginām ||3-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: In this world there is a twofold path, as I before said, O sinless one: that of yoga by knowledge, of the Sâñkhyas; and that of yoga by action, of the Yogis."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 4,
+      "sanskrit": "न कर्मणामनारम्भान्नैष्कर्म्यं पुरुषोऽश्नुते |\nन च संन्यसनादेव सिद्धिं समधिगच्छति ||३-४||",
+      "transliteration": "na karmaṇāmanārambhānnaiṣkarmyaṃ puruṣo.aśnute .\nna ca saṃnyasanādeva siddhiṃ samadhigacchati ||3-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Man winneth not freedom from action by abstaining from activity, nor by mere renunciation doth he rise to perfection."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 5,
+      "sanskrit": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् |\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ||३-५||",
+      "transliteration": "na hi kaścitkṣaṇamapi jātu tiṣṭhatyakarmakṛt .\nkāryate hyavaśaḥ karma sarvaḥ prakṛtijairguṇaiḥ ||3-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor can anyone, even for an instant, remain really actionless; for helplessly is everyone driven to action by the qualities born of nature."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 6,
+      "sanskrit": "कर्मेन्द्रियाणि संयम्य य आस्ते मनसा स्मरन् |\nइन्द्रियार्थान्विमूढात्मा मिथ्याचारः स उच्यते ||३-६||",
+      "transliteration": "karmendriyāṇi saṃyamya ya āste manasā smaran .\nindriyārthānvimūḍhātmā mithyācāraḥ sa ucyate ||3-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Who sitteth, controlling the organs of action, but dwelling in his mind on the objects of the senses, that bewildered man is called a hypocrite."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 7,
+      "sanskrit": "यस्त्विन्द्रियाणि मनसा नियम्यारभतेऽर्जुन |\nकर्मेन्द्रियैः कर्मयोगमसक्तः स विशिष्यते ||३-७||",
+      "transliteration": "yastvindriyāṇi manasā niyamyārabhate.arjuna .\nkarmendriyaiḥ karmayogamasaktaḥ sa viśiṣyate ||3-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But who, controlling the senses by the mind, O Arjuna, with the organs of action without attachment, performeth yoga by action, he is worthy."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 8,
+      "sanskrit": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः |\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ||३-८||",
+      "transliteration": "niyataṃ kuru karma tvaṃ karma jyāyo hyakarmaṇaḥ .\nśarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ ||3-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Perform thou right action, for, action is superior to inaction, and, inactive, even the maintenance of thy body would not be possible."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 9,
+      "sanskrit": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः |\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ||३-९||",
+      "transliteration": "yajñārthātkarmaṇo.anyatra loko.ayaṃ karmabandhanaḥ .\ntadarthaṃ karma kaunteya muktasaṅgaḥ samācara ||3-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The world is bound by action, unless performed for the sake of sacrifice; for that sake, free from attachment, O son of Kuntî, perform thou action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 10,
+      "sanskrit": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः |\nअनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक् ||३-१०||",
+      "transliteration": "sahayajñāḥ prajāḥ sṛṣṭvā purovāca prajāpatiḥ .\nanena prasaviṣyadhvameṣa vo.astviṣṭakāmadhuk ||3-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having in ancient times emanated mankind together with sacrifice, the Lord of emanation said: \"By this shall ye propagate; be this to you the giver of desire;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 11,
+      "sanskrit": "देवान्भावयतानेन ते देवा भावयन्तु वः |\nपरस्परं भावयन्तः श्रेयः परमवाप्स्यथ ||३-११||",
+      "transliteration": "devānbhāvayatānena te devā bhāvayantu vaḥ .\nparasparaṃ bhāvayantaḥ śreyaḥ paramavāpsyatha ||3-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"With this nourish ye the Shining Ones, and may the Shining Ones nourish you; thus nourishing one another ye shall reap the supremest good."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 12,
+      "sanskrit": "इष्टान्भोगान्हि वो देवा दास्यन्ते यज्ञभाविताः |\nतैर्दत्तानप्रदायैभ्यो यो भुङ्क्ते स्तेन एव सः ||३-१२||",
+      "transliteration": "iṣṭānbhogānhi vo devā dāsyante yajñabhāvitāḥ .\ntairdattānapradāyaibhyo yo bhuṅkte stena eva saḥ ||3-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"For, nourished by sacrifice, the Shining Ones shall bestow on you the enjoyments you desire.\" A thief verily is he who enjoyeth what is given by Them without returning Them aught."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 13,
+      "sanskrit": "यज्ञशिष्टाशिनः सन्तो मुच्यन्ते सर्वकिल्बिषैः |\nभुञ्जते ते त्वघं पापा ये पचन्त्यात्मकारणात् ||३-१३||",
+      "transliteration": "yajñaśiṣṭāśinaḥ santo mucyante sarvakilbiṣaiḥ .\nbhuñjate te tvaghaṃ pāpā ye pacantyātmakāraṇāt ||3-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The righteous, who eat the remains of the sacrifice, are freed from all sins; but the impious, who dress food for their own sakes, they verily eat sin."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 14,
+      "sanskrit": "अन्नाद्भवन्ति भूतानि पर्जन्यादन्नसम्भवः |\nयज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः ||३-१४||",
+      "transliteration": "annādbhavanti bhūtāni parjanyādannasambhavaḥ .\nyajñādbhavati parjanyo yajñaḥ karmasamudbhavaḥ ||3-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "From food creatures become; from rain is the production of food; rain proceedeth from sacrifice; sacrifice ariseth out of action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 15,
+      "sanskrit": "कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम् |\nतस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ||३-१५||",
+      "transliteration": "karma brahmodbhavaṃ viddhi brahmākṣarasamudbhavam .\ntasmātsarvagataṃ brahma nityaṃ yajñe pratiṣṭhitam ||3-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Know thou that from Brahma action groweth, and Brahma from the Imperishable cometh. Therefore the Eternal, the all-permeating, is ever present in sacrifice."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 16,
+      "sanskrit": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः |\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति ||३-१६||",
+      "transliteration": "evaṃ pravartitaṃ cakraṃ nānuvartayatīha yaḥ .\naghāyurindriyārāmo moghaṃ pārtha sa jīvati ||3-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who on earth doth not follow the wheel thus revolving, sinful of life and rejoicing in the senses, he, O son of Pritha, liveth in vain."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 17,
+      "sanskrit": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः |\nआत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते ||३-१७||",
+      "transliteration": "yastvātmaratireva syādātmatṛptaśca mānavaḥ .\nātmanyeva ca santuṣṭastasya kāryaṃ na vidyate ||3-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But the man who rejoiceth in the Self, with the Self is satisfied, and is content in the Self, for him verily there is nothing to do;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 18,
+      "sanskrit": "नैव तस्य कृतेनार्थो नाकृतेनेह कश्चन |\nन चास्य सर्वभूतेषु कश्चिदर्थव्यपाश्रयः ||३-१८||",
+      "transliteration": "naiva tasya kṛtenārtho nākṛteneha kaścana .\nna cāsya sarvabhūteṣu kaścidarthavyapāśrayaḥ ||3-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For him there is no interest in things done, in this world, nor any in things not done, nor doth any object of his depend on any being."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 19,
+      "sanskrit": "तस्मादसक्तः सततं कार्यं कर्म समाचर |\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ||३-१९||",
+      "transliteration": "tasmādasaktaḥ satataṃ kāryaṃ karma samācara .\nasakto hyācarankarma paramāpnoti pūruṣaḥ ||3-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore, without attachment, constantly perform action which is duty, for, by performing action without attachment, man verily reacheth the Supreme."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 20,
+      "sanskrit": "कर्मणैव हि संसिद्धिमास्थिता जनकादयः |\nलोकसंग्रहमेवापि सम्पश्यन्कर्तुमर्हसि ||३-२०||",
+      "transliteration": "karmaṇaiva hi saṃsiddhimāsthitā janakādayaḥ .\nlokasaṃgrahamevāpi sampaśyankartumarhasi ||3-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Janaka and others indeed attained to perfection by action: then having an eye to the welfare of he world also, thou shouldst perform action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 21,
+      "sanskrit": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः |\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ||३-२१||",
+      "transliteration": "yadyadācarati śreṣṭhastattadevetaro janaḥ .\nsa yatpramāṇaṃ kurute lokastadanuvartate ||3-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Whatsoever a great man doeth, that other men also do; the standard he setteth up, by that the people go."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 22,
+      "sanskrit": "न मे पार्थास्ति कर्तव्यं त्रिषु लोकेषु किञ्चन |\nनानवाप्तमवाप्तव्यं वर्त एव च कर्मणि ||३-२२||",
+      "transliteration": "na me pārthāsti kartavyaṃ triṣu lokeṣu kiñcana .\nnānavāptamavāptavyaṃ varta eva ca karmaṇi ||3-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "There is nothing in the three worlds, O Pârtha, that should be done by Me, nor anything unattained that might be attained; yet I mingle in action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 23,
+      "sanskrit": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः |\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||३-२३||",
+      "transliteration": "yadi hyahaṃ na varteyaṃ jātu karmaṇyatandritaḥ .\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ ||3-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For if I mingled not ever in action unwearied, men all around would follow My path, O son of Prithâ."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 24,
+      "sanskrit": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम् |\nसङ्करस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः ||३-२४||",
+      "transliteration": "utsīdeyurime lokā na kuryāṃ karma cedaham .\nsaṅkarasya ca kartā syāmupahanyāmimāḥ prajāḥ ||3-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "These worlds would fall into ruin, if I did not perform action; I should be the author of confusion of castes, and should destroy these creatures."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 25,
+      "sanskrit": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत |\nकुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम् ||३-२५||",
+      "transliteration": "saktāḥ karmaṇyavidvāṃso yathā kurvanti bhārata .\nkuryādvidvāṃstathāsaktaścikīrṣurlokasaṃgraham ||3-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As the ignorant act from attachment to action, O Bhârata, so should the wise act without attachment, desiring the welfare of the world."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 26,
+      "sanskrit": "न बुद्धिभेदं जनयेदज्ञानां कर्मसङ्गिनाम् |\nजोषयेत्सर्वकर्माणि विद्वान्युक्तः समाचरन् ||३-२६||",
+      "transliteration": "na buddhibhedaṃ janayedajñānāṃ karmasaṅginām .\njoṣayetsarvakarmāṇi vidvānyuktaḥ samācaran ||3-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Let no wise man unsettle the mind of ignorant people attached to action; but acting in harmony with Me let him render all action attractive."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 27,
+      "sanskrit": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः |\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते ||३-२७||",
+      "transliteration": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ .\nahaṅkāravimūḍhātmā kartāhamiti manyate ||3-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "All actions are wrought by the quali ties of nature only. The self, deluded by egoism, thinketh: \"I am the doer.\""
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 28,
+      "sanskrit": "तत्त्ववित्तु महाबाहो गुणकर्मविभागयोः |\nगुणा गुणेषु वर्तन्त इति मत्वा न सज्जते ||३-२८||",
+      "transliteration": "tattvavittu mahābāho guṇakarmavibhāgayoḥ .\nguṇā guṇeṣu vartanta iti matvā na sajjate ||3-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But he, O mighty-armed, who knoweth the essence of the divisions of the qualities and functions, holding that \"the qualities move amid the qualities,\" is not attached."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 29,
+      "sanskrit": "प्रकृतेर्गुणसम्मूढाः सज्जन्ते गुणकर्मसु |\nतानकृत्स्नविदो मन्दान्कृत्स्नविन्न विचालयेत् ||३-२९||",
+      "transliteration": "prakṛterguṇasammūḍhāḥ sajjante guṇakarmasu .\ntānakṛtsnavido mandānkṛtsnavinna vicālayet ||3-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Those deluded by the qualities of nature are attached to the functions of the qualities. The man of perfect knowledge should not unsettle the foolish whose knowledge is imperfect."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:30",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 30,
+      "sanskrit": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा |\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ||३-३०||",
+      "transliteration": "mayi sarvāṇi karmāṇi saṃnyasyādhyātmacetasā .\nnirāśīrnirmamo bhūtvā yudhyasva vigatajvaraḥ ||3-30||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Surrendering all actions to Me, with thy thoughts resting on the supreme Self, from hope and egoism freed, and of mental fever cured, engage in battle."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:31",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 31,
+      "sanskrit": "ये मे मतमिदं नित्यमनुतिष्ठन्ति मानवाः |\nश्रद्धावन्तोऽनसूयन्तो मुच्यन्ते तेऽपि कर्मभिः ||३-३१||",
+      "transliteration": "ye me matamidaṃ nityamanutiṣṭhanti mānavāḥ .\nśraddhāvanto.anasūyanto mucyante te.api karmabhiḥ ||3-31||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Who abide ever in this teaching of Mine full of faith and free from caviling, they too are released from actions."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:32",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 32,
+      "sanskrit": "ये त्वेतदभ्यसूयन्तो नानुतिष्ठन्ति मे मतम् |\nसर्वज्ञानविमूढांस्तान्विद्धि नष्टानचेतसः ||३-३२||",
+      "transliteration": "ye tvetadabhyasūyanto nānutiṣṭhanti me matam .\nsarvajñānavimūḍhāṃstānviddhi naṣṭānacetasaḥ ||3-32||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Who carp at My teaching and act not thereon, senseless, deluded in all knowledge, know thou these mindless ones as fated to be destroyed."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:33",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 33,
+      "sanskrit": "सदृशं चेष्टते स्वस्याः प्रकृतेर्ज्ञानवानपि |\nप्रकृतिं यान्ति भूतानि निग्रहः किं करिष्यति ||३-३३||",
+      "transliteration": "sadṛśaṃ ceṣṭate svasyāḥ prakṛterjñānavānapi .\nprakṛtiṃ yānti bhūtāni nigrahaḥ kiṃ kariṣyati ||3-33||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Even the man of knowledge behaves in conformity with his own nature; beings follow nature; what shall restraint avail?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:34",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 34,
+      "sanskrit": "इन्द्रियस्येन्द्रियस्यार्थे रागद्वेषौ व्यवस्थितौ |\nतयोर्न वशमागच्छेत्तौ ह्यस्य परिपन्थिनौ ||३-३४||",
+      "transliteration": "indriyasyendriyasyārthe rāgadveṣau vyavasthitau .\ntayorna vaśamāgacchettau hyasya paripanthinau ||3-34||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Affection and aversion for the objects of sense abide in the senses; let none come under the dominion of these two; they are obstructors of the path."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:35",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 35,
+      "sanskrit": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् |\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||३-३५||",
+      "transliteration": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt .\nsvadharme nidhanaṃ śreyaḥ paradharmo bhayāvahaḥ ||3-35||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Better one's own duty, though destitute of merit, than the duty of another, well discharged. Better death in the discharge of one's own duty; the duty of another is full of danger."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:36",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 36,
+      "sanskrit": "अर्जुन उवाच |\nअथ केन प्रयुक्तोऽयं पापं चरति पूरुषः |\nअनिच्छन्नपि वार्ष्णेय बलादिव नियोजितः ||३-३६||",
+      "transliteration": "arjuna uvāca .\natha kena prayukto.ayaṃ pāpaṃ carati pūruṣaḥ .\nanicchannapi vārṣṇeya balādiva niyojitaḥ ||3-36||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: But dragged on by what does a man commit sin, reluctantly indeed, O Varshneya, as it were by force constrained?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:37",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 37,
+      "sanskrit": "श्रीभगवानुवाच |\nकाम एष क्रोध एष रजोगुणसमुद्भवः |\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ||३-३७||",
+      "transliteration": "śrībhagavānuvāca .\nkāma eṣa krodha eṣa rajoguṇasamudbhavaḥ .\nmahāśano mahāpāpmā viddhyenamiha vairiṇam ||3-37||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: It is desire, it is wrath, begotten by the quality of motion; all-consuming, all-polluting, know thou this as our foe here on earth."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:38",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 38,
+      "sanskrit": "धूमेनाव्रियते वह्निर्यथादर्शो मलेन च |\nयथोल्बेनावृतो गर्भस्तथा तेनेदमावृतम् ||३-३८||",
+      "transliteration": "dhūmenāvriyate vahniryathādarśo malena ca .\nyatholbenāvṛto garbhastathā tenedamāvṛtam ||3-38||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As a flame is enveloped by smoke, as a mirror by dust, as an embryo is wrapped by the amnion, so This is enveloped by it."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:39",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 39,
+      "sanskrit": "आवृतं ज्ञानमेतेन ज्ञानिनो नित्यवैरिणा |\nकामरूपेण कौन्तेय दुष्पूरेणानलेन च ||३-३९||",
+      "transliteration": "āvṛtaṃ jñānametena jñānino nityavairiṇā .\nkāmarūpeṇa kaunteya duṣpūreṇānalena ca ||3-39||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Enveloped is wisdom by this constant enemy of the wise in the form of desire, which is insatiable as a flame."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:40",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 40,
+      "sanskrit": "इन्द्रियाणि मनो बुद्धिरस्याधिष्ठानमुच्यते |\nएतैर्विमोहयत्येष ज्ञानमावृत्य देहिनम् ||३-४०||",
+      "transliteration": "indriyāṇi mano buddhirasyādhiṣṭhānamucyate .\netairvimohayatyeṣa jñānamāvṛtya dehinam ||3-40||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The senses, the mind and the Reason are said to be its seat; by these enveloping wisdom, it bewilders the dweller in the body."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:41",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 41,
+      "sanskrit": "तस्मात्त्वमिन्द्रियाण्यादौ नियम्य भरतर्षभ |\nपाप्मानं प्रजहि ह्येनं ज्ञानविज्ञाननाशनम् ||३-४१||",
+      "transliteration": "tasmāttvamindriyāṇyādau niyamya bharatarṣabha .\npāpmānaṃ prajahi hyenaṃ jñānavijñānanāśanam ||3-41||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore, O best of the Bhâratas, mastering first the senses, do thou slay this thing of sin, destructive of wisdom and knowledge."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:42",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 42,
+      "sanskrit": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः |\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ||३-४२||",
+      "transliteration": "indriyāṇi parāṇyāhurindriyebhyaḥ paraṃ manaḥ .\nmanasastu parā buddhiryo buddheḥ paratastu saḥ ||3-42||",
+      "word_meanings": [],
+      "translations": {
+        "en": "It is said that the senses are great; greater than the senses is the mind: greater than the mind is the Reason; but what is greater than the Reason, is He."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:3:43",
+      "scripture": "bhagavad-gita",
+      "chapter": 3,
+      "verse": 43,
+      "sanskrit": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना |\nजहि शत्रुं महाबाहो कामरूपं दुरासदम् ||३-४३||",
+      "transliteration": "evaṃ buddheḥ paraṃ buddhvā saṃstabhyātmānamātmanā .\njahi śatruṃ mahābāho kāmarūpaṃ durāsadam ||3-43||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Thus understanding Him as greater than the Reason, restraining the self by the Self, slay thou, O mighty-armed, the enemy in the form of desire, difficult to overcome."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

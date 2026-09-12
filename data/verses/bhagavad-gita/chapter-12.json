@@ -1,0 +1,422 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 12,
+  "title": {
+    "en": "Bhakti Yoga — The Yoga of Devotion",
+    "hu": "Bhakti-jóga — Az odaadás jógája",
+    "hi": "भक्तियोग"
+  },
+  "titleSanskrit": "भक्तियोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:19:47.337Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:12:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nएवं सततयुक्ता ये भक्तास्त्वां पर्युपासते |\nये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः ||१२-१||",
+      "transliteration": "arjuna uvāca .\nevaṃ satatayuktā ye bhaktāstvāṃ paryupāsate .\nye cāpyakṣaramavyaktaṃ teṣāṃ ke yogavittamāḥ ||12-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: Those devotees who ever harmonised worship Thee, and those also who worship the Indestructible, the Unmanifested, whether of these is the more learned in yoga?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 2,
+      "sanskrit": "श्रीभगवानुवाच |\nमय्यावेश्य मनो ये मां नित्ययुक्ता उपासते |\nश्रद्धया परयोपेताः ते मे युक्ततमा मताः ||१२-२||",
+      "transliteration": "śrībhagavānuvāca .\nmayyāveśya mano ye māṃ nityayuktā upāsate .\nśraddhayā parayopetāḥ te me yuktatamā matāḥ ||12-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: They who with mind fixed on Me ever harmonised worship Me, with faith supreme endowed, these, in My opinion, are best in yoga."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 3,
+      "sanskrit": "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते |\nसर्वत्रगमचिन्त्यञ्च कूटस्थमचलन्ध्रुवम् ||१२-३||",
+      "transliteration": "ye tvakṣaramanirdeśyamavyaktaṃ paryupāsate .\nsarvatragamacintyañca kūṭasthamacalandhruvam ||12-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They who worship the Indestructible, the Ineffable, the unmanifested, Omnipresent, and Unthinkable, the Unchanging, Immutable, Eternal,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 4,
+      "sanskrit": "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः |\nते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः ||१२-४||",
+      "transliteration": "sanniyamyendriyagrāmaṃ sarvatra samabuddhayaḥ .\nte prāpnuvanti māmeva sarvabhūtahite ratāḥ ||12-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Restraining and subduing the senses, regarding everything equally, in the welfare of all rejoicing, these also come unto Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 5,
+      "sanskrit": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् |\nअव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते ||१२-५||",
+      "transliteration": "kleśo.adhikatarasteṣāmavyaktāsaktacetasām ||\navyaktā hi gatirduḥkhaṃ dehavadbhiravāpyate ||12-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The difficulty of those whose minds are set on the Unmanifested is greater; for the path of the Unmanifested is hard for the embodied to reach."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 6,
+      "sanskrit": "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्परः |\nअनन्येनैव योगेन मां ध्यायन्त उपासते ||१२-६||",
+      "transliteration": "ye tu sarvāṇi karmāṇi mayi saṃnyasya matparaḥ .\nananyenaiva yogena māṃ dhyāyanta upāsate ||12-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Those verily who, renouncing all actions in Me and intent on Me, worship meditating on Me, with whole-hearted yoga,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 7,
+      "sanskrit": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात् |\nभवामि नचिरात्पार्थ मय्यावेशितचेतसाम् ||१२-७||",
+      "transliteration": "teṣāmahaṃ samuddhartā mṛtyusaṃsārasāgarāt .\nbhavāmi nacirātpārtha mayyāveśitacetasām ||12-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "These I speedily lift up from the ocean of death and existence, O Pârtha, their minds being fixed on Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 8,
+      "sanskrit": "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय |\nनिवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः ||१२-८||",
+      "transliteration": "mayyeva mana ādhatsva mayi buddhiṃ niveśaya .\nnivasiṣyasi mayyeva ata ūrdhvaṃ na saṃśayaḥ ||12-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Place thy mind in me, into Me let thy Reason enter; then without doubt thou shalt abide in Me hereafter."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 9,
+      "sanskrit": "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम् |\nअभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय ||१२-९||",
+      "transliteration": "atha cittaṃ samādhātuṃ na śaknoṣi mayi sthiram .\nabhyāsayogena tato māmicchāptuṃ dhanañjaya ||12-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And if thou art not able firmly to fix thy mind on Me, then by the yoga of practice seek to reach Me, O Dhananjaya."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 10,
+      "sanskrit": "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव |\nमदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि ||१२-१०||",
+      "transliteration": "abhyāse.apyasamartho.asi matkarmaparamo bhava .\nmadarthamapi karmāṇi kurvansiddhimavāpsyasi ||12-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "If also thou art not equal to constant practice, be intent on My service; performing actions for My sake, thou shalt attain perfection."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 11,
+      "sanskrit": "अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रितः |\nसर्वकर्मफलत्यागं ततः कुरु यतात्मवान् ||१२-११||",
+      "transliteration": "athaitadapyaśakto.asi kartuṃ madyogamāśritaḥ .\nsarvakarmaphalatyāgaṃ tataḥ kuru yatātmavān ||12-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "If even to do this thou hast not strength, then, taking refuge in union with Me, renounce all fruit of action with the self controlled."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 12,
+      "sanskrit": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते |\nध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ||१२-१२||",
+      "transliteration": "śreyo hi jñānamabhyāsājjñānāddhyānaṃ viśiṣyate .\ndhyānātkarmaphalatyāgastyāgācchāntiranantaram ||12-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Better indeed is wisdom than constant-practice; than wisdom, meditation is better; than meditation, renunciation of the fruit of action; on renunciation follows peace."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 13,
+      "sanskrit": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च |\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ||१२-१३||",
+      "transliteration": "adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca .\nnirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī ||12-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who beareth no ill-will to any being, friendly and compassionate, without attachment and egoism, balanced in pleasure and pain, and forgiving,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 14,
+      "sanskrit": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः |\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ||१२-१४||",
+      "transliteration": "santuṣṭaḥ satataṃ yogī yatātmā dṛḍhaniścayaḥ .\nmayyarpitamanobuddhiryo madbhaktaḥ sa me priyaḥ ||12-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Ever content, harmonious, with the self-controlled, resolute, with mind and Reason dedicated to Me, he, My devotee, is dear to Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 15,
+      "sanskrit": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः |\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ||१२-१५||",
+      "transliteration": "yasmānnodvijate loko lokānnodvijate ca yaḥ .\nharṣāmarṣabhayodvegairmukto yaḥ sa ca me priyaḥ ||12-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He from whom the world doth not shrink away, who doth not shrink away from the world, freed from the anxieties of joy, anger, and fear, he is dear to me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 16,
+      "sanskrit": "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः |\nसर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः ||१२-१६||",
+      "transliteration": "anapekṣaḥ śucirdakṣa udāsīno gatavyathaḥ .\nsarvārambhaparityāgī yo madbhaktaḥ sa me priyaḥ ||12-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who wants nothing, is pure, expert, passionless, untroubled, renouncing every undertaking, he, My devotee, is dear to Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 17,
+      "sanskrit": "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति |\nशुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः ||१२-१७||",
+      "transliteration": "yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati .\nśubhāśubhaparityāgī bhaktimānyaḥ sa me priyaḥ ||12-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who neither loveth nor hateth, nor grieveth, nor desireth, renouncing good and evil, full of devotion, he is dear to Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 18,
+      "sanskrit": "समः शत्रौ च मित्रे च तथा मानापमानयोः |\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ||१२-१८||",
+      "transliteration": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ .\nśītoṣṇasukhaduḥkheṣu samaḥ saṅgavivarjitaḥ ||12-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Alike to foe and friend, and also in fame and ignominy, alike in cold and heat, pleasures and pains, destitute of attachment,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 19,
+      "sanskrit": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् |\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ||१२-१९||",
+      "transliteration": "tulyanindāstutirmaunī santuṣṭo yena kenacit .\naniketaḥ sthiramatirbhaktimānme priyo naraḥ ||12-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Taking equally praise and reproach, silent, wholly content with what cometh, homeless, firm in mind, full of devotion, that man is dear to Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:12:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 12,
+      "verse": 20,
+      "sanskrit": "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते |\nश्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः ||१२-२०||",
+      "transliteration": "ye tu dharmyāmṛtamidaṃ yathoktaṃ paryupāsate .\nśraddadhānā matparamā bhaktāste.atīva me priyāḥ ||12-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They verily who partake of this life-giving wisdom as taught herein, endued with faith, I their supreme Object, devotees, they are surpassingly dear to Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

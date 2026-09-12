@@ -1,0 +1,562 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 14,
+  "title": {
+    "en": "Gunatraya Vibhaga Yoga — The Yoga of the Three Gunas",
+    "hu": "Gunatraja-vibhága-jóga — A három kötőerő jógája",
+    "hi": "गुणत्रयविभागयोग"
+  },
+  "titleSanskrit": "गुणत्रयविभागयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:20:18.699Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:14:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nपरं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम् |\nयज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः ||१४-१||",
+      "transliteration": "śrībhagavānuvāca .\nparaṃ bhūyaḥ pravakṣyāmi jñānānāṃ jñānamuttamam .\nyajjñātvā munayaḥ sarve parāṃ siddhimito gatāḥ ||14-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: I will again proclaim that supreme Wisdom, of all wisdom the best, which having known, all the Sages have gone hence to the supreme Perfection."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 2,
+      "sanskrit": "इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः |\nसर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च ||१४-२||",
+      "transliteration": "idaṃ jñānamupāśritya mama sādharmyamāgatāḥ .\nsarge.api nopajāyante pralaye na vyathanti ca ||14-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having taken refuge in this Wisdom and being assimilated to My own nature, they are not re-born even in the emanation of a universe, nor are disquieted in the dissolution."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 3,
+      "sanskrit": "मम योनिर्महद् ब्रह्म तस्मिन्गर्भं दधाम्यहम् |\nसम्भवः सर्वभूतानां ततो भवति भारत ||१४-३||",
+      "transliteration": "mama yonirmahad brahma tasmingarbhaṃ dadhāmyaham .\nsambhavaḥ sarvabhūtānāṃ tato bhavati bhārata ||14-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "My womb is the great Eternal; in that I place the germ; thence cometh the birth of all beings, O Bhârata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 4,
+      "sanskrit": "सर्वयोनिषु कौन्तेय मूर्तयः सम्भवन्ति याः |\nतासां ब्रह्म महद्योनिरहं बीजप्रदः पिता ||१४-४||",
+      "transliteration": "sarvayoniṣu kaunteya mūrtayaḥ sambhavanti yāḥ .\ntāsāṃ brahma mahadyonirahaṃ bījapradaḥ pitā ||14-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "In whatsoever wombs mortals are produced, O Kaunteya, the great Eternal is their womb, I their generating father."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 5,
+      "sanskrit": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः |\nनिबध्नन्ति महाबाहो देहे देहिनमव्ययम् ||१४-५||",
+      "transliteration": "sattvaṃ rajastama iti guṇāḥ prakṛtisambhavāḥ .\nnibadhnanti mahābāho dehe dehinamavyayam ||14-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Harmony, Motion, Inertia, such are the qualities, Matter-born; they bind fast in the body, O great-armed one, the indestructible dweller in the body."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 6,
+      "sanskrit": "तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम् |\nसुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ ||१४-६||",
+      "transliteration": "tatra sattvaṃ nirmalatvātprakāśakamanāmayam .\nsukhasaṅgena badhnāti jñānasaṅgena cānagha ||14-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Of these Harmony from its stainlessness, luminous and healthy, bindeth by the attachment to bliss and the attachment to wisdom, O sinless one."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 7,
+      "sanskrit": "रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम् |\nतन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम् ||१४-७||",
+      "transliteration": "rajo rāgātmakaṃ viddhi tṛṣṇāsaṅgasamudbhavam .\ntannibadhnāti kaunteya karmasaṅgena dehinam ||14-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Motion, the passion nature, know thou, is the source of attachment and thirst for life, O Kaunteya, that bindeth the dweller in the body by the attachment to action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 8,
+      "sanskrit": "तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम् |\nप्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत ||१४-८||",
+      "transliteration": "tamastvajñānajaṃ viddhi mohanaṃ sarvadehinām .\npramādālasyanidrābhistannibadhnāti bhārata ||14-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But Inertia, know thou, born of unwisdom, is the deluder of all dwellers in the body; that bindeth by heedlessness, indolence and sloth, O Bharata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 9,
+      "sanskrit": "सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत |\nज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत ||१४-९||",
+      "transliteration": "sattvaṃ sukhe sañjayati rajaḥ karmaṇi bhārata .\njñānamāvṛtya tu tamaḥ pramāde sañjayatyuta ||14-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Harmony attacheth to bliss, Motion to action O Bharata. Inertia, verily, having shrouded wisdom, attacheth on the contrary to heedlessness."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 10,
+      "sanskrit": "रजस्तमश्चाभिभूय सत्त्वं भवति भारत |\nरजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा ||१४-१०||",
+      "transliteration": "rajastamaścābhibhūya sattvaṃ bhavati bhārata .\nrajaḥ sattvaṃ tamaścaiva tamaḥ sattvaṃ rajastathā ||14-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Now Harmony prevaileth, having overpowered Motion and Inertia, O Bhârata; now Motion, having overpowered Harmony and Inertia; and now Inertia, having overpowered Harmony and Motion."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 11,
+      "sanskrit": "सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते |\nज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत ||१४-११||",
+      "transliteration": "sarvadvāreṣu dehe.asminprakāśa upajāyate .\njñānaṃ yadā tadā vidyādvivṛddhaṃ sattvamityuta ||14-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When the wisdom-light streameth forth from all the gates of the body, then it may be known that Harmony is increasing."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 12,
+      "sanskrit": "लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा |\nरजस्येतानि जायन्ते विवृद्धे भरतर्षभ ||१४-१२||",
+      "transliteration": "lobhaḥ pravṛttirārambhaḥ karmaṇāmaśamaḥ spṛhā .\nrajasyetāni jāyante vivṛddhe bharatarṣabha ||14-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Greed, outgoing energy, undertaking of actions, restlessness, desire—these are born of the increase of Motion, O best of the Bhâratas."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 13,
+      "sanskrit": "अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च |\nतमस्येतानि जायन्ते विवृद्धे कुरुनन्दन ||१४-१३||",
+      "transliteration": "aprakāśo.apravṛttiśca pramādo moha eva ca .\ntamasyetāni jāyante vivṛddhe kurunandana ||14-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Darkness, stagnation and heedlessness and also delusion—these are born of the increase of Inertia, O joy of the Kurus."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 14,
+      "sanskrit": "यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत् |\nतदोत्तमविदां लोकानमलान्प्रतिपद्यते ||१४-१४||",
+      "transliteration": "yadā sattve pravṛddhe tu pralayaṃ yāti dehabhṛt .\ntadottamavidāṃ lokānamalānpratipadyate ||14-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "If Harmony verily prevaileth when the embodied goeth to dissolution, then he goeth forth to the spotless worlds of the great Sages."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 15,
+      "sanskrit": "रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते |\nतथा प्रलीनस्तमसि मूढयोनिषु जायते ||१४-१५||",
+      "transliteration": "rajasi pralayaṃ gatvā karmasaṅgiṣu jāyate .\ntathā pralīnastamasi mūḍhayoniṣu jāyate ||14-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having gone to dissolution in Motion, he is born among those attached to action; if dissolved in Inertia, he is born in the wombs of the senseless."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 16,
+      "sanskrit": "कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम् |\nरजसस्तु फलं दुःखमज्ञानं तमसः फलम् ||१४-१६||",
+      "transliteration": "karmaṇaḥ sukṛtasyāhuḥ sāttvikaṃ nirmalaṃ phalam .\nrajasastu phalaṃ duḥkhamajñānaṃ tamasaḥ phalam ||14-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "It is said the fruit of a good action is harmonious and spotless; verily the fruit of Motion is pain, and the fruit of Inertia unwisdom"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 17,
+      "sanskrit": "सत्त्वात्सञ्जायते ज्ञानं रजसो लोभ एव च |\nप्रमादमोहौ तमसो भवतोऽज्ञानमेव च ||१४-१७||",
+      "transliteration": "sattvātsañjāyate jñānaṃ rajaso lobha eva ca .\npramādamohau tamaso bhavato.ajñānameva ca ||14-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "From Harmony wisdom is born, and also greed from Motion; heedlessness and delusion are of Inertia and also unwisdom."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 18,
+      "sanskrit": "ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः |\nजघन्यगुणवृत्तिस्था अधो गच्छन्ति तामसाः ||१४-१८||",
+      "transliteration": "ūrdhvaṃ gacchanti sattvasthā madhye tiṣṭhanti rājasāḥ .\njaghanyaguṇavṛttisthā adho gacchanti tāmasāḥ ||14-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They rise upwards who are settled in Harmony; the Active dwell in the mid-most place: the Inert go downwards, enveloped in the vilest"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 19,
+      "sanskrit": "नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति |\nगुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति ||१४-१९||",
+      "transliteration": "nānyaṃ guṇebhyaḥ kartāraṃ yadā draṣṭānupaśyati .\nguṇebhyaśca paraṃ vetti madbhāvaṃ so.adhigacchati ||14-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When the Seer perceiveth no agent other than the qualities, and knoweth That which is higher than the qualities, he entereth into My Nature."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 20,
+      "sanskrit": "गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान् |\nजन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते ||१४-२०||",
+      "transliteration": "guṇānetānatītya trīndehī dehasamudbhavān .\njanmamṛtyujarāduḥkhairvimukto.amṛtamaśnute ||14-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When the dweller in the body hath crossed over these three qualities, whence all bodies have been produced, liberated from birth, death, old age and sorrow, he drinketh the nectar of immortality."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 21,
+      "sanskrit": "अर्जुन उवाच |\nकैर्लिङ्गैस्त्रीन्गुणानेतानतीतो भवति प्रभो |\nकिमाचारः कथं चैतांस्त्रीन्गुणानतिवर्तते ||१४-२१||",
+      "transliteration": "arjuna uvāca .\nkairliṅgaistrīnguṇānetānatīto bhavati prabho .\nkimācāraḥ kathaṃ caitāṃstrīnguṇānativartate ||14-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: What are the marks of him who hath crossed over the three qualities, O Lord? How acteth he, and how doth he go beyond these three qualities?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 22,
+      "sanskrit": "श्रीभगवानुवाच |\nप्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव |\nन द्वेष्टि सम्प्रवृत्तानि न निवृत्तानि काङ्क्षति ||१४-२२||",
+      "transliteration": "śrībhagavānuvāca .\nprakāśaṃ ca pravṛttiṃ ca mohameva ca pāṇḍava .\nna dveṣṭi sampravṛttāni na nivṛttāni kāṅkṣati ||14-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: He, O Pândava, who hateth not radiance, nor outgoing energy, nor even delusion, when present, nor longeth after them, absent;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 23,
+      "sanskrit": "उदासीनवदासीनो गुणैर्यो न विचाल्यते |\nगुणा वर्तन्त इत्येवं योऽवतिष्ठति नेङ्गते ||१४-२३||",
+      "transliteration": "udāsīnavadāsīno guṇairyo na vicālyate .\nguṇā vartanta ityevaṃ yo.avatiṣṭhati neṅgate ||14-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who, seated as a neutral, is unshaken by the qualities; who, saying, \"The qualities revolve,\" standeth apart immovable."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 24,
+      "sanskrit": "समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः |\nतुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः ||१४-२४||",
+      "transliteration": "samaduḥkhasukhaḥ svasthaḥ samaloṣṭāśmakāñcanaḥ .\ntulyapriyāpriyo dhīrastulyanindātmasaṃstutiḥ ||14-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Balanced in pleasure and pain, self-reliant, to whom a lump of earth, a rock and gold are alike, the same to loved and unloved, firm, the same in censure and in praise,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 25,
+      "sanskrit": "मानापमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः |\nसर्वारम्भपरित्यागी गुणातीतः स उच्यते ||१४-२५||",
+      "transliteration": "mānāpamānayostulyastulyo mitrāripakṣayoḥ .\nsarvārambhaparityāgī guṇātītaḥ sa ucyate ||14-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The same in honour and ignominy, the same to friend and foe, abandoning all undertakings—he is said to have crossed over the qualities."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 26,
+      "sanskrit": "मां च योऽव्यभिचारेण भक्तियोगेन सेवते |\nस गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते ||१४-२६||",
+      "transliteration": "māṃ ca yo.avyabhicāreṇa bhaktiyogena sevate .\nsa guṇānsamatītyaitānbrahmabhūyāya kalpate ||14-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And he who serveth Me exclusively by the Yoga of devotion, he, crossing beyond the qualities, he is fit to become the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:14:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 14,
+      "verse": 27,
+      "sanskrit": "ब्रह्मणो हि प्रतिष्ठाहममृतस्याव्ययस्य च |\nशाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च ||१४-२७||",
+      "transliteration": "brahmaṇo hi pratiṣṭhāhamamṛtasyāvyayasya ca .\nśāśvatasya ca dharmasya sukhasyaikāntikasya ca ||14-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For I am the abode of the Eternal, and of the indestructible nectar of immortality, of immemorial righteousness, and of unending bliss."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

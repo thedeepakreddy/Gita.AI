@@ -1,0 +1,702 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 9,
+  "title": {
+    "en": "Raja Vidya Raja Guhya Yoga — The Yoga of Kingly Knowledge and Kingly Secret",
+    "hu": "Rádzsa-vidjá-rádzsa-guhja-jóga — A királyi tudás és a királyi titok jógája",
+    "hi": "राजविद्याराजगुह्ययोग"
+  },
+  "titleSanskrit": "राजविद्याराजगुह्ययोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:18:46.586Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:9:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nइदं तु ते गुह्यतमं प्रवक्ष्याम्यनसूयवे |\nज्ञानं विज्ञानसहितं यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||९-१||",
+      "transliteration": "śrībhagavānuvāca .\nidaṃ tu te guhyatamaṃ pravakṣyāmyanasūyave .\njñānaṃ vijñānasahitaṃ yajjñātvā mokṣyase.aśubhāt ||9-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: To thee, the uncarping, verily shall I declare this profoundest Secret, wisdom with knowledge combined, which, having known, thou shalt be freed from evil."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 2,
+      "sanskrit": "राजविद्या राजगुह्यं पवित्रमिदमुत्तमम् |\nप्रत्यक्षावगमं धर्म्यं सुसुखं कर्तुमव्ययम् ||९-२||",
+      "transliteration": "rājavidyā rājaguhyaṃ pavitramidamuttamam .\npratyakṣāvagamaṃ dharmyaṃ susukhaṃ kartumavyayam ||9-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Kingly Science, kingly Secret, supreme Purifier, this; intuitional, according to righteousness, very easy to perform, imperishable."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 3,
+      "sanskrit": "अश्रद्दधानाः पुरुषा धर्मस्यास्य परन्तप |\nअप्राप्य मां निवर्तन्ते मृत्युसंसारवर्त्मनि ||९-३||",
+      "transliteration": "aśraddadhānāḥ puruṣā dharmasyāsya parantapa .\naprāpya māṃ nivartante mṛtyusaṃsāravartmani ||9-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Men without faith in this knowledge, O Parantapa, not reaching Me, return to the paths of this world of death."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 4,
+      "sanskrit": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना |\nमत्स्थानि सर्वभूतानि न चाहं तेष्ववस्थितः ||९-४||",
+      "transliteration": "mayā tatamidaṃ sarvaṃ jagadavyaktamūrtinā .\nmatsthāni sarvabhūtāni na cāhaṃ teṣvavasthitaḥ ||9-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "By Me all this world is pervaded in My unmanifested aspect; all beings have root in Me, I am not rooted in them."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 5,
+      "sanskrit": "न च मत्स्थानि भूतानि पश्य मे योगमैश्वरम् |\nभूतभृन्न च भूतस्थो ममात्मा भूतभावनः ||९-५||",
+      "transliteration": "na ca matsthāni bhūtāni paśya me yogamaiśvaram .\nbhūtabhṛnna ca bhūtastho mamātmā bhūtabhāvanaḥ ||9-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor have beings root in Me; behold My sovereign Yoga! The support of beings, yet not rooted in beings, My Self their efficient cause."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 6,
+      "sanskrit": "यथाकाशस्थितो नित्यं वायुः सर्वत्रगो महान् |\nतथा सर्वाणि भूतानि मत्स्थानीत्युपधारय ||९-६||",
+      "transliteration": "yathākāśasthito nityaṃ vāyuḥ sarvatrago mahān .\ntathā sarvāṇi bhūtāni matsthānītyupadhāraya ||9-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As the mighty air everywhere moving is rooted in the Ether, so all beings rest rooted in Me—thus know thou."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 7,
+      "sanskrit": "सर्वभूतानि कौन्तेय प्रकृतिं यान्ति मामिकाम् |\nकल्पक्षये पुनस्तानि कल्पादौ विसृजाम्यहम् ||९-७||",
+      "transliteration": "sarvabhūtāni kaunteya prakṛtiṃ yānti māmikām .\nkalpakṣaye punastāni kalpādau visṛjāmyaham ||9-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "All beings, O Kaunteya, enter my lower nature at the end of a world-age; at the beginning of a world-age again I emanate them."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 8,
+      "sanskrit": "प्रकृतिं स्वामवष्टभ्य विसृजामि पुनः पुनः |\nभूतग्राममिमं कृत्स्नमवशं प्रकृतेर्वशात् ||९-८||",
+      "transliteration": "prakṛtiṃ svāmavaṣṭabhya visṛjāmi punaḥ punaḥ .\nbhūtagrāmamimaṃ kṛtsnamavaśaṃ prakṛtervaśāt ||9-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Hidden in Nature, which is mine own, I emanate again and again all this multitude of beings, helpless, by the force of Nature."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 9,
+      "sanskrit": "न च मां तानि कर्माणि निबध्नन्ति धनञ्जय |\nउदासीनवदासीनमसक्तं तेषु कर्मसु ||९-९||",
+      "transliteration": "na ca māṃ tāni karmāṇi nibadhnanti dhanañjaya .\nudāsīnavadāsīnamasaktaṃ teṣu karmasu ||9-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor do these works bind me, O Dhananjaya, enthroned on high unattached to actions."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 10,
+      "sanskrit": "मयाध्यक्षेण प्रकृतिः सूयते सचराचरम् |\nहेतुनानेन कौन्तेय जगद्विपरिवर्तते ||९-१०||",
+      "transliteration": "mayādhyakṣeṇa prakṛtiḥ sūyate sacarācaram .\nhetunānena kaunteya jagadviparivartate ||9-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Under Me as supervisor, Nature sends forth the moving and unmoving: because of this, O Kaunteya, the universe revolves."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 11,
+      "sanskrit": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम् |\nपरं भावमजानन्तो मम भूतमहेश्वरम् ||९-११||",
+      "transliteration": "avajānanti māṃ mūḍhā mānuṣīṃ tanumāśritam .\nparaṃ bhāvamajānanto mama bhūtamaheśvaram ||9-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The foolish disregard Me, when clad in human semblance, ignorant of My supreme nature, the great Lord of beings;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 12,
+      "sanskrit": "मोघाशा मोघकर्माणो मोघज्ञाना विचेतसः |\nराक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः ||९-१२||",
+      "transliteration": "moghāśā moghakarmāṇo moghajñānā vicetasaḥ .\nrākṣasīmāsurīṃ caiva prakṛtiṃ mohinīṃ śritāḥ ||9-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Empty of hope, empty of deeds, empty of wisdom, senseless, partaking of the deceitful, brutal and demoniacal nature."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 13,
+      "sanskrit": "महात्मानस्तु मां पार्थ दैवीं प्रकृतिमाश्रिताः |\nभजन्त्यनन्यमनसो ज्ञात्वा भूतादिमव्ययम् ||९-१३||",
+      "transliteration": "mahātmānastu māṃ pārtha daivīṃ prakṛtimāśritāḥ .\nbhajantyananyamanaso jñātvā bhūtādimavyayam ||9-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Verily the Mahâtmâs, O Partha, partaking of My divine nature, worship with unwavering mind, having known Me, the imperishable source of beings."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 14,
+      "sanskrit": "सततं कीर्तयन्तो मां यतन्तश्च दृढव्रताः |\nनमस्यन्तश्च मां भक्त्या नित्ययुक्ता उपासते ||९-१४||",
+      "transliteration": "satataṃ kīrtayanto māṃ yatantaśca dṛḍhavratāḥ .\nnamasyantaśca māṃ bhaktyā nityayuktā upāsate ||9-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Always magnifying Me, strenuous, firm in vows, prostrating themselves before Me, they worship Me with devotion ever harmonised."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 15,
+      "sanskrit": "ज्ञानयज्ञेन चाप्यन्ये यजन्तो मामुपासते |\nएकत्वेन पृथक्त्वेन बहुधा विश्वतोमुखम् ||९-१५||",
+      "transliteration": "jñānayajñena cāpyanye yajanto māmupāsate .\nekatvena pṛthaktvena bahudhā viśvatomukham ||9-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Others also, sacrificing with the sacrifice of wisdom, worship Me as the One and the Manifold everywhere present."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 16,
+      "sanskrit": "अहं क्रतुरहं यज्ञः स्वधाहमहमौषधम् |\nमन्त्रोऽहमहमेवाज्यमहमग्निरहं हुतम् ||९-१६||",
+      "transliteration": "ahaṃ kraturahaṃ yajñaḥ svadhāhamahamauṣadham .\nmantro.ahamahamevājyamahamagnirahaṃ hutam ||9-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I the ablation; I the sacrifice; I the ancestral offering; I the fire-giving herb; the mantram I; I also the butter; I the fire; the burnt-offering I;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 17,
+      "sanskrit": "पिताहमस्य जगतो माता धाता पितामहः |\nवेद्यं पवित्रमोंकार ऋक्साम यजुरेव च ||९-१७||",
+      "transliteration": "pitāhamasya jagato mātā dhātā pitāmahaḥ .\nvedyaṃ pavitramoṃkāra ṛksāma yajureva ca ||9-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I the Father of this universe, the Mother, the Supporter, the Grandsire, the Holy one to be known, the Word of Power, and also the Rik, Sâma, and Yajur,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 18,
+      "sanskrit": "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत् |\nप्रभवः प्रलयः स्थानं निधानं बीजमव्ययम् ||९-१८||",
+      "transliteration": "gatirbhartā prabhuḥ sākṣī nivāsaḥ śaraṇaṃ suhṛt .\nprabhavaḥ pralayaḥ sthānaṃ nidhānaṃ bījamavyayam ||9-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Path, Husband, Lord, Witness, Abode, Shelter, Lover, Origin, Dissolution, Foundation, house, Seed imperishable."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 19,
+      "sanskrit": "तपाम्यहमहं वर्षं निगृह्णाम्युत्सृजामि च |\nअमृतं चैव मृत्युश्च सदसच्चाहमर्जुन ||९-१९||",
+      "transliteration": "tapāmyahamahaṃ varṣaṃ nigṛhṇāmyutsṛjāmi ca .\namṛtaṃ caiva mṛtyuśca sadasaccāhamarjuna ||9-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I give heat; I hold back and send forth the rain; immortality and also death, being and non-being am I, Arjuna."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 20,
+      "sanskrit": "त्रैविद्या मां सोमपाः पूतपापा\nयज्ञैरिष्ट्वा स्वर्गतिं प्रार्थयन्ते |\nते पुण्यमासाद्य सुरेन्द्रलोक-\nमश्नन्ति दिव्यान्दिवि देवभोगान् ||९-२०||",
+      "transliteration": "traividyā māṃ somapāḥ pūtapāpā yajñairiṣṭvā svargatiṃ prārthayante .\nte puṇyamāsādya surendralokaṃ aśnanti divyāndivi devabhogān ||9-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The knowers of the three, the Soma-drinkers, the purified from sin, worshipping Me with sacrifice, pray of Me the way to heaven; they, ascending to the holy world of the Ruler of the Shining Ones, eat in heaven the divine feasts of the Shining Ones."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 21,
+      "sanskrit": "ते तं भुक्त्वा स्वर्गलोकं विशालं\nक्षीणे पुण्ये मर्त्यलोकं विशन्ति |\nएवं त्रयीधर्ममनुप्रपन्ना\nगतागतं कामकामा लभन्ते ||९-२१||",
+      "transliteration": "te taṃ bhuktvā svargalokaṃ viśālaṃ kṣīṇe puṇye martyalokaṃ viśanti .\nevaṃ trayīdharmamanuprapannā gatāgataṃ kāmakāmā labhante ||9-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They, having enjoyed the spacious heaven-world, their holiness withered, come back to this world of death. Following the virtues enjoined by the three, desiring desires, they obtain the transitory."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 22,
+      "sanskrit": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते |\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ||९-२२||",
+      "transliteration": "ananyāścintayanto māṃ ye janāḥ paryupāsate .\nteṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham ||9-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "To those men who worship Me alone thinking of no other, to those ever harmonious, I bring full security."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 23,
+      "sanskrit": "येऽप्यन्यदेवता भक्ता यजन्ते श्रद्धयान्विताः |\nतेऽपि मामेव कौन्तेय यजन्त्यविधिपूर्वकम् ||९-२३||",
+      "transliteration": "ye.apyanyadevatābhaktā yajante śraddhayānvitāḥ .\nte.api māmeva kaunteya yajantyavidhipūrvakam ||9-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Even the devotees of other Shining Ones, who worship full of faith, they also worship Me, O son of Kuntî, though contrary to the ancient rule."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 24,
+      "sanskrit": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च |\nन तु मामभिजानन्ति तत्त्वेनातश्च्यवन्ति ते ||९-२४||",
+      "transliteration": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhureva ca .\nna tu māmabhijānanti tattvenātaścyavanti te ||9-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I am indeed the enjoyer of all sacrifices and also the Lord, but they know Me not in Essence, and hence they fall."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 25,
+      "sanskrit": "यान्ति देवव्रता देवान्पितॄन्यान्ति पितृव्रताः |\nभूतानि यान्ति भूतेज्या यान्ति मद्याजिनोऽपि माम् ||९-२५||",
+      "transliteration": "yānti devavratā devānpitṝnyānti pitṛvratāḥ .\nbhūtāni yānti bhūtejyā yānti madyājino.api mām ||9-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They who worship the Shining Ones go to the Shining Ones; to the Ancestors go the Ancestor-worshippers; to the Elements go those who sacrifice to Elementals; but My worshippers come unto Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 26,
+      "sanskrit": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति |\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ||९-२६||",
+      "transliteration": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati .\ntadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ ||9-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who offereth to Me with devotion a leaf, a flower, a fruit, water, that I accept from the striving self, offered as it is with devotion."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 27,
+      "sanskrit": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् |\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ||९-२७||",
+      "transliteration": "yatkaroṣi yadaśnāsi yajjuhoṣi dadāsi yat .\nyattapasyasi kaunteya tatkuruṣva madarpaṇam ||9-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Whatsoever thou doest, whatsoever thou eatest, whatsoever thou offerest, whatsoever thou givest, whatsoever thou doest of austerity, O Kaunteya, do thou that as an offering unto Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 28,
+      "sanskrit": "शुभाशुभफलैरेवं मोक्ष्यसे कर्मबन्धनैः |\nसंन्यासयोगयुक्तात्मा विमुक्तो मामुपैष्यसि ||९-२८||",
+      "transliteration": "śubhāśubhaphalairevaṃ mokṣyase karmabandhanaiḥ .\nsaṃnyāsayogayuktātmā vimukto māmupaiṣyasi ||9-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Thus shalt thou be liberated from the bonds of action, yielding good and evil fruits; thyself harmonised by the yoga of renunciation, thou shalt come unto Me when set free."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 29,
+      "sanskrit": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः |\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ||९-२९||",
+      "transliteration": "samo.ahaṃ sarvabhūteṣu na me dveṣyo.asti na priyaḥ .\nye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham ||9-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The same am I to all beings; there is none hateful to Me nor dear. They verily who worship Me with devotion, they are in Me, and I also in them."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:30",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 30,
+      "sanskrit": "अपि चेत्सुदुराचारो भजते मामनन्यभाक् |\nसाधुरेव स मन्तव्यः सम्यग्व्यवसितो हि सः ||९-३०||",
+      "transliteration": "api cetsudurācāro bhajate māmananyabhāk .\nsādhureva sa mantavyaḥ samyagvyavasito hi saḥ ||9-30||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Even if the most sinful worship Me, with un divided heart, he too must be accounted righteous, for he hath rightly resolved;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:31",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 31,
+      "sanskrit": "क्षिप्रं भवति धर्मात्मा शश्वच्छान्तिं निगच्छति |\nकौन्तेय प्रतिजानीहि न मे भक्तः प्रणश्यति ||९-३१||",
+      "transliteration": "kṣipraṃ bhavati dharmātmā śaśvacchāntiṃ nigacchati .\nkaunteya pratijānīhi na me bhaktaḥ praṇaśyati ||9-31||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Speedily he becometh dutiful and goeth to eternal peace; O Kaunteya, know thou for certain that My devotee perisheth never."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:32",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 32,
+      "sanskrit": "मां हि पार्थ व्यपाश्रित्य येऽपि स्युः पापयोनयः |\nस्त्रियो वैश्यास्तथा शूद्रास्तेऽपि यान्ति परां गतिम् ||९-३२||",
+      "transliteration": "māṃ hi pārtha vyapāśritya ye.api syuḥ pāpayonayaḥ .\nstriyo vaiśyāstathā śūdrāste.api yānti parāṃ gatim ||9-32||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They who take refuge with Me, O Partha, though of the womb of sin, women, Vaishyas, even Shûdras, they also tread the highest path."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:33",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 33,
+      "sanskrit": "किं पुनर्ब्राह्मणाः पुण्या भक्ता राजर्षयस्तथा |\nअनित्यमसुखं लोकमिमं प्राप्य भजस्व माम् ||९-३३||",
+      "transliteration": "kiṃ punarbrāhmaṇāḥ puṇyā bhaktā rājarṣayastathā .\nanityamasukhaṃ lokamimaṃ prāpya bhajasva mām ||9-33||",
+      "word_meanings": [],
+      "translations": {
+        "en": "How much rather then holy Brâhmanas and devoted royal saints; having obtained this transient joyless world, worship thou Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:9:34",
+      "scripture": "bhagavad-gita",
+      "chapter": 9,
+      "verse": 34,
+      "sanskrit": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु |\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ||९-३४||",
+      "transliteration": "manmanā bhava madbhakto madyājī māṃ namaskuru .\nmāmevaiṣyasi yuktvaivamātmānaṃ matparāyaṇaḥ ||9-34||",
+      "word_meanings": [],
+      "translations": {
+        "en": "On Me fix thy mind, be devoted to Me; sacrifice to Me; prostrate thyself before Me; harmonised thus in the Self, thou shalt come unto Me, having Me as thy supreme goal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

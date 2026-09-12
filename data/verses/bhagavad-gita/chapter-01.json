@@ -1,0 +1,962 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 1,
+  "title": {
+    "en": "Arjuna Vishada Yoga — The Yoga of Arjuna's Despondency",
+    "hu": "Ardzsuna-visáda-jóga — Ardzsuna kétségbeesésének jógája",
+    "hi": "अर्जुनविषादयोग"
+  },
+  "titleSanskrit": "अर्जुनविषादयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:16:03.617Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:1:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 1,
+      "sanskrit": "धृतराष्ट्र उवाच |\nधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |\nमामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||१-१||",
+      "transliteration": "dhṛtarāṣṭra uvāca .\ndharmakṣetre kurukṣetre samavetā yuyutsavaḥ .\nmāmakāḥ pāṇḍavāścaiva kimakurvata sañjaya ||1-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Dhritarâshtra said: On the holy plain, on the field of Kuru, gathered together, eager for battle, what did they, O Sanjaya, my people and the Pândavas?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 2,
+      "sanskrit": "सञ्जय उवाच |\nदृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा |\nआचार्यमुपसंगम्य राजा वचनमब्रवीत् ||१-२||",
+      "transliteration": "sañjaya uvāca .\ndṛṣṭvā tu pāṇḍavānīkaṃ vyūḍhaṃ duryodhanastadā .\nācāryamupasaṃgamya rājā vacanamabravīt ||1-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Sanjaya said: Having seen arrayed the army of the Pândavas, the Prince Duryodhana approached his teacher, and spake these words:"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 3,
+      "sanskrit": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् |\nव्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ||१-३||",
+      "transliteration": "paśyaitāṃ pāṇḍuputrāṇāmācārya mahatīṃ camūm .\nvyūḍhāṃ drupadaputreṇa tava śiṣyeṇa dhīmatā ||1-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"Behold this mighty host of the sons of Pându, O teacher, arrayed by the son of Drupada, thy wise disciple."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 4,
+      "sanskrit": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि |\nयुयुधानो विराटश्च द्रुपदश्च महारथः ||१-४||",
+      "transliteration": "atra śūrā maheṣvāsā bhīmārjunasamā yudhi .\nyuyudhāno virāṭaśca drupadaśca mahārathaḥ ||1-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Heroes are these, mighty bowmen, to Bhîma and Arjuna equal in battle: Yuyudhâna, Virâta, and Drupada of the great car."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 5,
+      "sanskrit": "धृष्टकेतुश्चेकितानः काशिराजश्च वीर्यवान् |\nपुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुंगवः ||१-५||",
+      "transliteration": "dhṛṣṭaketuścekitānaḥ kāśirājaśca vīryavān .\npurujitkuntibhojaśca śaibyaśca narapuṃgavaḥ ||1-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Drishtaketu, Chekitâna and the valiant King of Kâshi, Purujit and Kuntibhoja, and Shaivya, bull among men;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 6,
+      "sanskrit": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान् |\nसौभद्रो द्रौपदेयाश्च सर्व एव महारथाः ||१-६||",
+      "transliteration": "yudhāmanyuśca vikrānta uttamaujāśca vīryavān .\nsaubhadro draupadeyāśca sarva eva mahārathāḥ ||1-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yudhâmanyu the strong, and Uttamaujas the brave; Saubhadra and the Draupadeyas, all of great cars."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 7,
+      "sanskrit": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम |\nनायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते ||१-७||",
+      "transliteration": "asmākaṃ tu viśiṣṭā ye tānnibodha dvijottama .\nnāyakā mama sainyasya saṃjñārthaṃ tānbravīmi te ||1-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Know further all those who are our chiefs, O best of the twice-born, the leaders of my army; these I name to thee for thy information:"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 8,
+      "sanskrit": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जयः |\nअश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च ||१-८||",
+      "transliteration": "bhavānbhīṣmaśca karṇaśca kṛpaśca samitiñjayaḥ .\naśvatthāmā vikarṇaśca saumadattistathaiva ca ||1-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Thou, Lord, and Bhîshma, and Karna and Kripa, conquering in battle; Ashvatthâmâ, Vikarna, and Saumadatti also;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 9,
+      "sanskrit": "अन्ये च बहवः शूरा मदर्थे त्यक्तजीविताः |\nनानाशस्त्रप्रहरणाः सर्वे युद्धविशारदाः ||१-९||",
+      "transliteration": "anye ca bahavaḥ śūrā madarthe tyaktajīvitāḥ .\nnānāśastrapraharaṇāḥ sarve yuddhaviśāradāḥ ||1-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And many others, heroes, for my sake renouncing their lives, with divers weapons and missiles, and all well-skilled in war."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 10,
+      "sanskrit": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् |\nपर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम् ||१-१०||",
+      "transliteration": "aparyāptaṃ tadasmākaṃ balaṃ bhīṣmābhirakṣitam .\nparyāptaṃ tvidameteṣāṃ balaṃ bhīmābhirakṣitam ||1-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yet insufficient seems this army of ours, though marshalled by Bhîshma, while that army of theirs seems sufficient, though marshalled by Bhîma;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 11,
+      "sanskrit": "अयनेषु च सर्वेषु यथाभागमवस्थिताः |\nभीष्ममेवाभिरक्षन्तु भवन्तः सर्व एव हि ||१-११||",
+      "transliteration": "ayaneṣu ca sarveṣu yathābhāgamavasthitāḥ .\nbhīṣmamevābhirakṣantu bhavantaḥ sarva eva hi ||1-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore in the rank and file let all, standing firmly in their respective divisions, guard Bhîshma, even all ye generals."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 12,
+      "sanskrit": "तस्य सञ्जनयन्हर्षं कुरुवृद्धः पितामहः |\nसिंहनादं विनद्योच्चैः शङ्खं दध्मौ प्रतापवान् ||१-१२||",
+      "transliteration": "tasya sañjanayanharṣaṃ kuruvṛddhaḥ pitāmahaḥ .\nsiṃhanādaṃ vinadyoccaiḥ śaṅkhaṃ dadhmau pratāpavān ||1-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "To enhearten him, the Ancient of the Kurus, the Grandsire, the glorious, blew his conch, sounding on high a lion's roar."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 13,
+      "sanskrit": "ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः |\nसहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् ||१-१३||",
+      "transliteration": "tataḥ śaṅkhāśca bheryaśca paṇavānakagomukhāḥ .\nsahasaivābhyahanyanta sa śabdastumulo.abhavat ||1-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Then conches and kettledrums, tabors and drums and cowhorns, suddenly blared forth, and the sound was tumultuous."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 14,
+      "sanskrit": "ततः श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ |\nमाधवः पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतुः ||१-१४||",
+      "transliteration": "tataḥ śvetairhayairyukte mahati syandane sthitau .\nmādhavaḥ pāṇḍavaścaiva divyau śaṅkhau pradadhmatuḥ ||1-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Then, stationed in their great war-chariot, yoked to white horses, Mâdhava and the son of Pându blew their divine conches."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 15,
+      "sanskrit": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जयः |\nपौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदरः ||१-१५||",
+      "transliteration": "pāñcajanyaṃ hṛṣīkeśo devadattaṃ dhanañjayaḥ .\npauṇḍraṃ dadhmau mahāśaṅkhaṃ bhīmakarmā vṛkodaraḥ ||1-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Pânchajanya by Hrishîkesha, and Devadatta by Dhananjaya. Vrikodara of terrible deeds blew his mighty conch, Paundra;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 16,
+      "sanskrit": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिरः |\nनकुलः सहदेवश्च सुघोषमणिपुष्पकौ ||१-१६||",
+      "transliteration": "anantavijayaṃ rājā kuntīputro yudhiṣṭhiraḥ .\nnakulaḥ sahadevaśca sughoṣamaṇipuṣpakau ||1-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The King Yudhishthira, the son of Kuntî, blew Anantavijaya; Nakula and Sahadeva, Sughosha and Manipushpaka."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 17,
+      "sanskrit": "काश्यश्च परमेष्वासः शिखण्डी च महारथः |\nधृष्टद्युम्नो विराटश्च सात्यकिश्चापराजितः ||१-१७||",
+      "transliteration": "kāśyaśca parameṣvāsaḥ śikhaṇḍī ca mahārathaḥ .\ndhṛṣṭadyumno virāṭaśca sātyakiścāparājitaḥ ||1-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And Kâshya, of the great bow and Shikhandî, the mighty car-warrior, Drishtadyumna and Virâta and Sâtyaki, the unconquered."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 18,
+      "sanskrit": "द्रुपदो द्रौपदेयाश्च सर्वशः पृथिवीपते |\nसौभद्रश्च महाबाहुः शङ्खान्दध्मुः पृथक्पृथक् ||१-१८||",
+      "transliteration": "drupado draupadeyāśca sarvaśaḥ pṛthivīpate .\nsaubhadraśca mahābāhuḥ śaṅkhāndadhmuḥ pṛthakpṛthak ||1-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Drupada and the Draupadeyas, O Lord of earth, and Saubhadra, the mighty-armed, on all sides their several conches blew."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 19,
+      "sanskrit": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत् |\nनभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन् (or लोव्यनु) ||१-१९||",
+      "transliteration": "sa ghoṣo dhārtarāṣṭrāṇāṃ hṛdayāni vyadārayat .\nnabhaśca pṛthivīṃ caiva tumulo.abhyanunādayan (lo vyanu)||1-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That tumultuous uproar rent the hearts of the sons of Dhritarâshtra, filling the earth and sky with sound."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 20,
+      "sanskrit": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान् कपिध्वजः |\nप्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डवः |\nहृषीकेशं तदा वाक्यमिदमाह महीपते ||१-२०||",
+      "transliteration": "atha vyavasthitāndṛṣṭvā dhārtarāṣṭrān kapidhvajaḥ .\npravṛtte śastrasampāte dhanurudyamya pāṇḍavaḥ ||1-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Then, beholding the sons of Dhritarâshtra standing arrayed, and flight of missiles about to begin, he whose crest is an ape, the son of Pându, took up his bow,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 21,
+      "sanskrit": "अर्जुन उवाच |\nसेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत ||१-२१||",
+      "transliteration": "hṛṣīkeśaṃ tadā vākyamidamāha mahīpate .\narjuna uvāca .\nsenayorubhayormadhye rathaṃ sthāpaya me.acyuta ||1-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And spake this word to Hrishîkesha, O Lord of Earth: Arjuna said: In the midst, between the two armies, stay my chariot, O Achyuta,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 22,
+      "sanskrit": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान् |\nकैर्मया सह योद्धव्यमस्मिन् रणसमुद्यमे ||१-२२||",
+      "transliteration": "yāvadetānnirikṣe.ahaṃ yoddhukāmānavasthitān .\nkairmayā saha yoddhavyamasmin raṇasamudyame ||1-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That I may behold these standing, longing for battle, with whom I must strive in this outbreaking war,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 23,
+      "sanskrit": "योत्स्यमानानवेक्षेऽहं य एतेऽत्र समागताः |\nधार्तराष्ट्रस्य दुर्बुद्धेर्युद्धे प्रियचिकीर्षवः ||१-२३||",
+      "transliteration": "yotsyamānānavekṣe.ahaṃ ya ete.atra samāgatāḥ .\ndhārtarāṣṭrasya durbuddheryuddhe priyacikīrṣavaḥ ||1-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And gaze on those here gathered together ready to fight, desirous of pleasing in battle the evil-minded son of Dhritarâshtra."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 24,
+      "sanskrit": "सञ्जय उवाच |\nएवमुक्तो हृषीकेशो गुडाकेशेन भारत |\nसेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम् ||१-२४||",
+      "transliteration": "sañjaya uvāca .\nevamukto hṛṣīkeśo guḍākeśena bhārata .\nsenayorubhayormadhye sthāpayitvā rathottamam ||1-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Sanjaya said: Thus addressed by Gudâkesha, Hrishîkesha, O Bhârata, having stayed that best of chariots in the midst, between the two armies,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 25,
+      "sanskrit": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम् |\nउवाच पार्थ पश्यैतान्समवेतान्कुरूनिति ||१-२५||",
+      "transliteration": "bhīṣmadroṇapramukhataḥ sarveṣāṃ ca mahīkṣitām .\nuvāca pārtha paśyaitānsamavetānkurūniti ||1-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Over against Bhîshma, Drona and all the rulers of the world, said: \"O Pârtha, behold these Kurus gathered together.\""
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 26,
+      "sanskrit": "तत्रापश्यत्स्थितान्पार्थः पितॄनथ पितामहान् |\nआचार्यान्मातुलान्भ्रातॄन्पुत्रान्पौत्रान्सखींस्तथा ||१-२६||",
+      "transliteration": "tatrāpaśyatsthitānpārthaḥ pitṝnatha pitāmahān .\nācāryānmātulānbhrātṛnputrānpautrānsakhīṃstathā ||1-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Then saw Pârtha standing there, uncles and grandfathers, teachers, mother's brothers, cousins, sons and grandsons, comrades,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 27,
+      "sanskrit": "श्वशुरान्सुहृदश्चैव सेनयोरुभयोरपि |\nतान्समीक्ष्य स कौन्तेयः सर्वान्बन्धूनवस्थितान् ||१-२७||",
+      "transliteration": "śvaśurānsuhṛdaścaiva senayorubhayorapi .\ntānsamīkṣya sa kaunteyaḥ sarvānbandhūnavasthitān ||1-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Fathers-in-law and benefactors also in both armies; seeing all these kinsmen thus standing arrayed, Kaunteya,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 28,
+      "sanskrit": "कृपया परयाविष्टो विषीदन्निदमब्रवीत् |\nअर्जुन उवाच |\nदृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम् ||१-२८||",
+      "transliteration": "kṛpayā parayāviṣṭo viṣīdannidamabravīt .\narjuna uvāca .\ndṛṣṭvemaṃ svajanaṃ kṛṣṇa yuyutsuṃ samupasthitam ||1-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Deeply moved to pity, thus uttered in sadness: Arjuna said: Seeing these my kinsmen, O Krishna, arrayed, eager to fight,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 29,
+      "sanskrit": "सीदन्ति मम गात्राणि मुखं च परिशुष्यति |\nवेपथुश्च शरीरे मे रोमहर्षश्च जायते ||१-२९||",
+      "transliteration": "sīdanti mama gātrāṇi mukhaṃ ca pariśuṣyati .\nvepathuśca śarīre me romaharṣaśca jāyate ||1-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "My limbs fail and my mouth is parched, my body quivers, and my hair stands on end,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:30",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 30,
+      "sanskrit": "गाण्डीवं स्रंसते हस्तात्त्वक्चैव परिदह्यते |\nन च शक्नोम्यवस्थातुं भ्रमतीव च मे मनः ||१-३०||",
+      "transliteration": "gāṇḍīvaṃ sraṃsate hastāttvakcaiva paridahyate .\nna ca śaknomyavasthātuṃ bhramatīva ca me manaḥ ||1-30||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Gândîva slips from my hand, and my skin burns all over, I am not able to stand, my mind is whirling,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:31",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 31,
+      "sanskrit": "निमित्तानि च पश्यामि विपरीतानि केशव |\nन च श्रेयोऽनुपश्यामि हत्वा स्वजनमाहवे ||१-३१||",
+      "transliteration": "nimittāni ca paśyāmi viparītāni keśava .\nna ca śreyo.anupaśyāmi hatvā svajanamāhave ||1-31||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And I see adverse omens, O Keshava. Nor do I foresee any advantage from slaying kinsmen in battle."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:32",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 32,
+      "sanskrit": "न काङ्क्षे विजयं कृष्ण न च राज्यं सुखानि च |\nकिं नो राज्येन गोविन्द किं भोगैर्जीवितेन वा ||१-३२||",
+      "transliteration": "na kāṅkṣe vijayaṃ kṛṣṇa na ca rājyaṃ sukhāni ca .\nkiṃ no rājyena govinda kiṃ bhogairjīvitena vā ||1-32||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For I desire not victory, O Krishna, nor kingdom, nor pleasures; what is kingdom to us, O Govinda, what enjoyment or even life?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:33",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 33,
+      "sanskrit": "येषामर्थे काङ्क्षितं नो राज्यं भोगाः सुखानि च |\nत इमेऽवस्थिता युद्धे प्राणांस्त्यक्त्वा धनानि च ||१-३३||",
+      "transliteration": "yeṣāmarthe kāṅkṣitaṃ no rājyaṃ bhogāḥ sukhāni ca .\nta ime.avasthitā yuddhe prāṇāṃstyaktvā dhanāni ca ||1-33||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Those for whose sake we desire kingdom, enjoyments and pleasures, they stand here in battle, abandoning life and riches—"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:34",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 34,
+      "sanskrit": "आचार्याः पितरः पुत्रास्तथैव च पितामहाः |\nमातुलाः श्वशुराः पौत्राः श्यालाः सम्बन्धिनस्तथा ||१-३४||",
+      "transliteration": "ācāryāḥ pitaraḥ putrāstathaiva ca pitāmahāḥ .\nmātulāḥ śvaśurāḥ pautrāḥ śyālāḥ sambandhinastathā ||1-34||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Teachers, fathers, sons, as well as grandfathers, mother's brothers, fathers-in-law, grandsons, brothers-in-law, and other relatives."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:35",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 35,
+      "sanskrit": "एतान्न हन्तुमिच्छामि घ्नतोऽपि मधुसूदन |\nअपि त्रैलोक्यराज्यस्य हेतोः किं नु महीकृते ||१-३५||",
+      "transliteration": "etānna hantumicchāmi ghnato.api madhusūdana .\napi trailokyarājyasya hetoḥ kiṃ nu mahīkṛte ||1-35||",
+      "word_meanings": [],
+      "translations": {
+        "en": "These I do not wish to kill, though myself slain, O Madhusûdana, even for the sake of the kingship of the three worlds; how then for earth?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:36",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 36,
+      "sanskrit": "निहत्य धार्तराष्ट्रान्नः का प्रीतिः स्याज्जनार्दन |\nपापमेवाश्रयेदस्मान्हत्वैतानाततायिनः ||१-३६||",
+      "transliteration": "nihatya dhārtarāṣṭrānnaḥ kā prītiḥ syājjanārdana .\npāpamevāśrayedasmānhatvaitānātatāyinaḥ ||1-36||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Slaying these sons of Dhritarâshtra, what pleasure can be ours, O Janârdana? Killing these desperadoes, sin will but take hold of us."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:37",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 37,
+      "sanskrit": "तस्मान्नार्हा वयं हन्तुं धार्तराष्ट्रान्स्वबान्धवान् |\nस्वजनं हि कथं हत्वा सुखिनः स्याम माधव ||१-३७||",
+      "transliteration": "tasmānnārhā vayaṃ hantuṃ dhārtarāṣṭrānsvabāndhavān .\nsvajanaṃ hi kathaṃ hatvā sukhinaḥ syāma mādhava ||1-37||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore we should not kill the sons of Dhritarâshtra, our relatives; for how, killing our kinsmen, may we be happy, O Mâdhava?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:38",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 38,
+      "sanskrit": "यद्यप्येते न पश्यन्ति लोभोपहतचेतसः |\nकुलक्षयकृतं दोषं मित्रद्रोहे च पातकम् ||१-३८||",
+      "transliteration": "yadyapyete na paśyanti lobhopahatacetasaḥ .\nkulakṣayakṛtaṃ doṣaṃ mitradrohe ca pātakam ||1-38||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Although these, with intelligence overpowered by greed, see no guilt in the destruction of a family, no crime in hostility to friends,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:39",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 39,
+      "sanskrit": "कथं न ज्ञेयमस्माभिः पापादस्मान्निवर्तितुम् |\nकुलक्षयकृतं दोषं प्रपश्यद्भिर्जनार्दन ||१-३९||",
+      "transliteration": "kathaṃ na jñeyamasmābhiḥ pāpādasmānnivartitum .\nkulakṣayakṛtaṃ doṣaṃ prapaśyadbhirjanārdana ||1-39||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Why should not we learn to turn away from such a sin, O Janârdana, who see the evils in the destruction of a family?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:40",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 40,
+      "sanskrit": "कुलक्षये प्रणश्यन्ति कुलधर्माः सनातनाः |\nधर्मे नष्टे कुलं कृत्स्नमधर्मोऽभिभवत्युत ||१-४०||",
+      "transliteration": "kulakṣaye praṇaśyanti kuladharmāḥ sanātanāḥ .\ndharme naṣṭe kulaṃ kṛtsnamadharmo.abhibhavatyuta ||1-40||",
+      "word_meanings": [],
+      "translations": {
+        "en": "In the destruction of a family the immemorial family traditions perish; in the perishing of tradition, lawlessness overcomes the whole family;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:41",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 41,
+      "sanskrit": "अधर्माभिभवात्कृष्ण प्रदुष्यन्ति कुलस्त्रियः |\nस्त्रीषु दुष्टासु वार्ष्णेय जायते वर्णसङ्करः ||१-४१||",
+      "transliteration": "adharmābhibhavātkṛṣṇa praduṣyanti kulastriyaḥ .\nstrīṣu duṣṭāsu vārṣṇeya jāyate varṇasaṅkaraḥ ||1-41||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Owing to predominance of lawlessness, O Krishna, the women of the family become corrupt; women corrupted, O Vârshneya, there ariseth caste confusion;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:42",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 42,
+      "sanskrit": "सङ्करो नरकायैव कुलघ्नानां कुलस्य च |\nपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः ||१-४२||",
+      "transliteration": "saṅkaro narakāyaiva kulaghnānāṃ kulasya ca .\npatanti pitaro hyeṣāṃ luptapiṇḍodakakriyāḥ ||1-42||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This confusion draggeth to hell the slayers of the family, and the family; for their ancestors fall, deprived of rice-balls and libations."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:43",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 43,
+      "sanskrit": "दोषैरेतैः कुलघ्नानां वर्णसङ्करकारकैः |\nउत्साद्यन्ते जातिधर्माः कुलधर्माश्च शाश्वताः ||१-४३||",
+      "transliteration": "doṣairetaiḥ kulaghnānāṃ varṇasaṅkarakārakaiḥ .\nutsādyante jātidharmāḥ kuladharmāśca śāśvatāḥ ||1-43||",
+      "word_meanings": [],
+      "translations": {
+        "en": "By these caste-confusing misdeeds of the slayers of the family, the everlasting caste customs and family customs are abolished."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:44",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 44,
+      "sanskrit": "उत्सन्नकुलधर्माणां मनुष्याणां जनार्दन |\nनरके नियतं वासो भवतीत्यनुशुश्रुम (or नरकेऽनियतं) ||१-४४||",
+      "transliteration": "utsannakuladharmāṇāṃ manuṣyāṇāṃ janārdana .\nnarake niyataṃ vāso bhavatītyanuśuśruma ||1-44||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The abode of the men whose family customs are extinguished, O Janârdana, is everlastingly in hell. Thus have we heard."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:45",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 45,
+      "sanskrit": "अहो बत महत्पापं कर्तुं व्यवसिता वयम् |\nयद्राज्यसुखलोभेन हन्तुं स्वजनमुद्यताः ||१-४५||",
+      "transliteration": "aho bata mahatpāpaṃ kartuṃ vyavasitā vayam .\nyadrājyasukhalobhena hantuṃ svajanamudyatāḥ ||1-45||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Alas! in committing a great sin are we engaged, we who are endeavouring to kill our kindred from greed of the pleasures of kingship."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:46",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 46,
+      "sanskrit": "यदि मामप्रतीकारमशस्त्रं शस्त्रपाणयः |\nधार्तराष्ट्रा रणे हन्युस्तन्मे क्षेमतरं भवेत् ||१-४६||",
+      "transliteration": "yadi māmapratīkāramaśastraṃ śastrapāṇayaḥ .\ndhārtarāṣṭrā raṇe hanyustanme kṣemataraṃ bhavet ||1-46||",
+      "word_meanings": [],
+      "translations": {
+        "en": "If the sons of Dhritarâshtra, weapon in hand, should slay me, unresisting, unarmed, in the battle, that would for me be the better."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:1:47",
+      "scripture": "bhagavad-gita",
+      "chapter": 1,
+      "verse": 47,
+      "sanskrit": "सञ्जय उवाच |\nएवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् |\nविसृज्य सशरं चापं शोकसंविग्नमानसः ||१-४७||",
+      "transliteration": "sañjaya uvāca .\nevamuktvārjunaḥ saṅkhye rathopastha upāviśat .\nvisṛjya saśaraṃ cāpaṃ śokasaṃvignamānasaḥ ||1-47||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Sanjaya said: Having thus spoken on the battle-field, Arjuna sank down on the seat of the chariot, casting away his bow and arrow, his mind overborne by grief."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

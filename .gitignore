@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Gita Counsel ---------------------------------------------------------
+
+# Python virtualenv for the embedding pipeline
+/.venv/
+
+# Hugging Face model weights (~2.2GB). Pinned inside the project via HF_HOME
+# so nothing this project downloads lands in the user's home cache.
+/.hf-cache/
+
+# The vector store IS committed, deliberately.
+#
+# It is generated (npm run embed:index) and normally that means "do not
+# commit" — but the running app cannot answer anything on /chat or /search
+# without it, and rebuilding it at deploy time means downloading ~1GB of model
+# weights during the build. Five megabytes in the repository is the cheaper
+# trade by a wide margin.
+#
+# It must be regenerated and re-committed whenever the corpus changes, or
+# retrieval quietly matches text that is no longer there. `npm run ship:check`
+# fails if the index and the corpus have drifted apart.
+
+# SQLite database and Prisma migration artifacts
+/prisma/*.db
+/prisma/*.db-journal
+/prisma/dev.db*
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Generated translator worklists (npm run data:worklist)
+worklist-*.md

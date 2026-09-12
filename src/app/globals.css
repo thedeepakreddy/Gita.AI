@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /*
+   * TYPE.
+   *
+   * Two families, used for two jobs. The interface is a sans — labels,
+   * navigation, controls, anything the reader operates. Scripture and the
+   * headings above it are a serif, because this is a book before it is an app,
+   * and a translation of the Gita set in the same font as a "Save" button reads
+   * like documentation.
+   *
+   * Both are system stacks. No webfont is downloaded: the app has to work
+   * offline on /study, and a 200KB font is a strange thing to make someone wait
+   * for before they can read a verse.
+   */
+  :root {
+    --font-sans:
+      ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+      'Noto Sans', 'Noto Sans Devanagari', 'Nirmala UI', 'Kohinoor Devanagari',
+      Mangal, sans-serif;
+
+    --font-serif:
+      Charter, 'Bitstream Charter', 'Iowan Old Style', 'Sitka Text', Cambria,
+      Georgia, 'Times New Roman', serif;
+
+    /*
+     * One accent, and a quiet one. The previous amber-600 was a saturated
+     * orange carrying filled buttons, headings, links and labels all at once —
+     * loud, and the loudest thing on a page is what a reader reads as most
+     * important. This is closer to old gold: it reads as an accent rather than
+     * an alarm, and it is used on small things.
+     */
+    --accent: 45 86% 62%;
+    --accent-dim: 42 40% 72%;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /*
+   * Focus is never removed, only restyled. Several components used
+   * `focus:outline-none` with nothing in its place, which leaves anyone
+   * navigating by keyboard with no idea where they are.
+   */
+  :focus-visible {
+    outline: 2px solid hsl(var(--accent) / 0.85);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Devanagari needs more line height than Latin to avoid clipped matras. */
+  .font-devanagari {
+    font-family:
+      'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Nirmala UI',
+      'Kohinoor Devanagari', Mangal, serif;
+    line-height: 1.9;
+  }
+
+  /* IAST diacritics (ṛ ṣ ṭ ḥ ṃ ā ī ū) render best in a serif with full coverage. */
+  .font-iast {
+    font-family: 'Gentium Plus', 'Charis SIL', var(--font-serif);
+    font-style: italic;
+  }
+
+  .font-serif-text {
+    font-family: var(--font-serif);
+  }
+}
+
+@layer components {
+  /*
+   * THE READING SURFACE.
+   *
+   * Long-form text does not sit directly on the artwork. It cannot: the scrim
+   * that makes a paragraph legible over a bright Kalighat leaf has to be so
+   * heavy that the painting turns to mud, and then neither the art nor the
+   * reading is any good.
+   *
+   * So the two are separated. Hero pages let the art through behind a light
+   * panel; reading pages get this — a calm, near-opaque surface with the art
+   * showing at the margins. It is the same decision a printed book makes by
+   * putting the plate on its own page.
+   */
+  .surface {
+    background: linear-gradient(
+      hsl(20 14% 4% / 0.94),
+      hsl(20 14% 4% / 0.97)
+    );
+    border: 1px solid hsl(0 0% 100% / 0.07);
+    box-shadow:
+      0 1px 0 hsl(0 0% 100% / 0.04) inset,
+      0 24px 64px -24px hsl(0 0% 0% / 0.7);
+  }
+
+  /* The lighter treatment, for hero panels where the art should read through. */
+  .surface-glass {
+    background: hsl(20 14% 4% / 0.62);
+    backdrop-filter: blur(16px);
+    border: 1px solid hsl(0 0% 100% / 0.09);
+    box-shadow: 0 24px 64px -24px hsl(0 0% 0% / 0.6);
+  }
+
+  .accent {
+    color: hsl(var(--accent));
+  }
+
+  /*
+   * One button, two weights. Every screen had its own hand-rolled combination
+   * of padding, radius and colour; this is the whole vocabulary.
+   */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+  }
+
+  .btn-primary {
+    background: hsl(var(--accent) / 0.92);
+    color: hsl(20 14% 6%);
+    font-weight: 600;
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: hsl(var(--accent));
+  }
+
+  .btn-quiet {
+    border: 1px solid hsl(0 0% 100% / 0.14);
+    color: hsl(0 0% 100% / 0.85);
+  }
+  .btn-quiet:hover:not(:disabled) {
+    background: hsl(0 0% 100% / 0.07);
+    border-color: hsl(0 0% 100% / 0.22);
+  }
+
+  .btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  /* Small uppercase label, for section headers and verse numbers. */
+  .eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: hsl(var(--accent) / 0.9);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+@media print {
+  html {
+    background: #fff;
+  }
+
+  body {
+    height: auto !important;
+    overflow: visible !important;
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  /* The fixed background image, the header and the conversation sidebar. */
+  header,
+  aside,
+  form,
+  .fixed {
+    display: none !important;
+  }
+
+  /* Panels lose their glass; text goes black on white. */
+  * {
+    color: #111 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Keep the speaker distinction that the colours were carrying. */
+  [class*="justify-end"] > div {
+    border: 1px solid #999 !important;
+    border-radius: 6px;
+  }
+
+  section,
+  div {
+    overflow: visible !important;
+  }
+
+  a[href]::after {
+    content: "";
+  }
+}

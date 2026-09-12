@@ -1,0 +1,962 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 6,
+  "title": {
+    "en": "Atma Samyama Yoga — The Yoga of Self-Mastery",
+    "hu": "Átma-szanjama-jóga — Az önuralom jógája",
+    "hi": "आत्मसंयमयोग"
+  },
+  "titleSanskrit": "आत्मसंयमयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:18:00.517Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:6:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nअनाश्रितः कर्मफलं कार्यं कर्म करोति यः |\nस संन्यासी च योगी च न निरग्निर्न चाक्रियः ||६-१||",
+      "transliteration": "śrībhagavānuvāca .\nanāśritaḥ karmaphalaṃ kāryaṃ karma karoti yaḥ .\nsa saṃnyāsī ca yogī ca na niragnirna cākriyaḥ ||6-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: He that performeth such action as his duty, independently of the fruit of action, he is an ascetic, he is a Yogî, not he that is without fire, and without rites."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 2,
+      "sanskrit": "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव |\nन ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन ||६-२||",
+      "transliteration": "yaṃ saṃnyāsamiti prāhuryogaṃ taṃ viddhi pāṇḍava .\nna hyasaṃnyastasaṅkalpo yogī bhavati kaścana ||6-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That which is called renunciation, know thou that as yoga, O Pândava; nor doth any one become a Yogî with the formative will unrenounced."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 3,
+      "sanskrit": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते |\nयोगारूढस्य तस्यैव शमः कारणमुच्यते ||६-३||",
+      "transliteration": "ārurukṣormuneryogaṃ karma kāraṇamucyate .\nyogārūḍhasya tasyaiva śamaḥ kāraṇamucyate ||6-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For a Sage who is seeking Yoga, action is called the means; for the same Sage, when he is enthroned in yoga, serenity is called the means."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 4,
+      "sanskrit": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते |\nसर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते ||६-४||",
+      "transliteration": "yadā hi nendriyārtheṣu na karmasvanuṣajjate .\nsarvasaṅkalpasaṃnyāsī yogārūḍhastadocyate ||6-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When a man feeleth no attachment either for the objects of sense or for actions, renouncing the formative will, then, he is said to be enthroned in yoga."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 5,
+      "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् |\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ||६-५||",
+      "transliteration": "uddharedātmanātmānaṃ nātmānamavasādayet .\nātmaiva hyātmano bandhurātmaiva ripurātmanaḥ ||6-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Let him raise the self by the Self and not let the self become depressed; for verily is the Self the friend of the self, and also the Self the self's enemy;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 6,
+      "sanskrit": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः |\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ||६-६||",
+      "transliteration": "bandhurātmātmanastasya yenātmaivātmanā jitaḥ .\nanātmanastu śatrutve vartetātmaiva śatruvat ||6-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Self is the friend of the self of him in whom the self by the Self is vanquished; but to the unsubdued self the Self verily becometh hostile as an enemy."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 7,
+      "sanskrit": "जितात्मनः प्रशान्तस्य परमात्मा समाहितः |\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः ||६-७||",
+      "transliteration": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ .\nśītoṣṇasukhaduḥkheṣu tathā mānāpamānayoḥ ||6-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The higher Self of him who is Self -controlled and peaceful is uniform in cold and heat, pleasure and pain, as well as in honour and dishonour."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 8,
+      "sanskrit": "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रियः |\nयुक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चनः ||६-८||",
+      "transliteration": "jñānavijñānatṛptātmā kūṭastho vijitendriyaḥ .\nyukta ityucyate yogī samaloṣṭāśmakāñcanaḥ ||6-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Yogî who is satisfied with wisdom and knowledge, unwavering, whose senses are sub dued, to whom a lump of earth, a stone and gold are the same, is said to be harmonised."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 9,
+      "sanskrit": "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु |\nसाधुष्वपि च पापेषु समबुद्धिर्विशिष्यते ||६-९||",
+      "transliteration": "suhṛnmitrāryudāsīnamadhyasthadveṣyabandhuṣu .\nsādhuṣvapi ca pāpeṣu samabuddhirviśiṣyate ||6-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who regards impartially lovers, friends, and foes, strangers, neutrals, foreigners and relatives, also the righteous and unrighteous, he excelleth."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 10,
+      "sanskrit": "योगी युञ्जीत सततमात्मानं रहसि स्थितः |\nएकाकी यतचित्तात्मा निराशीरपरिग्रहः ||६-१०||",
+      "transliteration": "yogī yuñjīta satatamātmānaṃ rahasi sthitaḥ .\nekākī yatacittātmā nirāśīraparigrahaḥ ||6-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Let the Yogî constantly engage himself in yoga, remaining in a secret place by himself, with thought and self subdued, free from hope and greed."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 11,
+      "sanskrit": "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मनः |\nनात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम् ||६-११||",
+      "transliteration": "śucau deśe pratiṣṭhāpya sthiramāsanamātmanaḥ .\nnātyucchritaṃ nātinīcaṃ cailājinakuśottaram ||6-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "In a pure place, established on a fixed seat of his own, neither very much raised nor very low, made of a cloth, a black antelope skin, and kusha grass, one over the other;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 12,
+      "sanskrit": "तत्रैकाग्रं मनः कृत्वा यतचित्तेन्द्रियक्रियः |\nउपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये ||६-१२||",
+      "transliteration": "tatraikāgraṃ manaḥ kṛtvā yatacittendriyakriyaḥ .\nupaviśyāsane yuñjyādyogamātmaviśuddhaye ||6-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "There, having made the mind one-pointed, with thought and the functions of the senses subdued, steady on his seat, he should practise yoga for the purification of the self."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 13,
+      "sanskrit": "समं कायशिरोग्रीवं धारयन्नचलं स्थिरः |\nसम्प्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन् ||६-१३||",
+      "transliteration": "samaṃ kāyaśirogrīvaṃ dhārayannacalaṃ sthiraḥ .\nsamprekṣya nāsikāgraṃ svaṃ diśaścānavalokayan ||6-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Holding the body, head and neck erect, immovably steady, looking fixedly at the point of the nose, with unseeing gaze,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 14,
+      "sanskrit": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थितः |\nमनः संयम्य मच्चित्तो युक्त आसीत मत्परः ||६-१४||",
+      "transliteration": "praśāntātmā vigatabhīrbrahmacārivrate sthitaḥ .\nmanaḥ saṃyamya maccitto yukta āsīta matparaḥ ||6-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The self serene, fearless, firm in the vow of the Brahmachâri, the mind controlled, thinking on Me, harmonised, let him sit aspiring after Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 15,
+      "sanskrit": "युञ्जन्नेवं सदात्मानं योगी नियतमानसः |\nशान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति ||६-१५||",
+      "transliteration": "yuñjannevaṃ sadātmānaṃ yogī niyatamānasaḥ .\nśāntiṃ nirvāṇaparamāṃ matsaṃsthāmadhigacchati ||6-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Yogî ever united thus with the Self, with the mind controlled, goeth to Peace, to the supreme Bliss that abideth in Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 16,
+      "sanskrit": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः |\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन ||६-१६||",
+      "transliteration": "nātyaśnatastu yogo.asti na caikāntamanaśnataḥ .\nna cātisvapnaśīlasya jāgrato naiva cārjuna ||6-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Verily yoga is not for him who eateth too much, nor who abstaineth to excess, nor who is too much addicted to sleep, nor even to wakefulness, O Arjuna."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 17,
+      "sanskrit": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु |\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा ||६-१७||",
+      "transliteration": "yuktāhāravihārasya yuktaceṣṭasya karmasu .\nyuktasvapnāvabodhasya yogo bhavati duḥkhahā ||6-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yoga killeth out all pain for him who is regulated in eating and amusement, regulated in performing actions, regulated in sleeping and waking."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 18,
+      "sanskrit": "यदा विनियतं चित्तमात्मन्येवावतिष्ठते |\nनिःस्पृहः सर्वकामेभ्यो युक्त इत्युच्यते तदा ||६-१८||",
+      "transliteration": "yadā viniyataṃ cittamātmanyevāvatiṣṭhate .\nniḥspṛhaḥ sarvakāmebhyo yukta ityucyate tadā ||6-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When his subdued thought is fixed on the Self, free from longing after all desirable things, then it is said, \"he is harmonised.\""
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 19,
+      "sanskrit": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता |\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः ||६-१९||",
+      "transliteration": "yathā dīpo nivātastho neṅgate sopamā smṛtā .\nyogino yatacittasya yuñjato yogamātmanaḥ ||6-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As a lamp in a windless place flickereth not, to such is likened the Yogî of subdued thought, absorbed in the yoga of the Self."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 20,
+      "sanskrit": "यत्रोपरमते चित्तं निरुद्धं योगसेवया |\nयत्र चैवात्मनात्मानं पश्यन्नात्मनि तुष्यति ||६-२०||",
+      "transliteration": "yatroparamate cittaṃ niruddhaṃ yogasevayā .\nyatra caivātmanātmānaṃ paśyannātmani tuṣyati ||6-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That in which the mind finds rest, quieted by the practice of yoga: that in which he, seeing the Self by the Self, in the Self is satisfied;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 21,
+      "sanskrit": "सुखमात्यन्तिकं यत्तद् बुद्धिग्राह्यमतीन्द्रियम् |\nवेत्ति यत्र न चैवायं स्थितश्चलति तत्त्वतः ||६-२१||",
+      "transliteration": "sukhamātyantikaṃ yattad buddhigrāhyamatīndriyam .\nvetti yatra na caivāyaṃ sthitaścalati tattvataḥ ||6-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That in which he findeth the supreme delight which the Reason can grasp beyond the senses, wherein established he moveth not from the Reality;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 22,
+      "sanskrit": "यं लब्ध्वा चापरं लाभं मन्यते नाधिकं ततः |\nयस्मिन्स्थितो न दुःखेन गुरुणापि विचाल्यते ||६-२२||",
+      "transliteration": "yaṃ labdhvā cāparaṃ lābhaṃ manyate nādhikaṃ tataḥ .\nyasminsthito na duḥkhena guruṇāpi vicālyate ||6-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Which, having obtained, he thinketh there is no greater gain beyond it; wherein, established, he is not shaken even by heavy sorrow;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 23,
+      "sanskrit": "तं विद्याद् दुःखसंयोगवियोगं योगसंज्ञितम् |\nस निश्चयेन योक्तव्यो योगोऽनिर्विण्णचेतसा ||६-२३||",
+      "transliteration": "taṃ vidyād duḥkhasaṃyogaviyogaṃ yogasaṃjñitam .\nsa niścayena yoktavyo yogo.anirviṇṇacetasā ||6-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That should be known by the name of yoga, this disconnection from the union with pain. This yoga must be clung to with a firm conviction and with undesponding mind."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 24,
+      "sanskrit": "सङ्कल्पप्रभवान्कामांस्त्यक्त्वा सर्वानशेषतः |\nमनसैवेन्द्रियग्रामं विनियम्य समन्ततः ||६-२४||",
+      "transliteration": "saṅkalpaprabhavānkāmāṃstyaktvā sarvānaśeṣataḥ .\nmanasaivendriyagrāmaṃ viniyamya samantataḥ ||6-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Abandoning without reserve all desires born of the imagination, by the mind curbing in the aggregate of the senses on every side,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 25,
+      "sanskrit": "शनैः शनैरुपरमेद् बुद्ध्या धृतिगृहीतया |\nआत्मसंस्थं मनः कृत्वा न किञ्चिदपि चिन्तयेत् ||६-२५||",
+      "transliteration": "śanaiḥ śanairuparamed buddhyā dhṛtigṛhītayā .\nātmasaṃsthaṃ manaḥ kṛtvā na kiñcidapi cintayet ||6-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Little by little let him gain tranquillity, by means of Reason controlled by steadiness; having made the mind abide in the Self, let him not think of anything."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 26,
+      "sanskrit": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम् |\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत् ||६-२६||",
+      "transliteration": "yato yato niścarati manaścañcalamasthiram .\ntatastato niyamyaitadātmanyeva vaśaṃ nayet ||6-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As often as the wavering and unsteady mind goeth forth, so often reining it in, let him bring it under the control of the Self."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 27,
+      "sanskrit": "प्रशान्तमनसं ह्येनं योगिनं सुखमुत्तमम् |\nउपैति शान्तरजसं ब्रह्मभूतमकल्मषम् ||६-२७||",
+      "transliteration": "praśāntamanasaṃ hyenaṃ yoginaṃ sukhamuttamam .\nupaiti śāntarajasaṃ brahmabhūtamakalmaṣam ||6-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Supreme joy is for this Yogi whose mind is peaceful, whose passion-nature is calmed, who is sinless and of the nature of the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 28,
+      "sanskrit": "युञ्जन्नेवं सदात्मानं योगी विगतकल्मषः |\nसुखेन ब्रह्मसंस्पर्शमत्यन्तं सुखमश्नुते ||६-२८||",
+      "transliteration": "yuñjannevaṃ sadātmānaṃ yogī vigatakalmaṣaḥ .\nsukhena brahmasaṃsparśamatyantaṃ sukhamaśnute ||6-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Yogî who thus, ever harmonising the self, hath put away sin, he easily enjoyeth the infinite bliss of contact with the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 29,
+      "sanskrit": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि |\nईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः ||६-२९||",
+      "transliteration": "sarvabhūtasthamātmānaṃ sarvabhūtāni cātmani .\nīkṣate yogayuktātmā sarvatra samadarśanaḥ ||6-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The self, harmonised by yoga, seeth the Self abiding in all beings, all beings in the Self; everywhere he seeth the same."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:30",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 30,
+      "sanskrit": "यो मां पश्यति सर्वत्र सर्वं च मयि पश्यति |\nतस्याहं न प्रणश्यामि स च मे न प्रणश्यति ||६-३०||",
+      "transliteration": "yo māṃ paśyati sarvatra sarvaṃ ca mayi paśyati .\ntasyāhaṃ na praṇaśyāmi sa ca me na praṇaśyati ||6-30||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who seeth Me everywhere, and seeth everything in Me, of him will I never lose hold, and he shall never lose hold of Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:31",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 31,
+      "sanskrit": "सर्वभूतस्थितं यो मां भजत्येकत्वमास्थितः |\nसर्वथा वर्तमानोऽपि स योगी मयि वर्तते ||६-३१||",
+      "transliteration": "sarvabhūtasthitaṃ yo māṃ bhajatyekatvamāsthitaḥ .\nsarvathā vartamāno.api sa yogī mayi vartate ||6-31||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who, established in unity, worshippeth Me abiding in all beings, that Yogi liveth in Me, whatever his mode of living."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:32",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 32,
+      "sanskrit": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन |\nसुखं वा यदि वा दुःखं स योगी परमो मतः ||६-३२||",
+      "transliteration": "ātmaupamyena sarvatra samaṃ paśyati yo.arjuna .\nsukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ ||6-32||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who, through the likeness of the Self, O Arjuna, seeth equality in everything, whether pleasant or painful, he is considered a perfect Yogî."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:33",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 33,
+      "sanskrit": "अर्जुन उवाच |\nयोऽयं योगस्त्वया प्रोक्तः साम्येन मधुसूदन |\nएतस्याहं न पश्यामि चञ्चलत्वात्स्थितिं स्थिराम् ||६-३३||",
+      "transliteration": "arjuna uvāca .\nyo.ayaṃ yogastvayā proktaḥ sāmyena madhusūdana .\netasyāhaṃ na paśyāmi cañcalatvātsthitiṃ sthirām ||6-33||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This yoga which Thou hast declared to be by equanimity, O Madhusûdana, I see not a stable foundation for it, owing to restlessness;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:34",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 34,
+      "sanskrit": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद् दृढम् |\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ||६-३४||",
+      "transliteration": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham .\ntasyāhaṃ nigrahaṃ manye vāyoriva suduṣkaram ||6-34||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For the mind is verily restless, O Krishna; it is impetuous, strong and difficult to bend. I deem it as hard to curb as the wind."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:35",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 35,
+      "sanskrit": "श्रीभगवानुवाच |\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम् |\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ||६-३५||",
+      "transliteration": "śrībhagavānuvāca .\nasaṃśayaṃ mahābāho mano durnigrahaṃ calam .\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate ||6-35||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: Without doubt, O mighty-armed, the mind is hard to curb and restless; but it may be curbed by constant practice and by dispassion."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:36",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 36,
+      "sanskrit": "असंयतात्मना योगो दुष्प्राप इति मे मतिः |\nवश्यात्मना तु यतता शक्योऽवाप्तुमुपायतः ||६-३६||",
+      "transliteration": "asaṃyatātmanā yogo duṣprāpa iti me matiḥ .\nvaśyātmanā tu yatatā śakyo.avāptumupāyataḥ ||6-36||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yoga is hard to attain, methinks, by a self that is uncontrolled; but by the Self -controlled it is attainable by properly directed energy."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:37",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 37,
+      "sanskrit": "अर्जुन उवाच |\nअयतिः श्रद्धयोपेतो योगाच्चलितमानसः |\nअप्राप्य योगसंसिद्धिं कां गतिं कृष्ण गच्छति ||६-३७||",
+      "transliteration": "arjuna uvāca .\nayatiḥ śraddhayopeto yogāccalitamānasaḥ .\naprāpya yogasaṃsiddhiṃ kāṃ gatiṃ kṛṣṇa gacchati ||6-37||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: He who is unsubdued but who possesseth faith, with the mind wandering away from yoga, failing to attain perfection in yoga, what path doth he tread, O Krishna?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:38",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 38,
+      "sanskrit": "कच्चिन्नोभयविभ्रष्टश्छिन्नाभ्रमिव नश्यति |\nअप्रतिष्ठो महाबाहो विमूढो ब्रह्मणः पथि ||६-३८||",
+      "transliteration": "kaccinnobhayavibhraṣṭaśchinnābhramiva naśyati .\napratiṣṭho mahābāho vimūḍho brahmaṇaḥ pathi ||6-38||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Fallen from both, is he destroyed like a rent cloud, unsteadfast, O mighty-armed, deluded in the path of the Eternal?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:39",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 39,
+      "sanskrit": "एतन्मे संशयं कृष्ण छेत्तुमर्हस्यशेषतः |\nत्वदन्यः संशयस्यास्य छेत्ता न ह्युपपद्यते ||६-३९||",
+      "transliteration": "etanme saṃśayaṃ kṛṣṇa chettumarhasyaśeṣataḥ .\ntvadanyaḥ saṃśayasyāsya chettā na hyupapadyate ||6-39||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Deign, O Krishna, to completely dispel this doubt of mine; for there is none to be found save Thyself able to destroy this doubt."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:40",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 40,
+      "sanskrit": "श्रीभगवानुवाच |\nपार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते |\nन हि कल्याणकृत्कश्चिद् दुर्गतिं तात गच्छति ||६-४०||",
+      "transliteration": "śrībhagavānuvāca .\npārtha naiveha nāmutra vināśastasya vidyate .\nna hi kalyāṇakṛtkaścid durgatiṃ tāta gacchati ||6-40||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: O son of Prithâ, neither in this world nor in the life to come is there destruction for him; never doth any who worketh righteousness, O beloved, tread the path of woe."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:41",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 41,
+      "sanskrit": "प्राप्य पुण्यकृतां लोकानुषित्वा शाश्वतीः समाः |\nशुचीनां श्रीमतां गेहे योगभ्रष्टोऽभिजायते ||६-४१||",
+      "transliteration": "prāpya puṇyakṛtāṃ lokānuṣitvā śāśvatīḥ samāḥ .\nśucīnāṃ śrīmatāṃ gehe yogabhraṣṭo.abhijāyate ||6-41||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having attained to the worlds of the pure-doing, and having dwelt there for immemorial years, he who fell from yoga is reborn in a pure and blessed house;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:42",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 42,
+      "sanskrit": "अथवा योगिनामेव कुले भवति धीमताम् |\nएतद्धि दुर्लभतरं लोके जन्म यदीदृशम् ||६-४२||",
+      "transliteration": "athavā yogināmeva kule bhavati dhīmatām .\netaddhi durlabhataraṃ loke janma yadīdṛśam ||6-42||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Or he may even be born into a family of wise Yogîs; but such a birth as that is most difficult to obtain in this world."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:43",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 43,
+      "sanskrit": "तत्र तं बुद्धिसंयोगं लभते पौर्वदेहिकम् |\nयतते च ततो भूयः संसिद्धौ कुरुनन्दन ||६-४३||",
+      "transliteration": "tatra taṃ buddhisaṃyogaṃ labhate paurvadehikam .\nyatate ca tato bhūyaḥ saṃsiddhau kurunandana ||6-43||",
+      "word_meanings": [],
+      "translations": {
+        "en": "There he recovereth the characteristics belonging to this former body, and with these he again laboureth for perfection, O joy of the Kurus."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:44",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 44,
+      "sanskrit": "पूर्वाभ्यासेन तेनैव ह्रियते ह्यवशोऽपि सः |\nजिज्ञासुरपि योगस्य शब्दब्रह्मातिवर्तते ||६-४४||",
+      "transliteration": "pūrvābhyāsena tenaiva hriyate hyavaśo.api saḥ .\njijñāsurapi yogasya śabdabrahmātivartate ||6-44||",
+      "word_meanings": [],
+      "translations": {
+        "en": "By that former practice he is irresistibly swept away. Only wishing to know yoga, even the seeker after yoga goeth beyond the Brâhmic world;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:45",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 45,
+      "sanskrit": "प्रयत्नाद्यतमानस्तु योगी संशुद्धकिल्बिषः |\nअनेकजन्मसंसिद्धस्ततो याति परां गतिम् ||६-४५||",
+      "transliteration": "prayatnādyatamānastu yogī saṃśuddhakilbiṣaḥ .\nanekajanmasaṃsiddhastato yāti parāṃ gatim ||6-45||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But the Yogî, labouring with assiduity, purified from sin, fully perfected through manifold births, he reacheth the supreme goal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:46",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 46,
+      "sanskrit": "तपस्विभ्योऽधिको योगी ज्ञानिभ्योऽपि मतोऽधिकः |\nकर्मिभ्यश्चाधिको योगी तस्माद्योगी भवार्जुन ||६-४६||",
+      "transliteration": "tapasvibhyo.adhiko yogī jñānibhyo.api mato.adhikaḥ .\nkarmibhyaścādhiko yogī tasmādyogī bhavārjuna ||6-46||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Yogî is greater than the ascetics; he is thought to be greater than even the wise; the Yogî is greater than the men of action; therefore become thou a Yogî, O Arjuna!"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:6:47",
+      "scripture": "bhagavad-gita",
+      "chapter": 6,
+      "verse": 47,
+      "sanskrit": "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना |\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः ||६-४७||",
+      "transliteration": "yogināmapi sarveṣāṃ madgatenāntarātmanā .\nśraddhāvānbhajate yo māṃ sa me yuktatamo mataḥ ||6-47||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And among all Yogîs, he who, full of faith, with the inner Self abiding in Me, adoreth Me, he is considered by Me to be the most completely harmonised."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

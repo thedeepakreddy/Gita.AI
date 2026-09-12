@@ -1,0 +1,602 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 5,
+  "title": {
+    "en": "Karma Sanyasa Yoga — The Yoga of Renunciation of Action",
+    "hu": "Karma-szanjásza-jóga — A cselekvésről való lemondás jógája",
+    "hi": "कर्मसंन्यासयोग"
+  },
+  "titleSanskrit": "कर्मसंन्यासयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:17:36.842Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:5:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nसंन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि |\nयच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम् ||५-१||",
+      "transliteration": "arjuna uvāca .\nsaṃnyāsaṃ karmaṇāṃ kṛṣṇa punaryogaṃ ca śaṃsasi .\nyacchreya etayorekaṃ tanme brūhi suniścitam ||5-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: Renunciation of actions Thou praisest, O Krishna, and then also yoga. Of the two which one is the better? That tell me conclusively."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 2,
+      "sanskrit": "श्रीभगवानुवाच |\nसंन्यासः कर्मयोगश्च निःश्रेयसकरावुभौ |\nतयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते ||५-२||",
+      "transliteration": "śrībhagavānuvāca .\nsaṃnyāsaḥ karmayogaśca niḥśreyasakarāvubhau .\ntayostu karmasaṃnyāsātkarmayogo viśiṣyate ||5-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: Renunciation and yoga by action both lead to the highest bliss; of the two, yoga by action is verily better than renunciation of action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 3,
+      "sanskrit": "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति |\nनिर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते ||५-३||",
+      "transliteration": "jñeyaḥ sa nityasaṃnyāsī yo na dveṣṭi na kāṅkṣati .\nnirdvandvo hi mahābāho sukhaṃ bandhātpramucyate ||5-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He should be known as a perpetual ascetic, who neither hateth nor desireth; free from the pairs of opposites, O mighty-armed, he is easily set free from bondage."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 4,
+      "sanskrit": "साङ्ख्ययोगौ पृथग्बालाः प्रवदन्ति न पण्डिताः |\nएकमप्यास्थितः सम्यगुभयोर्विन्दते फलम् ||५-४||",
+      "transliteration": "sāṅkhyayogau pṛthagbālāḥ pravadanti na paṇḍitāḥ .\nekamapyāsthitaḥ samyagubhayorvindate phalam ||5-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Children, not sages, speak of the Sânkhya and the Yoga as different; he who is duly established in one obtaineth the fruits of both."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 5,
+      "sanskrit": "यत्साङ्ख्यैः प्राप्यते स्थानं तद्योगैरपि गम्यते |\nएकं साङ्ख्यं च योगं च यः पश्यति स पश्यति ||५-५||",
+      "transliteration": "yatsāṅkhyaiḥ prāpyate sthānaṃ tadyogairapi gamyate .\nekaṃ sāṅkhyaṃ ca yogaṃ ca yaḥ paśyati sa paśyati ||5-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That place which is gained by the Sânkhyas is reached by the Yogîs also. He seeth, who seeth that the Sânkhya and the Yoga are one."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 6,
+      "sanskrit": "संन्यासस्तु महाबाहो दुःखमाप्तुमयोगतः |\nयोगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति ||५-६||",
+      "transliteration": "saṃnyāsastu mahābāho duḥkhamāptumayogataḥ .\nyogayukto munirbrahma nacireṇādhigacchati ||5-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But without yoga, O mighty-armed, renunciation is hard to attain to; the yoga-harmonised Muni swiftly goeth to the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 7,
+      "sanskrit": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः |\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते ||५-७||",
+      "transliteration": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ .\nsarvabhūtātmabhūtātmā kurvannapi na lipyate ||5-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who is harmonised by yoga, the self purified, Self -ruled, the senses subdued, whose Self is the Self of all beings, although acting he is not affected."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 8,
+      "sanskrit": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित् |\nपश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन् ||५-८||",
+      "transliteration": "naiva kiñcitkaromīti yukto manyeta tattvavit .\npaśyañśruṇvanspṛśañjighrannaśnangacchansvapañśvasan ||5-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"I do not anything,\" should think the harmonised one, who knoweth the essence of things; seeing, hearing, touching, smelling, eating, moving, sleeping, breathing."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 9,
+      "sanskrit": "प्रलपन्विसृजन्गृह्णन्नुन्मिषन्निमिषन्नपि |\nइन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन् ||५-९||",
+      "transliteration": "pralapanvisṛjangṛhṇannunmiṣannimiṣannapi .\nindriyāṇīndriyārtheṣu vartanta iti dhārayan ||5-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Speaking, giving, grasping, opening and closing the eyes, he holdeth: \"The senses move among the objects of the senses.\""
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 10,
+      "sanskrit": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः |\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ||५-१०||",
+      "transliteration": "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ .\nlipyate na sa pāpena padmapatramivāmbhasā ||5-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who acteth, placing all actions in the Eternal, abandoning attachment, is unaffected by sin as a lotus leaf by the waters."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 11,
+      "sanskrit": "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि |\nयोगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये ||५-११||",
+      "transliteration": "kāyena manasā buddhyā kevalairindriyairapi .\nyoginaḥ karma kurvanti saṅgaṃ tyaktvātmaśuddhaye ||5-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yogis, having abandoned attachment, perform action only by the body, by the mind, by the Reason, and even by the senses, for the purification of the self."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 12,
+      "sanskrit": "युक्तः कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम् |\nअयुक्तः कामकारेण फले सक्तो निबध्यते ||५-१२||",
+      "transliteration": "yuktaḥ karmaphalaṃ tyaktvā śāntimāpnoti naiṣṭhikīm .\nayuktaḥ kāmakāreṇa phale sakto nibadhyate ||5-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The harmonised man, having abandoned the fruit of action, attaineth to the eternal Peace; the non-harmonised, impelled by desire, attached to fruit, are bound."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 13,
+      "sanskrit": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी |\nनवद्वारे पुरे देही नैव कुर्वन्न कारयन् ||५-१३||",
+      "transliteration": "sarvakarmāṇi manasā saṃnyasyāste sukhaṃ vaśī .\nnavadvāre pure dehī naiva kurvanna kārayan ||5-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Mentally renouncing all actions, the sovereign dweller in the body resteth serenely in the nine-gated city, neither acting nor causing to act."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 14,
+      "sanskrit": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः |\nन कर्मफलसंयोगं स्वभावस्तु प्रवर्तते ||५-१४||",
+      "transliteration": "na kartṛtvaṃ na karmāṇi lokasya sṛjati prabhuḥ .\nna karmaphalasaṃyogaṃ svabhāvastu pravartate ||5-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Lord of the world produceth not the idea of agency, nor actions, nor the union together of action and its fruit; nature, however, manifesteth."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 15,
+      "sanskrit": "नादत्ते कस्यचित्पापं न चैव सुकृतं विभुः |\nअज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः ||५-१५||",
+      "transliteration": "nādatte kasyacitpāpaṃ na caiva sukṛtaṃ vibhuḥ .\najñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ ||5-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Lord accepteth neither the evil-doing nor yet the well-doing of any. Wisdom is enveloped by unwisdom; therewith mortals are deluded."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 16,
+      "sanskrit": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मनः |\nतेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम् ||५-१६||",
+      "transliteration": "jñānena tu tadajñānaṃ yeṣāṃ nāśitamātmanaḥ .\nteṣāmādityavajjñānaṃ prakāśayati tatparam ||5-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Verily, in whom unwisdom is destroyed by the wisdom of the Self, in them wisdom, shining as the sun, reveals the Supreme."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 17,
+      "sanskrit": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणाः |\nगच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः ||५-१७||",
+      "transliteration": "tadbuddhayastadātmānastanniṣṭhāstatparāyaṇāḥ .\ngacchantyapunarāvṛttiṃ jñānanirdhūtakalmaṣāḥ ||5-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Thinking on That, merged in That, established in That, solely devoted to That, they go whence there is no return, their sins dispelled by wisdom."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 18,
+      "sanskrit": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि |\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ||५-१८||",
+      "transliteration": "vidyāvinayasampanne brāhmaṇe gavi hastini .\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||5-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Sages look equally on a Brâhmana adorned with learning and humility, a cow, an elephant, and even a dog and an outcaste."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 19,
+      "sanskrit": "इहैव तैर्जितः सर्गो येषां साम्ये स्थितं मनः |\nनिर्दोषं हि समं ब्रह्म तस्माद् ब्रह्मणि ते स्थिताः ||५-१९||",
+      "transliteration": "ihaiva tairjitaḥ sargo yeṣāṃ sāmye sthitaṃ manaḥ .\nnirdoṣaṃ hi samaṃ brahma tasmād brahmaṇi te sthitāḥ ||5-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Even here on earth everything is overcome by those whose mind remains balanced; the Eternal is incorruptible and balanced; therefore they are established in the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 20,
+      "sanskrit": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम् |\nस्थिरबुद्धिरसम्मूढो ब्रह्मविद् ब्रह्मणि स्थितः ||५-२०||",
+      "transliteration": "na prahṛṣyetpriyaṃ prāpya nodvijetprāpya cāpriyam .\nsthirabuddhirasammūḍho brahmavid brahmaṇi sthitaḥ ||5-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "With Reason firm, unperplexed, the knower of the Eternal established in the Eternal, neither rejoiceth on obtaining what is pleasant, nor sorroweth on obtaining what is unpleasant."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 21,
+      "sanskrit": "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम् |\nस ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते ||५-२१||",
+      "transliteration": "bāhyasparśeṣvasaktātmā vindatyātmani yatsukham .\nsa brahmayogayuktātmā sukhamakṣayamaśnute ||5-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He, whose self is unattached to external contacts and findeth joy in the Self, having the self harmonised with the Eternal by yoga, enjoys imperishable bliss."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 22,
+      "sanskrit": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते |\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ||५-२२||",
+      "transliteration": "ye hi saṃsparśajā bhogā duḥkhayonaya eva te .\nādyantavantaḥ kaunteya na teṣu ramate budhaḥ ||5-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The delights that are contact-born, they are verily wombs of pain, for they have beginning and ending, O Kaunteya; not in them may rejoice the wise."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 23,
+      "sanskrit": "शक्नोतीहैव यः सोढुं प्राक्शरीरविमोक्षणात् |\nकामक्रोधोद्भवं वेगं स युक्तः स सुखी नरः ||५-२३||",
+      "transliteration": "śaknotīhaiva yaḥ soḍhuṃ prākśarīravimokṣaṇāt .\nkāmakrodhodbhavaṃ vegaṃ sa yuktaḥ sa sukhī naraḥ ||5-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who is able to endure here on earth, ere he be liberated from the body, the force born from desire and passion, he is harmonised, he is a happy man."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 24,
+      "sanskrit": "योऽन्तःसुखोऽन्तरारामस्तथान्तर्ज्योतिरेव यः |\nस योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति ||५-२४||",
+      "transliteration": "yo.antaḥsukho.antarārāmastathāntarjyotireva yaḥ .\nsa yogī brahmanirvāṇaṃ brahmabhūto.adhigacchati ||5-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who is happy within, who rejoiceth within, who is illuminated within, that Yogî, becoming the Eternal, goeth to the Peace of the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 25,
+      "sanskrit": "लभन्ते ब्रह्मनिर्वाणमृषयः क्षीणकल्मषाः |\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ||५-२५||",
+      "transliteration": "labhante brahmanirvāṇamṛṣayaḥ kṣīṇakalmaṣāḥ .\nchinnadvaidhā yatātmānaḥ sarvabhūtahite ratāḥ ||5-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Rishis, their sins destroyed, their duality removed, their selves controlled, intent upon the welfare of all beings, obtain the Peace of the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 26,
+      "sanskrit": "कामक्रोधवियुक्तानां यतीनां यतचेतसाम् |\nअभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम् ||५-२६||",
+      "transliteration": "kāmakrodhaviyuktānāṃ yatīnāṃ yatacetasām .\nabhito brahmanirvāṇaṃ vartate viditātmanām ||5-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Peace of the Eternal lies near to those who know themselves, who are disjoined from desire and passion, subdued in nature, of subdued thoughts."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 27,
+      "sanskrit": "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवोः |\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ ||५-२७||",
+      "transliteration": "sparśānkṛtvā bahirbāhyāṃścakṣuścaivāntare bhruvoḥ .\nprāṇāpānau samau kṛtvā nāsābhyantaracāriṇau ||5-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having external contacts excluded, and with gaze fixed between the eyebrows; having made equal the outgoing and ingoing breaths moving within the nostrils;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 28,
+      "sanskrit": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायणः |\nविगतेच्छाभयक्रोधो यः सदा मुक्त एव सः ||५-२८||",
+      "transliteration": "yatendriyamanobuddhirmunirmokṣaparāyaṇaḥ .\nvigatecchābhayakrodho yaḥ sadā mukta eva saḥ ||5-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "With senses, mind, and Reason ever controlled, solely pursuing liberation, the Sage, having for ever cast away desire, fear and passion, verily is liberated."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:5:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 5,
+      "verse": 29,
+      "sanskrit": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् |\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ||५-२९||",
+      "transliteration": "bhoktāraṃ yajñatapasāṃ sarvalokamaheśvaram .\nsuhṛdaṃ sarvabhūtānāṃ jñātvā māṃ śāntimṛcchati ||5-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having known Me, as the Enjoyer of sacrifice and of austerity, the mighty Ruler of all the worlds, and the Lover of all beings, he goeth to Peace."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

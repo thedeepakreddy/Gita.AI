@@ -1,0 +1,111 @@
+{
+  "_note": "Traditional chapter names. `en` is the conventional English rendering; `sa` is the Sanskrit name in Devanagari. Hungarian and Hindi entries are placeholders pending native review, like the verse translations.",
+  "1": {
+    "sa": "अर्जुनविषादयोग",
+    "en": "Arjuna Vishada Yoga — The Yoga of Arjuna's Despondency",
+    "hu": "Ardzsuna-visáda-jóga — Ardzsuna kétségbeesésének jógája",
+    "hi": "अर्जुनविषादयोग"
+  },
+  "2": {
+    "sa": "सांख्ययोग",
+    "en": "Sankhya Yoga — The Yoga of Discernment",
+    "hu": "Szánkhja-jóga — A megkülönböztetés jógája",
+    "hi": "सांख्ययोग"
+  },
+  "3": {
+    "sa": "कर्मयोग",
+    "en": "Karma Yoga — The Yoga of Action",
+    "hu": "Karma-jóga — A cselekvés jógája",
+    "hi": "कर्मयोग"
+  },
+  "4": {
+    "sa": "ज्ञानकर्मसंन्यासयोग",
+    "en": "Jnana Karma Sanyasa Yoga — The Yoga of Knowledge and the Renunciation of Action",
+    "hu": "Gjána-karma-szanjásza-jóga — A tudás és a cselekvésről való lemondás jógája",
+    "hi": "ज्ञानकर्मसंन्यासयोग"
+  },
+  "5": {
+    "sa": "कर्मसंन्यासयोग",
+    "en": "Karma Sanyasa Yoga — The Yoga of Renunciation of Action",
+    "hu": "Karma-szanjásza-jóga — A cselekvésről való lemondás jógája",
+    "hi": "कर्मसंन्यासयोग"
+  },
+  "6": {
+    "sa": "आत्मसंयमयोग",
+    "en": "Atma Samyama Yoga — The Yoga of Self-Mastery",
+    "hu": "Átma-szanjama-jóga — Az önuralom jógája",
+    "hi": "आत्मसंयमयोग"
+  },
+  "7": {
+    "sa": "ज्ञानविज्ञानयोग",
+    "en": "Jnana Vijnana Yoga — The Yoga of Knowledge and Realisation",
+    "hu": "Gjána-vigjána-jóga — A tudás és a megvalósítás jógája",
+    "hi": "ज्ञानविज्ञानयोग"
+  },
+  "8": {
+    "sa": "अक्षरब्रह्मयोग",
+    "en": "Akshara Brahma Yoga — The Yoga of the Imperishable",
+    "hu": "Aksara-brahma-jóga — A elmúlhatatlan jógája",
+    "hi": "अक्षरब्रह्मयोग"
+  },
+  "9": {
+    "sa": "राजविद्याराजगुह्ययोग",
+    "en": "Raja Vidya Raja Guhya Yoga — The Yoga of Kingly Knowledge and Kingly Secret",
+    "hu": "Rádzsa-vidjá-rádzsa-guhja-jóga — A királyi tudás és a királyi titok jógája",
+    "hi": "राजविद्याराजगुह्ययोग"
+  },
+  "10": {
+    "sa": "विभूतियोग",
+    "en": "Vibhuti Yoga — The Yoga of Divine Glories",
+    "hu": "Vibhúti-jóga — Az isteni fenség jógája",
+    "hi": "विभूतियोग"
+  },
+  "11": {
+    "sa": "विश्वरूपदर्शनयोग",
+    "en": "Vishvarupa Darshana Yoga — The Yoga of the Vision of the Universal Form",
+    "hu": "Visvarúpa-darsana-jóga — A kozmikus forma látomásának jógája",
+    "hi": "विश्वरूपदर्शनयोग"
+  },
+  "12": {
+    "sa": "भक्तियोग",
+    "en": "Bhakti Yoga — The Yoga of Devotion",
+    "hu": "Bhakti-jóga — Az odaadás jógája",
+    "hi": "भक्तियोग"
+  },
+  "13": {
+    "sa": "क्षेत्रक्षेत्रज्ञविभागयोग",
+    "en": "Kshetra Kshetrajna Vibhaga Yoga — The Yoga of the Field and its Knower",
+    "hu": "Ksétra-ksétragja-vibhága-jóga — A mező és a mező ismerőjének jógája",
+    "hi": "क्षेत्रक्षेत्रज्ञविभागयोग"
+  },
+  "14": {
+    "sa": "गुणत्रयविभागयोग",
+    "en": "Gunatraya Vibhaga Yoga — The Yoga of the Three Gunas",
+    "hu": "Gunatraja-vibhága-jóga — A három kötőerő jógája",
+    "hi": "गुणत्रयविभागयोग"
+  },
+  "15": {
+    "sa": "पुरुषोत्तमयोग",
+    "en": "Purushottama Yoga — The Yoga of the Supreme Person",
+    "hu": "Purusóttama-jóga — A Legfelsőbb Személy jógája",
+    "hi": "पुरुषोत्तमयोग"
+  },
+  "16": {
+    "sa": "दैवासुरसम्पद्विभागयोग",
+    "en": "Daivasura Sampad Vibhaga Yoga — The Yoga of the Divine and the Demoniac Natures",
+    "hu": "Daivászura-szampad-vibhága-jóga — Az isteni és a démoni természet jógája",
+    "hi": "दैवासुरसम्पद्विभागयोग"
+  },
+  "17": {
+    "sa": "श्रद्धात्रयविभागयोग",
+    "en": "Shraddhatraya Vibhaga Yoga — The Yoga of the Threefold Faith",
+    "hu": "Sraddhátraja-vibhága-jóga — A háromféle hit jógája",
+    "hi": "श्रद्धात्रयविभागयोग"
+  },
+  "18": {
+    "sa": "मोक्षसंन्यासयोग",
+    "en": "Moksha Sanyasa Yoga — The Yoga of Liberation by Renunciation",
+    "hu": "Móksa-szanjásza-jóga — A lemondás általi felszabadulás jógája",
+    "hi": "मोक्षसंन्यासयोग"
+  }
+}

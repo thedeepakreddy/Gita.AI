@@ -1,0 +1,582 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 17,
+  "title": {
+    "en": "Shraddhatraya Vibhaga Yoga — The Yoga of the Threefold Faith",
+    "hu": "Sraddhátraja-vibhága-jóga — A háromféle hit jógája",
+    "hi": "श्रद्धात्रयविभागयोग"
+  },
+  "titleSanskrit": "श्रद्धात्रयविभागयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:20:56.550Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:17:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 1,
+      "sanskrit": "अर्जुन उवाच |\nये शास्त्रविधिमुत्सृज्य यजन्ते श्रद्धयान्विताः |\nतेषां निष्ठा तु का कृष्ण सत्त्वमाहो रजस्तमः ||१७-१||",
+      "transliteration": "arjuna uvāca .\nye śāstravidhimutsṛjya yajante śraddhayānvitāḥ .\nteṣāṃ niṣṭhā tu kā kṛṣṇa sattvamāho rajastamaḥ ||17-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: Those that sacrifice full of faith, but casting aside the ordinances of the Scriptures, what is verily their condition, O Krishna? Is it one of Purity, Passion, or Darkness?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 2,
+      "sanskrit": "श्रीभगवानुवाच |\nत्रिविधा भवति श्रद्धा देहिनां सा स्वभावजा |\nसात्त्विकी राजसी चैव तामसी चेति तां शृणु ||१७-२||",
+      "transliteration": "śrībhagavānuvāca .\ntrividhā bhavati śraddhā dehināṃ sā svabhāvajā .\nsāttvikī rājasī caiva tāmasī ceti tāṃ śṛṇu ||17-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: Threefold is by nature the inborn faith of the embodied—pure, passionate, and dark. Hear thou of these."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 3,
+      "sanskrit": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत |\nश्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः ||१७-३||",
+      "transliteration": "sattvānurūpā sarvasya śraddhā bhavati bhārata .\nśraddhāmayo.ayaṃ puruṣo yo yacchraddhaḥ sa eva saḥ ||17-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The faith of each is shaped to his own nature, O Bhârata. The man consists of his faith; that which his faith is, he is even that."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 4,
+      "sanskrit": "यजन्ते सात्त्विका देवान्यक्षरक्षांसि राजसाः |\nप्रेतान्भूतगणांश्चान्ये यजन्ते तामसा जनाः ||१७-४||",
+      "transliteration": "yajante sāttvikā devānyakṣarakṣāṃsi rājasāḥ .\npretānbhūtagaṇāṃścānye yajante tāmasā janāḥ ||17-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Pure men worship the Gods; the passionate the gnomes and giants; the others, the dark folk, worship ghosts and troops of nature-spirits."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 5,
+      "sanskrit": "अशास्त्रविहितं घोरं तप्यन्ते ये तपो जनाः |\nदम्भाहंकारसंयुक्ताः कामरागबलान्विताः ||१७-५||",
+      "transliteration": "aśāstravihitaṃ ghoraṃ tapyante ye tapo janāḥ .\ndambhāhaṃkārasaṃyuktāḥ kāmarāgabalānvitāḥ ||17-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The men who perform severe austerities, unenjoined by the Scriptures, wedded to vanity and egoism, impelled by the force of their desires and passions,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 6,
+      "sanskrit": "कर्षयन्तः शरीरस्थं भूतग्राममचेतसः |\nमां चैवान्तःशरीरस्थं तान्विद्ध्यासुरनिश्चयान् ||१७-६||",
+      "transliteration": "karṣayantaḥ śarīrasthaṃ bhūtagrāmamacetasaḥ .\nmāṃ caivāntaḥśarīrasthaṃ tānviddhyāsuraniścayān ||17-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Unintelligent, tormenting the aggregated elements forming the body, and Me also, seated in the inner body, know these demoniacal in their resolves."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 7,
+      "sanskrit": "आहारस्त्वपि सर्वस्य त्रिविधो भवति प्रियः |\nयज्ञस्तपस्तथा दानं तेषां भेदमिमं शृणु ||१७-७||",
+      "transliteration": "āhārastvapi sarvasya trividho bhavati priyaḥ .\nyajñastapastathā dānaṃ teṣāṃ bhedamimaṃ śṛṇu ||17-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The food also which is dear to each is threefold, as also sacrifice, austerity and almsgiving. Hear thou the distinction of these."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 8,
+      "sanskrit": "आयुःसत्त्वबलारोग्यसुखप्रीतिविवर्धनाः |\nरस्याः स्निग्धाः स्थिरा हृद्या आहाराः सात्त्विकप्रियाः ||१७-८||",
+      "transliteration": "āyuḥsattvabalārogyasukhaprītivivardhanāḥ .\nrasyāḥ snigdhāḥ sthirā hṛdyā āhārāḥ sāttvikapriyāḥ ||17-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The foods that augment vitality, energy, vigour, health, joy and cheerfulness, delicious, bland, substantial and agreeable, are dear to the pure."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 9,
+      "sanskrit": "कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः |\nआहारा राजसस्येष्टा दुःखशोकामयप्रदाः ||१७-९||",
+      "transliteration": "kaṭvamlalavaṇātyuṣṇatīkṣṇarūkṣavidāhinaḥ .\nāhārā rājasasyeṣṭā duḥkhaśokāmayapradāḥ ||17-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The passionate desire foods that are bitter, sour, saline, over-hot, pungent, dry and burning and which produce pain, grief and sickness."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 10,
+      "sanskrit": "यातयामं गतरसं पूति पर्युषितं च यत् |\nउच्छिष्टमपि चामेध्यं भोजनं तामसप्रियम् ||१७-१०||",
+      "transliteration": "yātayāmaṃ gatarasaṃ pūti paryuṣitaṃ ca yat .\nucchiṣṭamapi cāmedhyaṃ bhojanaṃ tāmasapriyam ||17-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That which is stale and flat, putrid and corrupt, leavings also and unclean, is the food dear to the dark."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 11,
+      "sanskrit": "अफलाङ्क्षिभिर्यज्ञो विधिदृष्टो य इज्यते |\nयष्टव्यमेवेति मनः समाधाय स सात्त्विकः ||१७-११||",
+      "transliteration": "aphalāṅkṣibhiryajño vidhidṛṣṭo ya ijyate .\nyaṣṭavyameveti manaḥ samādhāya sa sāttvikaḥ ||17-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The sacrifice which is offered by men without desire for fruit, as enjoined by the ordinances, under the firm belief that sacrifice is a duty, that is pure."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 12,
+      "sanskrit": "अभिसन्धाय तु फलं दम्भार्थमपि चैव यत् |\nइज्यते भरतश्रेष्ठ तं यज्ञं विद्धि राजसम् ||१७-१२||",
+      "transliteration": "abhisandhāya tu phalaṃ dambhārthamapi caiva yat .\nijyate bharataśreṣṭha taṃ yajñaṃ viddhi rājasam ||17-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The sacrifice offered with a view verily to fruit, and also indeed for self-glorification, O best of the Bhâratas; know thou that to be of passion."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 13,
+      "sanskrit": "विधिहीनमसृष्टान्नं मन्त्रहीनमदक्षिणम् |\nश्रद्धाविरहितं यज्ञं तामसं परिचक्षते ||१७-१३||",
+      "transliteration": "vidhihīnamasṛṣṭānnaṃ mantrahīnamadakṣiṇam .\nśraddhāvirahitaṃ yajñaṃ tāmasaṃ paricakṣate ||17-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The sacrifice contrary to the ordinances, without distributing food, devoid of words of power and without gifts, empty of faith, is said to be of darkness."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 14,
+      "sanskrit": "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम् |\nब्रह्मचर्यमहिंसा च शारीरं तप उच्यते ||१७-१४||",
+      "transliteration": "devadvijaguruprājñapūjanaṃ śaucamārjavam .\nbrahmacaryamahiṃsā ca śārīraṃ tapa ucyate ||17-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Worship given to the Gods, to the twice-born, to the teachers and to the wise, purity, straightforwardness, continence and harmlessness, are called the austerity of the body."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 15,
+      "sanskrit": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत् |\nस्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते ||१७-१५||",
+      "transliteration": "anudvegakaraṃ vākyaṃ satyaṃ priyahitaṃ ca yat .\nsvādhyāyābhyasanaṃ caiva vāṅmayaṃ tapa ucyate ||17-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Speech causing no annoyance, truthful, pleasant and beneficial, the practice of the study of the Scriptures, are called the austerity of speech."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 16,
+      "sanskrit": "मनः प्रसादः सौम्यत्वं मौनमात्मविनिग्रहः |\nभावसंशुद्धिरित्येतत्तपो मानसमुच्यते ||१७-१६||",
+      "transliteration": "manaḥ prasādaḥ saumyatvaṃ maunamātmavinigrahaḥ .\nbhāvasaṃśuddhirityetattapo mānasamucyate ||17-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Mental happiness, equilibrium, silence, self-control, purity of nature—these are called the austerity of the mind."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 17,
+      "sanskrit": "श्रद्धया परया तप्तं तपस्तत्त्रिविधं नरैः |\nअफलाकाङ्क्षिभिर्युक्तैः सात्त्विकं परिचक्षते ||१७-१७||",
+      "transliteration": "śraddhayā parayā taptaṃ tapastattrividhaṃ naraiḥ .\naphalākāṅkṣibhiryuktaiḥ sāttvikaṃ paricakṣate ||17-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This threefold austerity, performed by men with the utmost faith, without desire for fruit, harmonised, is said to be pure."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 18,
+      "sanskrit": "सत्कारमानपूजार्थं तपो दम्भेन चैव यत् |\nक्रियते तदिह प्रोक्तं राजसं चलमध्रुवम् ||१७-१८||",
+      "transliteration": "satkāramānapūjārthaṃ tapo dambhena caiva yat .\nkriyate tadiha proktaṃ rājasaṃ calamadhruvam ||17-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The austerity which is practised with the object of gaining respect, honour and worship, and for ostentation, is said to be of passion, unstable and fleeting."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 19,
+      "sanskrit": "मूढग्राहेणात्मनो यत्पीडया क्रियते तपः |\nपरस्योत्सादनार्थं वा तत्तामसमुदाहृतम् ||१७-१९||",
+      "transliteration": "mūḍhagrāheṇātmano yatpīḍayā kriyate tapaḥ .\nparasyotsādanārthaṃ vā tattāmasamudāhṛtam ||17-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That austerity done under a deluded understanding, with self-torture, or with the object of destroying another, that is declared of darkness."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 20,
+      "sanskrit": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे |\nदेशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||१७-२०||",
+      "transliteration": "dātavyamiti yaddānaṃ dīyate.anupakāriṇe .\ndeśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam ||17-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That alms given to one who does nothing in return, believing that a gift ought to be made in a fit place and time to a worthy person, that alms is accounted pure."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 21,
+      "sanskrit": "यत्तु प्रत्युपकारार्थं फलमुद्दिश्य वा पुनः |\nदीयते च परिक्लिष्टं तद्दानं राजसं स्मृतम् ||१७-२१||",
+      "transliteration": "yattu pratyupakārārthaṃ phalamuddiśya vā punaḥ .\ndīyate ca parikliṣṭaṃ taddānaṃ rājasaṃ smṛtam ||17-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That given with a view to receiving in return, or looking for fruit again, or grudgingly, that alms is accounted of passion."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 22,
+      "sanskrit": "अदेशकाले यद्दानमपात्रेभ्यश्च दीयते |\nअसत्कृतमवज्ञातं तत्तामसमुदाहृतम् ||१७-२२||",
+      "transliteration": "adeśakāle yaddānamapātrebhyaśca dīyate .\nasatkṛtamavajñātaṃ tattāmasamudāhṛtam ||17-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That alms given at unfit place and time, and to unworthy persons, disrespectfully and contemptuously, that is declared of darkness."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 23,
+      "sanskrit": "ॐतत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः |\nब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा ||१७-२३||",
+      "transliteration": "OMtatsaditi nirdeśo brahmaṇastrividhaḥ smṛtaḥ .\nbrāhmaṇāstena vedāśca yajñāśca vihitāḥ purā ||17-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\" Aum Tat Sat,\" this has been considered to be the threefold designation of the Eternal. By that were ordained of old Brâhmanas, Vedas and sacrifices."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 24,
+      "sanskrit": "तस्मादोमित्युदाहृत्य यज्ञदानतपःक्रियाः |\nप्रवर्तन्ते विधानोक्ताः सततं ब्रह्मवादिनाम् ||१७-२४||",
+      "transliteration": "tasmādomityudāhṛtya yajñadānatapaḥkriyāḥ .\npravartante vidhānoktāḥ satataṃ brahmavādinām ||17-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore with the pronunciation of \" Aum \" the acts of sacrifice, gift and austerity as laid down in the ordinances are always commenced by the knowers of the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 25,
+      "sanskrit": "तदित्यनभिसन्धाय फलं यज्ञतपःक्रियाः |\nदानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षिभिः ||१७-२५||",
+      "transliteration": "tadityanabhisandhāya phalaṃ yajñatapaḥkriyāḥ .\ndānakriyāśca vividhāḥ kriyante mokṣakāṅkṣibhiḥ ||17-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "With the pronunciation of \" Tat \" and without aiming at fruit are performed the various acts of sacrifice, austerity and gift, by those desiring liberation."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 26,
+      "sanskrit": "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते |\nप्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते ||१७-२६||",
+      "transliteration": "sadbhāve sādhubhāve ca sadityetatprayujyate .\npraśaste karmaṇi tathā sacchabdaḥ pārtha yujyate ||17-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\" Sat \" is used in the sense of reality and goodness; likewise, O Pârtha, the word \" Sat \" is used in the sense of a good work."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 27,
+      "sanskrit": "यज्ञे तपसि दाने च स्थितिः सदिति चोच्यते |\nकर्म चैव तदर्थीयं सदित्येवाभिधीयते ||१७-२७||",
+      "transliteration": "yajñe tapasi dāne ca sthitiḥ saditi cocyate .\nkarma caiva tadarthīyaṃ sadityevābhidhīyate ||17-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Steadfastness in sacrifice, austerity and gift is also called \" Sat \", and action for the sake of the Supreme is also named \" Sat.\""
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:17:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 17,
+      "verse": 28,
+      "sanskrit": "अश्रद्धया हुतं दत्तं तपस्तप्तं कृतं च यत् |\nअसदित्युच्यते पार्थ न च तत्प्रेत्य नो इह ||१७-२८||",
+      "transliteration": "aśraddhayā hutaṃ dattaṃ tapastaptaṃ kṛtaṃ ca yat .\nasadityucyate pārtha na ca tatprepya no iha ||17-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Whatsoever is wrought without faith, oblation, gift, austerity, or other deed, \"Asat\" it is called, O Pârtha; it is nought, here or hereafter."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

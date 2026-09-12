@@ -1,0 +1,862 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 4,
+  "title": {
+    "en": "Jnana Karma Sanyasa Yoga — The Yoga of Knowledge and the Renunciation of Action",
+    "hu": "Gjána-karma-szanjásza-jóga — A tudás és a cselekvésről való lemondás jógája",
+    "hi": "ज्ञानकर्मसंन्यासयोग"
+  },
+  "titleSanskrit": "ज्ञानकर्मसंन्यासयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:17:21.907Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:4:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nइमं विवस्वते योगं प्रोक्तवानहमव्ययम् |\nविवस्वान्मनवे प्राह मनुरिक्ष्वाकवेऽब्रवीत् ||४-१||",
+      "transliteration": "śrībhagavānuvāca .\nimaṃ vivasvate yogaṃ proktavānahamavyayam .\nvivasvānmanave prāha manurikṣvākave.abravīt ||4-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: This imperishable yoga I declared to Vivasvân; Vivasvân taught it to Manu; Manu to Ikshvâku told it."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 2,
+      "sanskrit": "एवं परम्पराप्राप्तमिमं राजर्षयो विदुः |\nस कालेनेह महता योगो नष्टः परन्तप ||४-२||",
+      "transliteration": "evaṃ paramparāprāptamimaṃ rājarṣayo viduḥ .\nsa kāleneha mahatā yogo naṣṭaḥ parantapa ||4-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This, handed on down the line, the King-Sages knew. This yoga by great efflux of time decayed in the world, O Parantapa."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 3,
+      "sanskrit": "स एवायं मया तेऽद्य योगः प्रोक्तः पुरातनः |\nभक्तोऽसि मे सखा चेति रहस्यं ह्येतदुत्तमम् ||४-३||",
+      "transliteration": "sa evāyaṃ mayā te.adya yogaḥ proktaḥ purātanaḥ .\nbhakto.asi me sakhā ceti rahasyaṃ hyetaduttamam ||4-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "This same ancient yoga hath been to-day declared to thee by Me, for thou art My devotee and My friend; it is the supreme Secret."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 4,
+      "sanskrit": "अर्जुन उवाच |\nअपरं भवतो जन्म परं जन्म विवस्वतः |\nकथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति ||४-४||",
+      "transliteration": "arjuna uvāca .\naparaṃ bhavato janma paraṃ janma vivasvataḥ .\nkathametadvijānīyāṃ tvamādau proktavāniti ||4-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Arjuna said: Later was Thy birth, earlier the birth of Vivasvân; how then am I to understand that Thou declaredst it in the beginning?"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 5,
+      "sanskrit": "श्रीभगवानुवाच |\nबहूनि मे व्यतीतानि जन्मानि तव चार्जुन |\nतान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप ||४-५||",
+      "transliteration": "śrībhagavānuvāca .\nbahūni me vyatītāni janmāni tava cārjuna .\ntānyahaṃ veda sarvāṇi na tvaṃ vettha parantapa ||4-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: Many births have been left behind by Me and by thee, O Arjuna. I know them all, but thou knowest not thine, O Parantapa."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 6,
+      "sanskrit": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् |\nप्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया ||४-६||",
+      "transliteration": "ajo.api sannavyayātmā bhūtānāmīśvaro.api san .\nprakṛtiṃ svāmadhiṣṭhāya sambhavāmyātmamāyayā ||4-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Though unborn, the imperishable Self, and also the Lord of all beings, brooding over nature which is Mine own, yet I am born through My own Power."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 7,
+      "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत |\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ||४-७||",
+      "transliteration": "yadā yadā hi dharmasya glānirbhavati bhārata .\nabhyutthānamadharmasya tadātmānaṃ sṛjāmyaham ||4-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Whenever there is decay of righteousness, O Bhârata, and there is exaltation of unrighteousness, then I Myself come forth;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 8,
+      "sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् |\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे ||४-८||",
+      "transliteration": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām .\ndharmasaṃsthāpanārthāya sambhavāmi yuge yuge ||4-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "For the protection of the good, for the destruction of evil-doers, for the sake of firmly establishing righteousness, I am born from age to age."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 9,
+      "sanskrit": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वतः |\nत्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन ||४-९||",
+      "transliteration": "janma karma ca me divyamevaṃ yo vetti tattvataḥ .\ntyaktvā dehaṃ punarjanma naiti māmeti so.arjuna ||4-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who thus knoweth My divine birth and action, in its essence, having abandoned the body, cometh not to birth again, but cometh unto Me, O Arjuna."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 10,
+      "sanskrit": "वीतरागभयक्रोधा मन्मया मामुपाश्रिताः |\nबहवो ज्ञानतपसा पूता मद्भावमागताः ||४-१०||",
+      "transliteration": "vītarāgabhayakrodhā manmayā māmupāśritāḥ .\nbahavo jñānatapasā pūtā madbhāvamāgatāḥ ||4-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Freed from passion, fear and anger, filled with Me, taking refuge in Me, purified in the fire of wisdom, many have entered into My Being."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 11,
+      "sanskrit": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् |\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ||४-११||",
+      "transliteration": "ye yathā māṃ prapadyante tāṃstathaiva bhajāmyaham .\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ ||4-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "However men approach Me, even so do I welcome them, for the path men take from every side is Mine, O Pârtha."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 12,
+      "sanskrit": "काङ्क्षन्तः कर्मणां सिद्धिं यजन्त इह देवताः |\nक्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा ||४-१२||",
+      "transliteration": "kāṅkṣantaḥ karmaṇāṃ siddhiṃ yajanta iha devatāḥ .\nkṣipraṃ hi mānuṣe loke siddhirbhavati karmajā ||4-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "They who long after success in action on earth worship the Shining Ones; for in brief space verily, in this world of men, success is born of action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 13,
+      "sanskrit": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः |\nतस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् ||४-१३||",
+      "transliteration": "cāturvarṇyaṃ mayā sṛṣṭaṃ guṇakarmavibhāgaśaḥ .\ntasya kartāramapi māṃ viddhyakartāramavyayam ||4-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The four castes were emanated by Me, by the different distribution of qualities and actions; know Me to be the author of them, though the actionless and inexhaustible."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 14,
+      "sanskrit": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा |\nइति मां योऽभिजानाति कर्मभिर्न स बध्यते ||४-१४||",
+      "transliteration": "na māṃ karmāṇi limpanti na me karmaphale spṛhā .\niti māṃ yo.abhijānāti karmabhirna sa badhyate ||4-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor do actions affect Me, nor is the fruit of action desired by Me. He who thus knoweth Me is not bound by actions."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 15,
+      "sanskrit": "एवं ज्ञात्वा कृतं कर्म पूर्वैरपि मुमुक्षुभिः |\nकुरु कर्मैव तस्मात्त्वं पूर्वैः पूर्वतरं कृतम् ||४-१५||",
+      "transliteration": "evaṃ jñātvā kṛtaṃ karma pūrvairapi mumukṣubhiḥ .\nkuru karmaiva tasmāttvaṃ pūrvaiḥ pūrvataraṃ kṛtam ||4-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having thus known, our forefathers, ever seeking liberation, performed action; therefore do thou also perform action, as did our forefathers in the olden time."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 16,
+      "sanskrit": "किं कर्म किमकर्मेति कवयोऽप्यत्र मोहिताः |\nतत्ते कर्म प्रवक्ष्यामि यज्ज्ञात्वा मोक्ष्यसेऽशुभात् ||४-१६||",
+      "transliteration": "kiṃ karma kimakarmeti kavayo.apyatra mohitāḥ .\ntatte karma pravakṣyāmi yajjñātvā mokṣyase.aśubhāt ||4-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"What is action, what inaction\"? Even the wise are herein perplexed. Therefore I will declare to thee the action by knowing which thou shalt be loosed from evil."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 17,
+      "sanskrit": "कर्मणो ह्यपि बोद्धव्यं बोद्धव्यं च विकर्मणः |\nअकर्मणश्च बोद्धव्यं गहना कर्मणो गतिः ||४-१७||",
+      "transliteration": "karmaṇo hyapi boddhavyaṃ boddhavyaṃ ca vikarmaṇaḥ .\nakarmaṇaśca boddhavyaṃ gahanā karmaṇo gatiḥ ||4-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "It is needful to discriminate action, to discriminate unlawful action, and to discriminate inaction; mysterious is the path of action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 18,
+      "sanskrit": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः |\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ||४-१८||",
+      "transliteration": "karmaṇyakarma yaḥ paśyedakarmaṇi ca karma yaḥ .\nsa buddhimānmanuṣyeṣu sa yuktaḥ kṛtsnakarmakṛt ||4-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who seeth inaction in action, and action in inaction, he is wise among men, he is harmonious, even while performing all action."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 19,
+      "sanskrit": "यस्य सर्वे समारम्भाः कामसङ्कल्पवर्जिताः |\nज्ञानाग्निदग्धकर्माणं तमाहुः पण्डितं बुधाः ||४-१९||",
+      "transliteration": "yasya sarve samārambhāḥ kāmasaṅkalpavarjitāḥ .\njñānāgnidagdhakarmāṇaṃ tamāhuḥ paṇḍitaṃ budhāḥ ||4-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Whose works are all free from the moulding of desire, whose actions are burned up by the fire of wisdom, him the wise have called a Sage."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 20,
+      "sanskrit": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः |\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ||४-२०||",
+      "transliteration": "tyaktvā karmaphalāsaṅgaṃ nityatṛpto nirāśrayaḥ .\nkarmaṇyabhipravṛtto.api naiva kiñcitkaroti saḥ ||4-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Having abandoned attachment to the fruit of action, always content, nowhere seeking refuge, he is not doing anything, although doing actions."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 21,
+      "sanskrit": "निराशीर्यतचित्तात्मा त्यक्तसर्वपरिग्रहः |\nशारीरं केवलं कर्म कुर्वन्नाप्नोति किल्बिषम् ||४-२१||",
+      "transliteration": "nirāśīryatacittātmā tyaktasarvaparigrahaḥ .\nśārīraṃ kevalaṃ karma kurvannāpnoti kilbiṣam ||4-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Hoping for naught, his mind and self controlled, having abandoned all greed, performing action by the body alone, he doth not commit sin."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 22,
+      "sanskrit": "यदृच्छालाभसन्तुष्टो द्वन्द्वातीतो विमत्सरः |\nसमः सिद्धावसिद्धौ च कृत्वापि न निबध्यते ||४-२२||",
+      "transliteration": "yadṛcchālābhasantuṣṭo dvandvātīto vimatsaraḥ .\nsamaḥ siddhāvasiddhau ca kṛtvāpi na nibadhyate ||4-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Content with whatsoever he obtaineth without effort, free from the pairs of opposites, without envy, balanced in success and failure, though acting he is not bound."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 23,
+      "sanskrit": "गतसङ्गस्य मुक्तस्य ज्ञानावस्थितचेतसः |\nयज्ञायाचरतः कर्म समग्रं प्रविलीयते ||४-२३||",
+      "transliteration": "gatasaṅgasya muktasya jñānāvasthitacetasaḥ .\nyajñāyācarataḥ karma samagraṃ pravilīyate ||4-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Of one with attachment dead, harmonious, with his thoughts established in wisdom, his works sacrifices, all action melts away."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 24,
+      "sanskrit": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम् |\nब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना ||४-२४||",
+      "transliteration": "brahmārpaṇaṃ brahma havirbrahmāgnau brahmaṇā hutam .\nbrahmaiva tena gantavyaṃ brahmakarmasamādhinā ||4-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Eternal the oblation, the Eternal the clarified butter, are offered in the Eternal the fire by the Eternal; unto the Eternal verily shall he go who in his action meditateth wholly upon the Eternal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:25",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 25,
+      "sanskrit": "दैवमेवापरे यज्ञं योगिनः पर्युपासते |\nब्रह्माग्नावपरे यज्ञं यज्ञेनैवोपजुह्वति ||४-२५||",
+      "transliteration": "daivamevāpare yajñaṃ yoginaḥ paryupāsate .\nbrahmāgnāvapare yajñaṃ yajñenaivopajuhvati ||4-25||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Some Yogis offer up sacrifice to the Shining Ones; others sacrifice only by pouring sacrifice into the fire of the Eternal;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:26",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 26,
+      "sanskrit": "श्रोत्रादीनीन्द्रियाण्यन्ये संयमाग्निषु जुह्वति |\nशब्दादीन्विषयानन्य इन्द्रियाग्निषु जुह्वति ||४-२६||",
+      "transliteration": "śrotrādīnīndriyāṇyanye saṃyamāgniṣu juhvati .\nśabdādīnviṣayānanya indriyāgniṣu juhvati ||4-26||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Some pour as sacrifice hearing and the other senses into the fires of restraint; some pour sound and the other objects of sense into the fires of the senses as sacrifice;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:27",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 27,
+      "sanskrit": "सर्वाणीन्द्रियकर्माणि प्राणकर्माणि चापरे |\nआत्मसंयमयोगाग्नौ जुह्वति ज्ञानदीपिते ||४-२७||",
+      "transliteration": "sarvāṇīndriyakarmāṇi prāṇakarmāṇi cāpare .\nātmasaṃyamayogāgnau juhvati jñānadīpite ||4-27||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Others again into the wisdom-kindled fire of union attained by self-control, pour as sacrifice all the functions of the senses and the functions of life;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:28",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 28,
+      "sanskrit": "द्रव्ययज्ञास्तपोयज्ञा योगयज्ञास्तथापरे |\nस्वाध्यायज्ञानयज्ञाश्च यतयः संशितव्रताः ||४-२८||",
+      "transliteration": "dravyayajñāstapoyajñā yogayajñāstathāpare .\nsvādhyāyajñānayajñāśca yatayaḥ saṃśitavratāḥ ||4-28||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yet others the sacrifice of wealth, the sacrifice of austerity, the sacrifice of yoga, the sacrifice of silent reading and wisdom, men concentrated and of effectual vows;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:29",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 29,
+      "sanskrit": "अपाने जुह्वति प्राणं प्राणेऽपानं तथापरे |\nप्राणापानगती रुद्ध्वा प्राणायामपरायणाः ||४-२९||",
+      "transliteration": "apāne juhvati prāṇaṃ prāṇe.apānaṃ tathāpare .\nprāṇāpānagatī ruddhvā prāṇāyāmaparāyaṇāḥ ||4-29||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yet others pour as sacrifice the outgoing breath in the incoming, and the incoming in the outgoing, restraining the flow of the outgoing and incoming breaths, solely absorbed in the control of breathing."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:30",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 30,
+      "sanskrit": "अपरे नियताहाराः प्राणान्प्राणेषु जुह्वति |\nसर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः ||४-३०||",
+      "transliteration": "apare niyatāhārāḥ prāṇānprāṇeṣu juhvati .\nsarve.apyete yajñavido yajñakṣapitakalmaṣāḥ ||4-30||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Others regular in food, pour as sacrifice their life-breaths in life-breaths. All these are knowers of sacrifice, and by sacrifice have destroyed their sins."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:31",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 31,
+      "sanskrit": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम् |\nनायं लोकोऽस्त्ययज्ञस्य कुतोऽन्यः कुरुसत्तम ||४-३१||",
+      "transliteration": "yajñaśiṣṭāmṛtabhujo yānti brahma sanātanam .\nnāyaṃ loko.astyayajñasya kuto.anyaḥ kurusattama ||4-31||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The eaters of the life-giving remains of sacrifice go to the changeless Eternal. This world is not for the non-sacrificer, much less the other, O best of the Kurus."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:32",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 32,
+      "sanskrit": "एवं बहुविधा यज्ञा वितता ब्रह्मणो मुखे |\nकर्मजान्विद्धि तान्सर्वानेवं ज्ञात्वा विमोक्ष्यसे ||४-३२||",
+      "transliteration": "evaṃ bahuvidhā yajñā vitatā brahmaṇo mukhe .\nkarmajānviddhi tānsarvānevaṃ jñātvā vimokṣyase ||4-32||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Many and various sacrifices are thus spread out before the Eternal. Know thou that all these are born of action, and thus knowing thou shalt be free."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:33",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 33,
+      "sanskrit": "श्रेयान्द्रव्यमयाद्यज्ञाज्ज्ञानयज्ञः परन्तप |\nसर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते ||४-३३||",
+      "transliteration": "śreyāndravyamayādyajñājjñānayajñaḥ parantapa .\nsarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate ||4-33||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Better than the sacrifice of any objects is the sacrifice of wisdom, O Parantapa. All actions in their entirety, O Pârtha, culminate in wisdom."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:34",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 34,
+      "sanskrit": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया |\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ||४-३४||",
+      "transliteration": "tadviddhi praṇipātena paripraśnena sevayā .\nupadekṣyanti te jñānaṃ jñāninastattvadarśinaḥ ||4-34||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Learn thou this by discipleship, by investiga tion, and by service. The wise, the seers of the essence of things, will instruct thee in wisdom."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:35",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 35,
+      "sanskrit": "यज्ज्ञात्वा न पुनर्मोहमेवं यास्यसि पाण्डव |\nयेन भूतान्यशेषेण द्रक्ष्यस्यात्मन्यथो मयि (var अशेषाणि) ||४-३५||",
+      "transliteration": "yajjñātvā na punarmohamevaṃ yāsyasi pāṇḍava .\nyena bhūtānyaśeṣāṇi drakṣyasyātmanyatho mayi ||4-35||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And having known this, thou shalt not again fall into this confusion, O Pândava; for by this thou wilt see all beings without exception in the Self, and thus in Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:36",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 36,
+      "sanskrit": "अपि चेदसि पापेभ्यः सर्वेभ्यः पापकृत्तमः |\nसर्वं ज्ञानप्लवेनैव वृजिनं सन्तरिष्यसि ||४-३६||",
+      "transliteration": "api cedasi pāpebhyaḥ sarvebhyaḥ pāpakṛttamaḥ .\nsarvaṃ jñānaplavenaiva vṛjinaṃ santariṣyasi ||4-36||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Even if thou art the most sinful of all sinners, yet shalt thou cross over all sin by the raft of wisdom."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:37",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 37,
+      "sanskrit": "यथैधांसि समिद्धोऽग्निर्भस्मसात्कुरुतेऽर्जुन |\nज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा ||४-३७||",
+      "transliteration": "yathaidhāṃsi samiddho.agnirbhasmasātkurute.arjuna .\njñānāgniḥ sarvakarmāṇi bhasmasātkurute tathā ||4-37||",
+      "word_meanings": [],
+      "translations": {
+        "en": "As the burning fire reduces fuel to ashes, O Arjuna, so doth the fire of wisdom reduce all actions to ashes."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:38",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 38,
+      "sanskrit": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते |\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ||४-३८||",
+      "transliteration": "na hi jñānena sadṛśaṃ pavitramiha vidyate .\ntatsvayaṃ yogasaṃsiddhaḥ kālenātmani vindati ||4-38||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Verily there is no purifier in this world like wisdom; he that is perfected in yoga finds it in the Self in due season."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:39",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 39,
+      "sanskrit": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः |\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ||४-३९||",
+      "transliteration": "śraddhāvā.Nllabhate jñānaṃ tatparaḥ saṃyatendriyaḥ .\njñānaṃ labdhvā parāṃ śāntimacireṇādhigacchati ||4-39||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The man who is full of faith obtaineth wisdom, and he also who hath mastery over his senses; and, having obtained wisdom, he goeth swiftly to the supreme Peace."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:40",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 40,
+      "sanskrit": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति |\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ||४-४०||",
+      "transliteration": "ajñaścāśraddadhānaśca saṃśayātmā vinaśyati .\nnāyaṃ loko.asti na paro na sukhaṃ saṃśayātmanaḥ ||4-40||",
+      "word_meanings": [],
+      "translations": {
+        "en": "But the ignorant, faithless, doubting self goeth to destruction; nor this world, nor that beyond, nor happiness, is there for the doubting self."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:41",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 41,
+      "sanskrit": "योगसंन्यस्तकर्माणं ज्ञानसञ्छिन्नसंशयम् |\nआत्मवन्तं न कर्माणि निबध्नन्ति धनञ्जय ||४-४१||",
+      "transliteration": "yogasaṃnyastakarmāṇaṃ jñānasañchinnasaṃśayam .\nātmavantaṃ na karmāṇi nibadhnanti dhanañjaya ||4-41||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who hath renounced actions by yoga, who hath cloven asunder doubt by wisdom, who is ruled by the Self, actions do not bind him, O Dhananjaya."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:4:42",
+      "scripture": "bhagavad-gita",
+      "chapter": 4,
+      "verse": 42,
+      "sanskrit": "तस्मादज्ञानसम्भूतं हृत्स्थं ज्ञानासिनात्मनः |\nछित्त्वैनं संशयं योगमातिष्ठोत्तिष्ठ भारत ||४-४२||",
+      "transliteration": "tasmādajñānasambhūtaṃ hṛtsthaṃ jñānāsinātmanaḥ .\nchittvainaṃ saṃśayaṃ yogamātiṣṭhottiṣṭha bhārata ||4-42||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore, with the sword of the wisdom of the Self cleaving asunder this ignorance-born doubt dwelling in thy heart, be established in yoga. Stand up, O Bhârata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

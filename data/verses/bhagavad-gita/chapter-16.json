@@ -1,0 +1,502 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 16,
+  "title": {
+    "en": "Daivasura Sampad Vibhaga Yoga — The Yoga of the Divine and the Demoniac Natures",
+    "hu": "Daivászura-szampad-vibhága-jóga — Az isteni és a démoni természet jógája",
+    "hi": "दैवासुरसम्पद्विभागयोग"
+  },
+  "titleSanskrit": "दैवासुरसम्पद्विभागयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:20:41.197Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:16:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nअभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः |\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम् ||१६-१||",
+      "transliteration": "śrībhagavānuvāca .\nabhayaṃ sattvasaṃśuddhirjñānayogavyavasthitiḥ .\ndānaṃ damaśca yajñaśca svādhyāyastapa ārjavam ||16-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: Fearlessness, cleanness of life, steadfastness in the Yoga of wisdom, almsgiving, self-restraint and sacrifice and study of the Scriptures, austerity and straightforwardness,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 2,
+      "sanskrit": "अहिंसा सत्यमक्रोधस्त्यागः शान्तिरपैशुनम् |\nदया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम् ||१६-२||",
+      "transliteration": "ahiṃsā satyamakrodhastyāgaḥ śāntirapaiśunam .\ndayā bhūteṣvaloluptvaṃ mārdavaṃ hrīracāpalam ||16-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Harmlessness, truth, absence of wrath, renunciation, peacefulness, absence of crookedness, compassion to living beings, uncovetousness, mildness, modesty, absence of fickleness,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 3,
+      "sanskrit": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता |\nभवन्ति सम्पदं दैवीमभिजातस्य भारत ||१६-३||",
+      "transliteration": "tejaḥ kṣamā dhṛtiḥ śaucamadroho nātimānitā .\nbhavanti sampadaṃ daivīmabhijātasya bhārata ||16-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Vigour, forgiveness, fortitude, purity, absence of envy and pride—these are his who is born with the divine properties, O Bhârata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 4,
+      "sanskrit": "दम्भो दर्पोऽभिमानश्च क्रोधः पारुष्यमेव च |\nअज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम् ||१६-४||",
+      "transliteration": "dambho darpo.abhimānaśca krodhaḥ pāruṣyameva ca .\najñānaṃ cābhijātasya pārtha sampadamāsurīm ||16-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Hypocrisy, arrogance and conceit, wrath and also harshness and unwisdom are his who is born, O Pârtha, with demoniacal properties."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 5,
+      "sanskrit": "दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता |\nमा शुचः सम्पदं दैवीमभिजातोऽसि पाण्डव ||१६-५||",
+      "transliteration": "daivī sampadvimokṣāya nibandhāyāsurī matā .\nmā śucaḥ sampadaṃ daivīmabhijāto.asi pāṇḍava ||16-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The divine properties are deemed to be for liberation, the demoniacal for bondage. Grieve not, thou art born with divine properties, O Pândava."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 6,
+      "sanskrit": "द्वौ भूतसर्गौ लोकेऽस्मिन्दैव आसुर एव च |\nदैवो विस्तरशः प्रोक्त आसुरं पार्थ मे शृणु ||१६-६||",
+      "transliteration": "dvau bhūtasargau loke.asmindaiva āsura eva ca .\ndaivo vistaraśaḥ prokta āsuraṃ pārtha me śṛṇu ||16-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Twofold is the animal creation in this world, the divine and the demoniacal: the divine hath been described at length: hear from Me, O Pârtha, the demoniacal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 7,
+      "sanskrit": "प्रवृत्तिं च निवृत्तिं च जना न विदुरासुराः |\nन शौचं नापि चाचारो न सत्यं तेषु विद्यते ||१६-७||",
+      "transliteration": "pravṛttiṃ ca nivṛttiṃ ca janā na vidurāsurāḥ .\nna śaucaṃ nāpi cācāro na satyaṃ teṣu vidyate ||16-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Demoniacal men know neither right energy nor right abstinence; nor purity, nor even propriety, nor truth is in them."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 8,
+      "sanskrit": "असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम् |\nअपरस्परसम्भूतं किमन्यत्कामहैतुकम् ||१६-८||",
+      "transliteration": "asatyamapratiṣṭhaṃ te jagadāhuranīśvaram .\naparasparasambhūtaṃ kimanyatkāmahaitukam ||16-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"The universe is without truth, without basis,\" they say, \"without a God; brought about by mutual union, and caused by lust and nothing else.\""
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 9,
+      "sanskrit": "एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धयः |\nप्रभवन्त्युग्रकर्माणः क्षयाय जगतोऽहिताः ||१६-९||",
+      "transliteration": "etāṃ dṛṣṭimavaṣṭabhya naṣṭātmāno.alpabuddhayaḥ .\nprabhavantyugrakarmāṇaḥ kṣayāya jagato.ahitāḥ ||16-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Holding this view, these ruined selves of small understanding, of fierce deeds, come forth as enemies for the destruction of the world."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 10,
+      "sanskrit": "काममाश्रित्य दुष्पूरं दम्भमानमदान्विताः |\nमोहाद्गृहीत्वासद्ग्राहान्प्रवर्तन्तेऽशुचिव्रताः ||१६-१०||",
+      "transliteration": "kāmamāśritya duṣpūraṃ dambhamānamadānvitāḥ .\nmohādgṛhītvāsadgrāhānpravartante.aśucivratāḥ ||16-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Surrendering themselves to insatiable desires, possessed with vanity, conceit and arrogance, holding evil ideas through delusion, they engage in action with impure resolves."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 11,
+      "sanskrit": "चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिताः |\nकामोपभोगपरमा एतावदिति निश्चिताः ||१६-११||",
+      "transliteration": "cintāmaparimeyāṃ ca pralayāntāmupāśritāḥ .\nkāmopabhogaparamā etāvaditi niścitāḥ ||16-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Giving themselves over to unmeasured thought whose end is death, regarding the gratification of desires as the highest, feeling sure that this is all,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 12,
+      "sanskrit": "आशापाशशतैर्बद्धाः कामक्रोधपरायणाः |\nईहन्ते कामभोगार्थमन्यायेनार्थसञ्चयान् ||१६-१२||",
+      "transliteration": "āśāpāśaśatairbaddhāḥ kāmakrodhaparāyaṇāḥ .\nīhante kāmabhogārthamanyāyenārthasañcayān ||16-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Held in bondage by a hundred ties of expectation, given over to lust and anger, they strive to obtain by unlawful means hoards of wealth for sensual enjoyments."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 13,
+      "sanskrit": "इदमद्य मया लब्धमिमं प्राप्स्ये मनोरथम् |\nइदमस्तीदमपि मे भविष्यति पुनर्धनम् ||१६-१३||",
+      "transliteration": "idamadya mayā labdhamimaṃ prāpsye manoratham .\nidamastīdamapi me bhaviṣyati punardhanam ||16-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"This to-day by me hath been won, that purpose I shall gain; this wealth is mine already, and also this shall be mine in future."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 14,
+      "sanskrit": "असौ मया हतः शत्रुर्हनिष्ये चापरानपि |\nईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी ||१६-१४||",
+      "transliteration": "asau mayā hataḥ śatrurhaniṣye cāparānapi .\nīśvaro.ahamahaṃ bhogī siddho.ahaṃ balavānsukhī ||16-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"I have slain this enemy, and others also I shall slay. I am the Lord, I am the enjoyer, I am perfect, powerful, happy;"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 15,
+      "sanskrit": "आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया |\nयक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिताः ||१६-१५||",
+      "transliteration": "āḍhyo.abhijanavānasmi ko.anyo.asti sadṛśo mayā .\nyakṣye dāsyāmi modiṣya ityajñānavimohitāḥ ||16-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "\"I am wealthy, well-born; what other is there that is like unto me? I will sacrifice, I will give alms, I will rejoice.\" Thus deluded by unwisdom,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 16,
+      "sanskrit": "अनेकचित्तविभ्रान्ता मोहजालसमावृताः |\nप्रसक्ताः कामभोगेषु पतन्ति नरकेऽशुचौ ||१६-१६||",
+      "transliteration": "anekacittavibhrāntā mohajālasamāvṛtāḥ .\nprasaktāḥ kāmabhogeṣu patanti narake.aśucau ||16-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Bewildered by numerous thoughts, enmeshed in the web of delusion, addicted to the gratification of desire, they fall downwards into a foul hell."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 17,
+      "sanskrit": "आत्मसम्भाविताः स्तब्धा धनमानमदान्विताः |\nयजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम् ||१६-१७||",
+      "transliteration": "ātmasambhāvitāḥ stabdhā dhanamānamadānvitāḥ .\nyajante nāmayajñaiste dambhenāvidhipūrvakam ||16-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Self-glorifying, stubborn, filled with the pride and intoxication of wealth, they perform lip-sacrifices for ostentation, contrary to scriptural ordinance."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 18,
+      "sanskrit": "अहंकारं बलं दर्पं कामं क्रोधं च संश्रिताः |\nमामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयकाः ||१६-१८||",
+      "transliteration": "ahaṃkāraṃ balaṃ darpaṃ kāmaṃ krodhaṃ ca saṃśritāḥ .\nmāmātmaparadeheṣu pradviṣanto.abhyasūyakāḥ ||16-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Given over to egoism, power, insolence, lust and wrath, these malicious ones hate Me in the bodies of others and in their own."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 19,
+      "sanskrit": "तानहं द्विषतः क्रुरान्संसारेषु नराधमान् |\nक्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु ||१६-१९||",
+      "transliteration": "tānahaṃ dviṣataḥ krurānsaṃsāreṣu narādhamān .\nkṣipāmyajasramaśubhānāsurīṣveva yoniṣu ||16-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "These haters, evil, pitiless, vilest among men in the world, I ever throw down into demoniacal wombs."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 20,
+      "sanskrit": "आसुरीं योनिमापन्ना मूढा जन्मनि जन्मनि |\nमामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम् ||१६-२०||",
+      "transliteration": "āsurīṃ yonimāpannā mūḍhā janmani janmani .\nmāmaprāpyaiva kaunteya tato yāntyadhamāṃ gatim ||16-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Cast into demoniacal wombs, deluded birth after birth, attaining not to Me, O Kaunteya, they sink into the lowest depths."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:21",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 21,
+      "sanskrit": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः |\nकामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ||१६-२१||",
+      "transliteration": "trividhaṃ narakasyedaṃ dvāraṃ nāśanamātmanaḥ .\nkāmaḥ krodhastathā lobhastasmādetattrayaṃ tyajet ||16-21||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Triple is the gate of this hell, destructive of the self—lust, wrath, and greed; therefore let man renounce these three."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:22",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 22,
+      "sanskrit": "एतैर्विमुक्तः कौन्तेय तमोद्वारैस्त्रिभिर्नरः |\nआचरत्यात्मनः श्रेयस्ततो याति परां गतिम् ||१६-२२||",
+      "transliteration": "etairvimuktaḥ kaunteya tamodvāraistribhirnaraḥ .\nācaratyātmanaḥ śreyastato yāti parāṃ gatim ||16-22||",
+      "word_meanings": [],
+      "translations": {
+        "en": "A man liberated from these three gates of darkness, O son of Kunti, accomplisheth his own welfare, and thus reacheth the highest goal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:23",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 23,
+      "sanskrit": "यः शास्त्रविधिमुत्सृज्य वर्तते कामकारतः |\nन स सिद्धिमवाप्नोति न सुखं न परां गतिम् ||१६-२३||",
+      "transliteration": "yaḥ śāstravidhimutsṛjya vartate kāmakārataḥ .\nna sa siddhimavāpnoti na sukhaṃ na parāṃ gatim ||16-23||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who, having cast aside the ordinances of the Scriptures, followeth the promptings of desire, attaineth not to perfection, nor happiness, nor the highest goal."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:16:24",
+      "scripture": "bhagavad-gita",
+      "chapter": 16,
+      "verse": 24,
+      "sanskrit": "तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ |\nज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि ||१६-२४||",
+      "transliteration": "tasmācchāstraṃ pramāṇaṃ te kāryākāryavyavasthitau .\njñātvā śāstravidhānoktaṃ karma kartumihārhasi ||16-24||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Therefore let the Scriptures be thy authority, in determining what ought to be done, or what ought not to be done. Knowing what hath been declared by the ordinances of the Scriptures, thou oughtest to work in this world."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}

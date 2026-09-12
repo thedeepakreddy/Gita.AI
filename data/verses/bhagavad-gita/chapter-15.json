@@ -1,0 +1,422 @@
+{
+  "scripture": "bhagavad-gita",
+  "chapter": 15,
+  "title": {
+    "en": "Purushottama Yoga — The Yoga of the Supreme Person",
+    "hu": "Purusóttama-jóga — A Legfelsőbb Személy jógája",
+    "hi": "पुरुषोत्तमयोग"
+  },
+  "titleSanskrit": "पुरुषोत्तमयोग",
+  "sourceLanguage": "sa",
+  "script": "Devanagari",
+  "sources": {
+    "sanskrit": "vedicscriptures.github.io (public-domain source text)",
+    "transliteration": "vedicscriptures.github.io (IAST)",
+    "translations": {
+      "en": "Annie Besant, Bhagavad-Gita 4th ed. (1922) — public domain"
+    }
+  },
+  "generatedAt": "2026-08-10T16:20:29.012Z",
+  "verses": [
+    {
+      "id": "bhagavad-gita:15:1",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 1,
+      "sanskrit": "श्रीभगवानुवाच |\nऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम् |\nछन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित् ||१५-१||",
+      "transliteration": "śrībhagavānuvāca .\nūrdhvamūlamadhaḥśākhamaśvatthaṃ prāhuravyayam .\nchandāṃsi yasya parṇāni yastaṃ veda sa vedavit ||15-1||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The Blessed Lord said: With roots above, branches below, the Asvattha is said to be indestructible; the leaves of it are hymns; he who knoweth it is a Veda-knower."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:2",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 2,
+      "sanskrit": "अधश्चोर्ध्वं प्रसृतास्तस्य शाखा\nगुणप्रवृद्धा विषयप्रवालाः |\nअधश्च मूलान्यनुसन्ततानि\nकर्मानुबन्धीनि मनुष्यलोके ||१५-२||",
+      "transliteration": "adhaścordhvaṃ prasṛtāstasya śākhā guṇapravṛddhā viṣayapravālāḥ .\nadhaśca mūlānyanusantatāni karmānubandhīni manuṣyaloke ||15-2||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Downwards and upwards spread the branches of it, nourished by the qualities; the objects of the senses its buds; and its roots grow downwards, the bonds of action in the world of men."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:3",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 3,
+      "sanskrit": "न रूपमस्येह तथोपलभ्यते\nनान्तो न चादिर्न च सम्प्रतिष्ठा |\nअश्वत्थमेनं सुविरूढमूलं\nअसङ्गशस्त्रेण दृढेन छित्त्वा ||१५-३||",
+      "transliteration": "na rūpamasyeha tathopalabhyate nānto na cādirna ca sampratiṣṭhā .\naśvatthamenaṃ suvirūḍhamūlaṃ asaṅgaśastreṇa dṛḍhena chittvā ||15-3||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor here may be acquired knowledge of its form, nor its end, nor its origin, nor its rooting-place; this strongly rooted Asvattha having been cut down by the unswerving weapon of non-attachment,"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:4",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 4,
+      "sanskrit": "ततः पदं तत्परिमार्गितव्यं\nयस्मिन्गता न निवर्तन्ति भूयः |\nतमेव चाद्यं पुरुषं प्रपद्ये |\nयतः प्रवृत्तिः प्रसृता पुराणी ||१५-४||",
+      "transliteration": "tataḥ padaṃ tatparimārgitavyaṃ yasmingatā na nivartanti bhūyaḥ .\ntameva cādyaṃ puruṣaṃ prapadye .\nyataḥ pravṛttiḥ prasṛtā purāṇī ||15-4||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That path beyond may be sought, treading which there is no return. I go indeed to that Primal Man, whence the ancient energy forth-streamed."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:5",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 5,
+      "sanskrit": "निर्मानमोहा जितसङ्गदोषा\nअध्यात्मनित्या विनिवृत्तकामाः |\nद्वन्द्वैर्विमुक्ताः सुखदुःखसंज्ञैर्-\nगच्छन्त्यमूढाः पदमव्ययं तत् ||१५-५||",
+      "transliteration": "nirmānamohā jitasaṅgadoṣā adhyātmanityā vinivṛttakāmāḥ .\ndvandvairvimuktāḥ sukhaduḥkhasaṃjñaira- gacchantyamūḍhāḥ padamavyayaṃ tat ||15-5||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Without pride and delusion, victorious over the vice of attachment, dwelling constantly in the Self, desire pacified, liberated from the pairs of opposites known as pleasure and pain, they tread, undeluded, that indestructible path."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:6",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 6,
+      "sanskrit": "न तद्भासयते सूर्यो न शशाङ्को न पावकः |\nयद्गत्वा न निवर्तन्ते तद्धाम परमं मम ||१५-६||",
+      "transliteration": "na tadbhāsayate sūryo na śaśāṅko na pāvakaḥ .\nyadgatvā na nivartante taddhāma paramaṃ mama ||15-6||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Nor doth the sun lighten there, nor moon, nor fire; having gone thither they return not; that is My supreme abode."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:7",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 7,
+      "sanskrit": "ममैवांशो जीवलोके जीवभूतः सनातनः |\nमनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति ||१५-७||",
+      "transliteration": "mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ .\nmanaḥṣaṣṭhānīndriyāṇi prakṛtisthāni karṣati ||15-7||",
+      "word_meanings": [],
+      "translations": {
+        "en": "A portion of Mine own Self, transformed in the world of life into an immortal Spirit, draweth round itself the senses of which the mind is the sixth, veiled in matter."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:8",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 8,
+      "sanskrit": "शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः |\nगृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात् ||१५-८||",
+      "transliteration": "śarīraṃ yadavāpnoti yaccāpyutkrāmatīśvaraḥ .\ngṛhitvaitāni saṃyāti vāyurgandhānivāśayāt ||15-8||",
+      "word_meanings": [],
+      "translations": {
+        "en": "When the Lord acquireth a body and when He abandoneth it, He seizeth these and goeth with them, as the wind takes fragrances from their retreats"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:9",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 9,
+      "sanskrit": "श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च |\nअधिष्ठाय मनश्चायं विषयानुपसेवते ||१५-९||",
+      "transliteration": "śrotraṃ cakṣuḥ sparśanaṃ ca rasanaṃ ghrāṇameva ca .\nadhiṣṭhāya manaścāyaṃ viṣayānupasevate ||15-9||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Enshrined in the ear, the eye, the touch, the taste and the smell, and in the mind also, He enjoyeth the objects of the senses"
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:10",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 10,
+      "sanskrit": "उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम् |\nविमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः ||१५-१०||",
+      "transliteration": "utkrāmantaṃ sthitaṃ vāpi bhuñjānaṃ vā guṇānvitam .\nvimūḍhā nānupaśyanti paśyanti jñānacakṣuṣaḥ ||15-10||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The deluded do not perceive (Him) when He departeth or stayeth or enjoyeth, swayed by the qualities; the wisdom-eyed perceive."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:11",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 11,
+      "sanskrit": "यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम् |\nयतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः ||१५-११||",
+      "transliteration": "yatanto yoginaścainaṃ paśyantyātmanyavasthitam .\nyatanto.apyakṛtātmāno nainaṃ paśyantyacetasaḥ ||15-11||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Yogîs also, struggling, perceive Him, established in the Self; but though struggling, the unintelligent perceive Him not, their selves untrained."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:12",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 12,
+      "sanskrit": "यदादित्यगतं तेजो जगद्भासयतेऽखिलम् |\nयच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम् ||१५-१२||",
+      "transliteration": "yadādityagataṃ tejo jagadbhāsayate.akhilam .\nyaccandramasi yaccāgnau tattejo viddhi māmakam ||15-12||",
+      "word_meanings": [],
+      "translations": {
+        "en": "That splendour issuing from the sun that enlighteneth the whole world, that which is in the moon and in fire, that splendour know as from Me."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:13",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 13,
+      "sanskrit": "गामाविश्य च भूतानि धारयाम्यहमोजसा |\nपुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः ||१५-१३||",
+      "transliteration": "gāmāviśya ca bhūtāni dhārayāmyahamojasā .\npuṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ ||15-13||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Permeating the soil, I support beings by my vital energy, and having become the delicious Soma I nourish all plants."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:14",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 14,
+      "sanskrit": "अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः |\nप्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम् ||१५-१४||",
+      "transliteration": "ahaṃ vaiśvānaro bhūtvā prāṇināṃ dehamāśritaḥ .\nprāṇāpānasamāyuktaḥ pacāmyannaṃ caturvidham ||15-14||",
+      "word_meanings": [],
+      "translations": {
+        "en": "I, having become the Fire of Life, take possession of the bodies of breathing things, and united with the life-breaths, I digest the four kinds of food."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:15",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 15,
+      "sanskrit": "सर्वस्य चाहं हृदि सन्निविष्टो\nमत्तः स्मृतिर्ज्ञानमपोहनञ्च |\nवेदैश्च सर्वैरहमेव वेद्यो\nवेदान्तकृद्वेदविदेव चाहम् ||१५-१५||",
+      "transliteration": "sarvasya cāhaṃ hṛdi sanniviṣṭo mattaḥ smṛtirjñānamapohanañca .\nvedaiśca sarvairahameva vedyo vedāntakṛdvedavideva cāham ||15-15||",
+      "word_meanings": [],
+      "translations": {
+        "en": "And I am seated in the hearts of all, and from Me memory and wisdom and their absence. And that which is to be known in all the Vedas am I; and I indeed the Veda-knower and the author of the Vedanta."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:16",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 16,
+      "sanskrit": "द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च |\nक्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते ||१५-१६||",
+      "transliteration": "dvāvimau puruṣau loke kṣaraścākṣara eva ca .\nkṣaraḥ sarvāṇi bhūtāni kūṭastho.akṣara ucyate ||15-16||",
+      "word_meanings": [],
+      "translations": {
+        "en": "There are two Energies in this world, the destructible and the indestructible; the destructible is all beings, the unchanging is called the indestructible."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:17",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 17,
+      "sanskrit": "उत्तमः पुरुषस्त्वन्यः परमात्मेत्युधाहृतः |\nयो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः ||१५-१७||",
+      "transliteration": "uttamaḥ puruṣastvanyaḥ paramātmetyudhāhṛtaḥ .\nyo lokatrayamāviśya bibhartyavyaya īśvaraḥ ||15-17||",
+      "word_meanings": [],
+      "translations": {
+        "en": "The highest Energy is verily Another, declared as the Supreme Self, He who, pervading all, sustaineth the three worlds, the indestructible Lord."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:18",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 18,
+      "sanskrit": "यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः |\nअतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः ||१५-१८||",
+      "transliteration": "yasmātkṣaramatīto.ahamakṣarādapi cottamaḥ .\nato.asmi loke vedeca prathitaḥ puruṣottamaḥ ||15-18||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Since I excel the destructible, and am more excellent also than the indestructible, in the world and in the Veda I am proclaimed the Supreme Spirit."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:19",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 19,
+      "sanskrit": "यो मामेवमसम्मूढो जानाति पुरुषोत्तमम् |\nस सर्वविद्भजति मां सर्वभावेन भारत ||१५-१९||",
+      "transliteration": "yo māmevamasammūḍho jānāti puruṣottamam .\nsa sarvavidbhajati māṃ sarvabhāvena bhārata ||15-19||",
+      "word_meanings": [],
+      "translations": {
+        "en": "He who undeluded knoweth Me thus as the Supreme Spirit, he, all-knowing, worshippeth Me with his whole being, O Bhârata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    },
+    {
+      "id": "bhagavad-gita:15:20",
+      "scripture": "bhagavad-gita",
+      "chapter": 15,
+      "verse": 20,
+      "sanskrit": "इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ |\nएतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत ||१५-२०||",
+      "transliteration": "iti guhyatamaṃ śāstramidamuktaṃ mayānagha .\netadbuddhvā buddhimānsyātkṛtakṛtyaśca bhārata ||15-20||",
+      "word_meanings": [],
+      "translations": {
+        "en": "Thus by Me this most secret teaching hath been told O sinless one. This known, he hath become illuminated and hath finished his work, O Bhârata."
+      },
+      "translation_meta": {
+        "en": {
+          "status": "placeholder",
+          "translator": "Annie Besant",
+          "source": "Bhagavad-Gita, 4th ed. (1922), via English Wikisource",
+          "license": "public-domain"
+        }
+      }
+    }
+  ]
+}
