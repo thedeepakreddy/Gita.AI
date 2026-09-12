@@ -1,0 +1,81 @@
+#!/usr/bin/env node
+/**
+ * Generates the Postgres schema and its baseline migration from the SQLite one.
+ *
+ *   npm run db:postgres
+ *
+ * WHY THIS EXISTS. Prisma will not take the datasource provider from an
+ * environment variable, so a project that develops on SQLite and deploys on
+ * Postgres needs two schema files. Two hand-maintained schema files drift, and
+ * the drift is invisible until a migration fails in production.
+ *
+ * So prisma/schema.prisma stays the single source of truth and this generates
+ * the Postgres copy from it. The generated file is never edited by hand —
+ * `npm run ship:check` fails if it has gone stale.
+ *
+ * THE MIGRATIONS ALSO HAD TO BE REGENERATED, not translated. Two of the four
+ * SQLite migrations contain `PRAGMA defer_foreign_keys` and `DATETIME`, which
+ * Postgres rejects outright, so `prisma migrate deploy` would fail on the first
+ * deploy. Since no production database exists yet, the right move is a single
+ * clean Postgres baseline rather than a replayed history that never ran.
+ *
+ * `prisma migrate diff` produces it without a live database, so this works
+ * offline and in CI.
+ */
+
+import { execFileSync } from 'node:child_process';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
+
+const ROOT = process.cwd();
+const SOURCE = join(ROOT, 'prisma', 'schema.prisma');
+const OUT_DIR = join(ROOT, 'prisma', 'postgres');
+const OUT_SCHEMA = join(OUT_DIR, 'schema.prisma');
+const OUT_MIGRATION = join(OUT_DIR, 'migrations', '0_init', 'migration.sql');
+
+const BANNER = `// GENERATED FILE — DO NOT EDIT.
+//
+// Produced from prisma/schema.prisma by scripts/gen-postgres.mjs.
+// Edit the SQLite schema and re-run:  npm run db:postgres
+//
+// Prisma cannot take the datasource provider from an environment variable, so
+// deploying on Postgres while developing on SQLite needs a second schema. This
+// is that file, generated rather than maintained, because two hand-edited
+// schemas drift and the drift only shows up as a failed production migration.
+`;
+
+function toPostgres(schema) {
+  const swapped = schema.replace(/provider\s*=\s*"sqlite"/, 'provider = "postgresql"');
+  if (swapped === schema) throw new Error('No sqlite provider found in prisma/schema.prisma.');
+  return BANNER + swapped;
+}
+
+async function main() {
+  const source = await readFile(SOURCE, 'utf8');
+  await mkdir(join(OUT_DIR, 'migrations', '0_init'), { recursive: true });
+  await writeFile(OUT_SCHEMA, toPostgres(source), 'utf8');
+
+  // --from-empty: a single baseline for a database that does not exist yet.
+  // No connection is opened, so this runs offline.
+  const sql = execFileSync(
+    'npx',
+    ['prisma', 'migrate', 'diff', '--from-empty', '--to-schema-datamodel', OUT_SCHEMA, '--script'],
+    { encoding: 'utf8', cwd: ROOT }
+  );
+
+  if (/PRAGMA|AUTOINCREMENT/i.test(sql)) {
+    throw new Error('Generated SQL still contains SQLite-only statements — refusing to write it.');
+  }
+
+  await writeFile(OUT_MIGRATION, sql, 'utf8');
+  const tables = (sql.match(/CREATE TABLE/g) ?? []).length;
+  console.log(`  wrote ${OUT_SCHEMA.replace(ROOT + '/', '')}`);
+  console.log(`  wrote ${OUT_MIGRATION.replace(ROOT + '/', '')} — ${tables} tables, ${sql.split('\n').length} lines`);
+  console.log('\n  Deploy with:');
+  console.log('    npx prisma migrate deploy --schema=prisma/postgres/schema.prisma');
+}
+
+main().catch((err) => {
+  console.error(`\n✗ ${err.message}`);
+  process.exit(1);
+});

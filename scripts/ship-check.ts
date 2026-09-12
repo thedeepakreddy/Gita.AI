@@ -150,6 +150,29 @@ async function main() {
     fail('Index matches corpus', 'no vector index found — run npm run embed:index');
   }
 
+  // --- The Postgres schema must not have drifted --------------------------
+  //
+  // SQLite locally, Postgres in production, and Prisma will not take the
+  // provider from an env var — so there are two schema files. The second is
+  // generated, and a stale one fails on the first deploy, which is the worst
+  // possible moment to discover it.
+  try {
+    const source = await readFile(join(process.cwd(), 'prisma', 'schema.prisma'), 'utf8');
+    const generated = await readFile(
+      join(process.cwd(), 'prisma', 'postgres', 'schema.prisma'),
+      'utf8'
+    );
+    const expected = source.replace(/provider\s*=\s*"sqlite"/, 'provider = "postgresql"');
+    const body = generated.slice(generated.indexOf('generator client'));
+    if (body.trim() === expected.slice(expected.indexOf('generator client')).trim()) {
+      pass('Postgres schema in sync', 'generated copy matches prisma/schema.prisma');
+    } else {
+      fail('Postgres schema in sync', 'prisma/postgres/schema.prisma is stale — run npm run db:postgres');
+    }
+  } catch {
+    warn('Postgres schema in sync', 'no generated Postgres schema — run npm run db:postgres before deploying');
+  }
+
   // --- Secrets ------------------------------------------------------------
   try {
     const gitignore = await readFile(join(process.cwd(), '.gitignore'), 'utf8');

@@ -321,25 +321,49 @@ are about the runtime rather than the code.
 
 **1. SQLite does not survive a deploy.** Render's filesystem is ephemeral, so
 every deploy wipes accounts, sessions, saved provider keys, conversations and
-the entire Hungarian review queue. Provision a Postgres instance, set
-`DATABASE_URL`, and change one line in `prisma/schema.prisma`:
+the entire Hungarian review queue.
 
-```prisma
-datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
-}
+Switching is **not** a one-line provider change, and it is worth knowing why
+before you try it: two of the four SQLite migrations contain `PRAGMA
+defer_foreign_keys` and `DATETIME`, which Postgres rejects outright, so
+`prisma migrate deploy` fails on the very first deploy.
+
+Prisma also refuses to take the datasource provider from an environment
+variable, so a project that develops on SQLite and deploys on Postgres needs a
+second schema. Rather than maintain two by hand — they drift, and the drift only
+surfaces as a failed production migration — the Postgres copy is **generated**:
+
+```bash
+npm run db:postgres     # regenerate after ANY change to prisma/schema.prisma
 ```
 
-No model changes are needed. Then `npx prisma migrate deploy`, and re-run
-`npm run data:hungarian` to repopulate the review queue.
+That writes `prisma/postgres/schema.prisma` and a single clean Postgres baseline
+migration (`0_init`), produced by `prisma migrate diff` offline — no database
+needed, so it works in CI. `npm run ship:check` **fails** if the generated copy
+has gone stale.
 
-**2. The embedding model needs memory.** The default `fp32` encoder is ~1.1GB of
-weights held in the process. Render's free tier gives 512MB, so `/chat` and
-`/search` will be killed on the first query while `/study` carries on working.
-Either move to an instance with enough memory, or set `EMBED_DTYPE=q8`
-(~280MB, slightly lossy — run `npm run embed:verify` after), or run the Python
-sidecar elsewhere and point at it with `EMBED_BACKEND=service`.
+Provision Postgres on Render, set `DATABASE_URL`, then:
+
+```bash
+npx prisma migrate deploy --schema=prisma/postgres/schema.prisma
+npm run data:hungarian    # repopulate the review queue
+```
+
+**2. The embedding model needs memory.** The encoder holds ~1.3GB of weights in
+the process. Render's free tier gives 512MB, so `/chat` and `/search` are killed
+on the first query while `/study` carries on working.
+
+Two escapes look obvious and both were measured and rejected:
+
+| Option | Measured | Verdict |
+|---|---|---|
+| `EMBED_DTYPE=q8` | cosine 0.978–0.991 vs the index; **11.6s per query** (fp32: 0.486s) | No. Worse *and* 24× slower — onnxruntime has no optimised int8 kernels here |
+| `multilingual-e5-small` | 465MB, 384 dims, fast — but **1/4 retrieval probes** vs base's 2/4 | No. Loses 2.35 from the top 5 for "everyone will think I am a coward" |
+
+So the honest options are an instance with enough memory (~2GB), or running the
+Python sidecar as a separate service and pointing at it with
+`EMBED_BACKEND=service`. Retrieval quality is the product here; degrading it to
+fit a free tier is the wrong trade.
 
 The vector index itself is committed, so nothing is downloaded at build time.
 
@@ -349,7 +373,7 @@ redirect URIs in the Google console, or sign-in fails with a redirect mismatch.
 
 | | |
 |---|---|
-| Build command | `npm ci && npx prisma generate && npm run build` |
+| Build command | `npm ci && npx prisma generate --schema=prisma/postgres/schema.prisma && npm run build` |
 | Start command | `npm start` |
 | Required env | `DATABASE_URL` `APP_ENCRYPTION_KEY` `NEXTAUTH_SECRET` `NEXTAUTH_URL` `GOOGLE_CLIENT_ID` `GOOGLE_CLIENT_SECRET` `ADMIN_EMAILS` |
 

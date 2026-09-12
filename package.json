@@ -22,7 +22,8 @@
     "models:check": "tsx scripts/check-models.ts",
     "ship:check": "tsx scripts/ship-check.ts",
     "data:hungarian": "node scripts/import-hungarian.mjs",
-    "data:worklist": "tsx scripts/translation-worklist.ts"
+    "data:worklist": "tsx scripts/translation-worklist.ts",
+    "db:postgres": "node scripts/gen-postgres.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.116.0",
