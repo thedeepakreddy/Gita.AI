@@ -9,7 +9,9 @@ const nextConfig = {
     // are real device widths — including the 2560/3840 ones the default list
     // stops short of, where a 1920 source would otherwise be upscaled by the
     // browser and look soft.
-    deviceSizes: [420, 640, 828, 1080, 1200, 1440, 1920, 2560, 3840],
+    // Sources are 1600px, so offering 2560/3840 only makes the optimizer
+    // upscale — expensive on a small instance and no better to look at.
+    deviceSizes: [420, 640, 828, 1080, 1200, 1440, 1600],
     // Both offered; the browser takes whichever it can decode. AVIF is
     // materially smaller on painted artwork with large flat areas.
     formats: ['image/avif', 'image/webp'],
