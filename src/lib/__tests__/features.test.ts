@@ -8,6 +8,7 @@ import { inspectKey, normalisePastedKey } from '../crypto/secrets';
 import { providerMessage } from '../chat/providers';
 import { BACKGROUNDS } from '../ui/backgrounds';
 import { caveatKey, needsCaveat } from '../verses/confidence';
+import { embed, embedBackend, embedderInfo, embeddingServiceHealthy } from '../retrieval/embedder';
 
 /**
  * Covers the logic added for the handover: the audit trail the voice guard now
@@ -349,5 +350,54 @@ test('confidence: every caveat key exists in every locale', async () => {
         `${locale} is missing disclaimer.${key} — the caveat would render blank`
       );
     }
+  }
+});
+
+// --- Retrieval can be switched off safely -----------------------------------
+//
+// On a small instance, loading the encoder does not fail the request — it
+// OOM-kills the process and takes /study and the review queue down with it.
+// One person opening /search would fell the whole site. So a deployment that
+// cannot afford the model must refuse BEFORE touching it.
+
+test('embedder: an unknown backend value falls back to local, never to nothing', () => {
+  const original = process.env.EMBED_BACKEND;
+  for (const value of [undefined, '', 'LOCAL', 'nonsense']) {
+    if (value === undefined) delete process.env.EMBED_BACKEND;
+    else process.env.EMBED_BACKEND = value;
+    assert.equal(embedBackend(), 'local', `${JSON.stringify(value)} should mean local`);
+  }
+  if (original === undefined) delete process.env.EMBED_BACKEND;
+  else process.env.EMBED_BACKEND = original;
+});
+
+test('embedder: disabled refuses without loading the model', async () => {
+  const original = process.env.EMBED_BACKEND;
+  process.env.EMBED_BACKEND = 'disabled';
+  try {
+    assert.equal(embedBackend(), 'disabled');
+
+    const started = Date.now();
+    await assert.rejects(() => embed(['anything']), /switched off on this deployment/);
+    // Loading the encoder takes seconds; refusing must be immediate. If this
+    // ever starts taking real time, something is touching the model first.
+    assert.ok(Date.now() - started < 500, 'refusal must not load the model');
+
+    assert.equal(await embeddingServiceHealthy(), false);
+    assert.equal((embedderInfo() as { backend: string }).backend, 'disabled');
+  } finally {
+    if (original === undefined) delete process.env.EMBED_BACKEND;
+    else process.env.EMBED_BACKEND = original;
+  }
+});
+
+test('embedder: an empty input is still cheap when disabled', async () => {
+  const original = process.env.EMBED_BACKEND;
+  process.env.EMBED_BACKEND = 'disabled';
+  try {
+    assert.deepEqual(await embed([]), []);
+  } finally {
+    if (original === undefined) delete process.env.EMBED_BACKEND;
+    else process.env.EMBED_BACKEND = original;
   }
 });

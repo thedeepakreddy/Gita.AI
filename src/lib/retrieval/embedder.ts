@@ -22,20 +22,26 @@ import { embedLocal, getPipeline, localEmbedderInfo } from './localEmbedder';
 const DEFAULT_URL = 'http://127.0.0.1:8399';
 const TIMEOUT_MS = 20_000;
 
-export type EmbedBackend = 'local' | 'service';
+export type EmbedBackend = 'local' | 'service' | 'disabled';
 
 export function embedBackend(): EmbedBackend {
-  return process.env.EMBED_BACKEND === 'service' ? 'service' : 'local';
+  const value = process.env.EMBED_BACKEND;
+  if (value === 'service' || value === 'disabled') return value;
+  return 'local';
 }
 
 export class EmbeddingUnavailableError extends Error {
   constructor(cause: string) {
+    const backend = embedBackend();
     super(
-      embedBackend() === 'service'
-        ? `The embedding service is not reachable (${cause}). ` +
-            'Start it with:  .venv/bin/python scripts/embed.py serve'
-        : `The embedding model could not be loaded (${cause}). ` +
-            'It downloads on first use; check disk space and network, then retry.'
+      backend === 'disabled'
+        ? 'Search and counsel are switched off on this deployment. ' +
+            'The corpus, /study and the review queue are unaffected.'
+        : backend === 'service'
+          ? `The embedding service is not reachable (${cause}). ` +
+              'Start it with:  .venv/bin/python scripts/embed.py serve'
+          : `The embedding model could not be loaded (${cause}). ` +
+              'It downloads on first use; check disk space and network, then retry.'
     );
     this.name = 'EmbeddingUnavailableError';
   }
@@ -74,6 +80,18 @@ async function embedViaService(texts: string[]): Promise<number[][]> {
 export async function embed(texts: string[]): Promise<number[][]> {
   if (texts.length === 0) return [];
 
+  // Refuse BEFORE touching the model.
+  //
+  // The encoder holds ~1.3GB, and on a small instance loading it does not fail
+  // the request — it OOM-kills the process, taking /study and the review queue
+  // down with it. One person opening /search would fell the whole site.
+  //
+  // So a deployment that cannot afford the model says so honestly and keeps
+  // everything that does not need it working. `EMBED_BACKEND=disabled`.
+  if (embedBackend() === 'disabled') {
+    throw new EmbeddingUnavailableError('disabled by configuration');
+  }
+
   try {
     return embedBackend() === 'service'
       ? await embedViaService(texts)
@@ -99,7 +117,9 @@ export async function embedOne(text: string): Promise<number[]> {
  */
 export async function embeddingServiceHealthy(): Promise<boolean> {
   try {
-    if (embedBackend() === 'service') {
+    const backend = embedBackend();
+    if (backend === 'disabled') return false;
+    if (backend === 'service') {
       const res = await fetch(`${serviceUrl()}/health`, {
         signal: AbortSignal.timeout(2000),
       });
@@ -114,6 +134,9 @@ export async function embeddingServiceHealthy(): Promise<boolean> {
 
 export function embedderInfo() {
   const backend = embedBackend();
+  if (backend === 'disabled') {
+    return { backend, note: 'search and counsel are switched off on this deployment' };
+  }
   return backend === 'service'
     ? { backend, url: serviceUrl() }
     : { backend, ...localEmbedderInfo() };

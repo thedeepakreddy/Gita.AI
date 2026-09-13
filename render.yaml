@@ -1,22 +1,25 @@
 # Render blueprint for Gita Counsel.
 #
-#   https://render.com/docs/blueprint-spec
+# THIS IS THE FREE CONFIGURATION. It deploys on Render's free plan with no
+# payment, and everything that does not need an AI model works:
 #
-# Two notes that will save you an afternoon:
+#   works   /study (all 701 verses, 3 locales), the Hungarian review queue,
+#           /admin, bookmarks, reading progress, verse of the day, sign-in
+#   off     /search and /chat — see EMBED_BACKEND below
 #
-# 1. `plan: standard` is not padding. The embedding encoder holds ~1.3GB of
-#    weights in the process, so /chat and /search are OOM-killed on smaller
-#    plans while /study keeps working — a confusing half-broken state. Both
-#    cheaper escapes were measured and rejected (see README, "Deploying to
-#    Render"). If you must run smaller, drop to `starter` and set
-#    EMBED_BACKEND=service with the Python sidecar hosted separately.
+# WHY THEY ARE OFF. The encoder holds ~1.3GB of weights in the process and the
+# free plan gives 512MB. Loading it would not fail the request, it would
+# OOM-kill the process and take /study down with it — so one person opening
+# /search would fell the whole site. `EMBED_BACKEND=disabled` refuses before
+# the model is touched, and says so plainly.
 #
-# 2. APP_ENCRYPTION_KEY is NOT generated here. Render's generator produces a
-#    random string; this app needs base64 that decodes to exactly 32 bytes, and
-#    anything else fails at the moment a user saves their first provider key.
-#    Generate it yourself:  openssl rand -base64 32
+# TO TURN SEARCH AND COUNSEL ON (this is the part that costs money):
+#   1. plan: standard          below — 2GB, enough to hold the encoder
+#   2. uncomment the `disk:`   block — 5GB, or the 1.3GB of weights are
+#                                      re-downloaded on every cold start
+#   3. EMBED_BACKEND: local    below
 #
-#    Changing it later makes every stored key undecryptable.
+# Free Postgres expires after 90 days; upgrade it before then or the data goes.
 
 databases:
   - name: gita-counsel-db
@@ -28,33 +31,26 @@ services:
   - type: web
     name: gita-counsel
     runtime: node
-    plan: standard
+    plan: free
     healthCheckPath: /api/health
 
+    # Migrations run here rather than in preDeployCommand, which the free plan
+    # does not offer. `migrate deploy` is idempotent, so running it on every
+    # build is safe.
     buildCommand: >-
       npm ci &&
       npx prisma generate --schema=prisma/postgres/schema.prisma &&
+      npx prisma migrate deploy --schema=prisma/postgres/schema.prisma &&
       npm run build
-
-    # Migrations run here, not in the build: the build may be reused across
-    # deploys, and a schema change must be applied exactly once against the
-    # live database.
-    preDeployCommand: npx prisma migrate deploy --schema=prisma/postgres/schema.prisma
 
     startCommand: npm start
 
-    # The encoder weights are ~1.3GB and Render's filesystem is ephemeral, so
-    # without a persistent disk they are re-fetched from HuggingFace on every
-    # cold start — the first /chat or /search after any restart would hang for
-    # minutes, repeatedly, and re-download over a gigabyte each time.
-    #
-    # Persistent disks are not available on the free plan and they disable
-    # zero-downtime deploys. Both are worth it here; the alternative is an app
-    # that appears broken after every restart.
-    disk:
-      name: model-cache
-      mountPath: /var/data
-      sizeGB: 5
+    # Uncomment together with `plan: standard` above. Persistent disks are not
+    # available on the free plan, and they disable zero-downtime deploys.
+    # disk:
+    #   name: model-cache
+    #   mountPath: /var/data
+    #   sizeGB: 5
 
     envVars:
       - key: DATABASE_URL
@@ -66,13 +62,17 @@ services:
       - key: NEXTAUTH_SECRET
         generateValue: true
 
-      # Must decode to exactly 32 bytes — set it yourself, see note 2 above.
+      # Must decode to exactly 32 bytes. Render's generator produces a random
+      # string that would pass every check and then fail the moment a user
+      # saves their first provider key, so set it yourself:
+      #     openssl rand -base64 32
+      # Changing it later makes every stored key undecryptable.
       - key: APP_ENCRYPTION_KEY
         sync: false
 
       # Your Render URL, e.g. https://gita-counsel.onrender.com
-      # The same origin + /api/auth/callback/google must be an authorised
-      # redirect URI in the Google console, or sign-in fails.
+      # That origin + /api/auth/callback/google must be an authorised redirect
+      # URI in the Google console, or sign-in fails with a mismatch.
       - key: NEXTAUTH_URL
         sync: false
       - key: GOOGLE_CLIENT_ID
@@ -80,12 +80,10 @@ services:
       - key: GOOGLE_CLIENT_SECRET
         sync: false
 
-      # Who can reach /admin. Comma-separated.
+      # Who can reach /admin. Comma-separated. Without this, nobody can.
       - key: ADMIN_EMAILS
         sync: false
 
-      # Leave TRIAL_API_KEY empty for pure bring-your-own-key. Setting it
-      # spends your own quota — see README, "The trial".
       - key: TRIAL_PROVIDER
         value: gemini
       - key: TRIAL_API_KEY
@@ -95,11 +93,13 @@ services:
       - key: TRIAL_DAILY_CAP
         value: "200"
 
+      # "disabled" on the free plan — see the note at the top.
+      # Set to "local" once the instance has the memory for it.
       - key: EMBED_BACKEND
-        value: local
-      # Points the encoder at the persistent disk above, so the weights survive
-      # restarts instead of being downloaded again.
+        value: disabled
+      # Only read when EMBED_BACKEND is "local", and only useful with the disk.
       - key: EMBED_CACHE_DIR
         value: /var/data/transformers
+
       - key: NODE_VERSION
         value: "20"
