@@ -43,6 +43,19 @@ services:
 
     startCommand: npm start
 
+    # The encoder weights are ~1.3GB and Render's filesystem is ephemeral, so
+    # without a persistent disk they are re-fetched from HuggingFace on every
+    # cold start — the first /chat or /search after any restart would hang for
+    # minutes, repeatedly, and re-download over a gigabyte each time.
+    #
+    # Persistent disks are not available on the free plan and they disable
+    # zero-downtime deploys. Both are worth it here; the alternative is an app
+    # that appears broken after every restart.
+    disk:
+      name: model-cache
+      mountPath: /var/data
+      sizeGB: 5
+
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -84,5 +97,9 @@ services:
 
       - key: EMBED_BACKEND
         value: local
+      # Points the encoder at the persistent disk above, so the weights survive
+      # restarts instead of being downloaded again.
+      - key: EMBED_CACHE_DIR
+        value: /var/data/transformers
       - key: NODE_VERSION
         value: "20"

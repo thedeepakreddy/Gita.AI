@@ -173,6 +173,31 @@ async function main() {
     warn('Postgres schema in sync', 'no generated Postgres schema — run npm run db:postgres before deploying');
   }
 
+  // --- The Postgres migration must be deployable --------------------------
+  //
+  // `prisma migrate deploy` refuses to run without migration_lock.toml, and
+  // the failure appears in preDeployCommand with nothing obviously wrong in
+  // the repository. It was missing once; it will not be missed again.
+  try {
+    const lock = await readFile(
+      join(process.cwd(), 'prisma', 'postgres', 'migrations', 'migration_lock.toml'),
+      'utf8'
+    );
+    const sql = await readFile(
+      join(process.cwd(), 'prisma', 'postgres', 'migrations', '0_init', 'migration.sql'),
+      'utf8'
+    );
+    if (!/provider\s*=\s*"postgresql"/.test(lock)) {
+      fail('Postgres migration deployable', 'migration_lock.toml does not declare postgresql');
+    } else if (!/CREATE TABLE/.test(sql)) {
+      fail('Postgres migration deployable', 'baseline migration has no CREATE TABLE');
+    } else {
+      pass('Postgres migration deployable', 'baseline + migration_lock.toml present');
+    }
+  } catch {
+    fail('Postgres migration deployable', 'missing baseline or migration_lock.toml — run npm run db:postgres');
+  }
+
   // --- Secrets ------------------------------------------------------------
   try {
     const gitignore = await readFile(join(process.cwd(), '.gitignore'), 'utf8');
