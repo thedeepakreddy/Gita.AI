@@ -3,6 +3,8 @@ import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 
+import { effectiveRole, hasAtLeast as rankAtLeast, type Role } from './roleRules';
+
 /**
  * Who may review translations, and who may read the voice-guard log.
  *
@@ -19,25 +21,8 @@ import { prisma } from '@/lib/db';
  * can appoint reviewers without a redeploy.
  */
 
-export type Role = 'user' | 'reviewer' | 'admin';
-
-const RANK: Record<Role, number> = { user: 0, reviewer: 1, admin: 2 };
-
-function adminEmails(): string[] {
-  return (process.env.ADMIN_EMAILS ?? '')
-    .split(',')
-    .map((e) => e.trim().toLowerCase())
-    .filter(Boolean);
-}
-
-export function isAdminEmail(email: string | null | undefined): boolean {
-  if (!email) return false;
-  return adminEmails().includes(email.toLowerCase());
-}
-
-export function normaliseRole(value: string | null | undefined): Role {
-  return value === 'admin' || value === 'reviewer' ? value : 'user';
-}
+export type { Role } from './roleRules';
+export { isAdminEmail, normaliseRole, hasAtLeast, effectiveRole } from './roleRules';
 
 export type Viewer = {
   id: string;
@@ -61,12 +46,8 @@ export async function getViewer(): Promise<Viewer | null> {
     id: record.id,
     email: record.email,
     name: record.name,
-    role: isAdminEmail(record.email) ? 'admin' : normaliseRole(record.role),
+    role: effectiveRole(record.email, record.role),
   };
-}
-
-export function hasAtLeast(role: Role, required: Role): boolean {
-  return RANK[role] >= RANK[required];
 }
 
 /**
@@ -84,7 +65,7 @@ export async function requireRole(
       response: Response.json({ error: 'not_authenticated' }, { status: 401 }),
     };
   }
-  if (!hasAtLeast(viewer.role, required)) {
+  if (!rankAtLeast(viewer.role, required)) {
     return { response: Response.json({ error: 'not_found' }, { status: 404 }) };
   }
   return { viewer };

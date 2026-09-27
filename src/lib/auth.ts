@@ -2,6 +2,7 @@ import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import type { NextAuthOptions } from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
 
+import { effectiveRole } from '@/lib/access/roleRules';
 import { prisma } from '@/lib/db';
 
 /**
@@ -63,10 +64,14 @@ export const authOptions: NextAuthOptions = {
         session.user.id = user.id;
         // Role rides along so the header can decide whether to show the admin
         // link. It is a HINT, not a permission: every admin route re-checks
-        // with getViewer(), because a session value is client-visible and a
-        // stale one must never grant anything.
-        const role = (user as { role?: string }).role;
-        session.user.role = role === 'admin' || role === 'reviewer' ? role : 'user';
+        // server-side, because a session value is client-visible and a stale
+        // one must never grant anything.
+        //
+        // It MUST be computed the same way the gate computes it. This read the
+        // stored column alone while getViewer() applied the ADMIN_EMAILS
+        // override, so an operator listed there could open /admin by typing the
+        // URL while the navigation never offered a link to it.
+        session.user.role = effectiveRole(user.email, (user as { role?: string }).role);
       }
       return session;
     },

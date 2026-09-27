@@ -3,7 +3,7 @@ import test from 'node:test';
 
 import { findDivineFirstPerson } from '../chat/prompt';
 import { rateLimit } from '../http/rateLimit';
-import { hasAtLeast, isAdminEmail, normaliseRole } from '../access/roles';
+import { effectiveRole, hasAtLeast, isAdminEmail, normaliseRole } from '../access/roles';
 import { inspectKey, normalisePastedKey } from '../crypto/secrets';
 import { providerMessage } from '../chat/providers';
 import { BACKGROUNDS } from '../ui/backgrounds';
@@ -431,5 +431,70 @@ test('embedder: an empty input is still cheap when disabled', async () => {
   } finally {
     if (original === undefined) delete process.env.EMBED_BACKEND;
     else process.env.EMBED_BACKEND = original;
+  }
+});
+
+// --- The role rule must have exactly one implementation ---------------------
+//
+// The bug: getViewer() applied the ADMIN_EMAILS override while the session
+// callback read the stored column alone. An operator listed in ADMIN_EMAILS
+// whose column still said "user" could open /admin by typing the URL, but the
+// navigation never rendered a link to it — the gate let them in and the UI
+// pretended the page did not exist.
+
+test('roles: ADMIN_EMAILS overrides a stored role of "user"', () => {
+  const original = process.env.ADMIN_EMAILS;
+  process.env.ADMIN_EMAILS = 'temple@example.org';
+  try {
+    // This is the exact shape of the reported failure.
+    assert.equal(effectiveRole('temple@example.org', 'user'), 'admin');
+    assert.equal(effectiveRole('TEMPLE@EXAMPLE.ORG', 'user'), 'admin');
+    assert.equal(effectiveRole('temple@example.org', null), 'admin');
+  } finally {
+    if (original === undefined) delete process.env.ADMIN_EMAILS;
+    else process.env.ADMIN_EMAILS = original;
+  }
+});
+
+test('roles: the override never demotes someone the column promoted', () => {
+  const original = process.env.ADMIN_EMAILS;
+  process.env.ADMIN_EMAILS = 'temple@example.org';
+  try {
+    assert.equal(effectiveRole('other@example.org', 'reviewer'), 'reviewer');
+    assert.equal(effectiveRole('other@example.org', 'admin'), 'admin');
+    assert.equal(effectiveRole('other@example.org', 'user'), 'user');
+  } finally {
+    if (original === undefined) delete process.env.ADMIN_EMAILS;
+    else process.env.ADMIN_EMAILS = original;
+  }
+});
+
+test('roles: an unrecognised stored role is never elevated', () => {
+  delete process.env.ADMIN_EMAILS;
+  for (const value of [undefined, null, '', 'superuser', 'ADMIN', 'Admin']) {
+    assert.equal(effectiveRole('someone@example.org', value as string | null), 'user');
+  }
+});
+
+test('roles: the gate and the session hint cannot disagree', () => {
+  // Both call sites go through effectiveRole now. If someone reintroduces a
+  // second copy of this logic, this is where it should be noticed.
+  const original = process.env.ADMIN_EMAILS;
+  process.env.ADMIN_EMAILS = ' Temple@example.org , second@example.org ';
+  try {
+    for (const [email, stored] of [
+      ['temple@example.org', 'user'],
+      ['second@example.org', null],
+      ['nobody@example.org', 'reviewer'],
+      ['nobody@example.org', 'user'],
+    ] as const) {
+      const gate = effectiveRole(email, stored);
+      const hint = effectiveRole(email, stored);
+      assert.equal(gate, hint, `${email} must resolve the same way in both paths`);
+      assert.equal(hasAtLeast(gate, 'admin'), isAdminEmail(email) || stored === 'admin');
+    }
+  } finally {
+    if (original === undefined) delete process.env.ADMIN_EMAILS;
+    else process.env.ADMIN_EMAILS = original;
   }
 });
