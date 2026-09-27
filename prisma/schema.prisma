@@ -144,6 +144,10 @@ model Conversation {
   /// deliberate act, not a global setting that silently rewrites history.
   provider String?
 
+  /// Index into the ten locally bundled epic artworks. Null keeps older
+  /// conversations compatible; the UI gives those a stable fallback by ID.
+  wallpaperIndex Int?
+
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 

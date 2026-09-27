@@ -6,6 +6,24 @@ chapter.
 
 Intended for eventual donation to ISKCON Budapest.
 
+## Current presentation state
+
+The interface uses a cream manuscript palette with a calm reading surface and
+ten original, locally stored Ramayana and Mahabharata illustrations. Each chat
+conversation receives a distinct artwork; readers can change it in the chat
+artwork picker, and the choice is saved with the conversation. The art is
+original illustration inspired by the epics, not a historical manuscript or
+an authenticated depiction of a specific verse.
+
+Before a live demonstration, run `npm run ship:check` and `npm run build`.
+Public study and semantic search work without sign-in. Counsel requires Google
+sign-in and either a configured `TRIAL_API_KEY` or a user-supplied provider key
+in Settings. Without one, the app explains how to add a key but cannot produce
+an AI reply. The English translation is public-domain placeholder text pending
+review; Hungarian drafts and Hindi coverage also need review. This application
+must not be represented as an ISKCON-approved translation or theological
+authority until that review has happened.
+
 ---
 
 ## The two rules this project is built around
@@ -444,6 +462,14 @@ Seven paintings crossfade behind every page, one every eight seconds. The list
 lives in [`src/lib/ui/backgrounds.ts`](src/lib/ui/backgrounds.ts); adding or
 removing one means dropping a file in `public/backgrounds/` and adding an entry,
 and nothing else in the app knows how many there are.
+
+The chat has its own still artwork above that slideshow. Ten original generated
+illustrations in `public/chat-wallpapers/` draw on scenes from the Ramayana and
+Mahabharata. Each saved conversation stores its chosen image in
+`Conversation.wallpaperIndex`; existing conversations get a stable image based
+on their ID. Readers can change the image with the Artwork control in chat.
+The scene list and selection logic live in
+[`src/lib/ui/chatWallpapers.ts`](src/lib/ui/chatWallpapers.ts).
 
 **Every image is CC0**, from a museum's own public-domain dedication, with an
 accession page you can open and check — Cleveland Museum of Art and The Met,

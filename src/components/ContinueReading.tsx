@@ -25,7 +25,7 @@ export function ContinueReading() {
   return (
     <Link
       href={`/study/${progress.chapter}#verse-${progress.verse}`}
-      className="inline-block rounded border border-accent/30 bg-accent/[0.07] px-3 py-1.5 text-sm text-accent transition hover:bg-accent/[0.12]"
+      className="manuscript-text-link inline-block"
     >
       {t('continueReading', { chapter: progress.chapter, verse: progress.verse })} →
     </Link>

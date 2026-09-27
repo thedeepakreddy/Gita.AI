@@ -95,7 +95,7 @@ export function BookmarkNotice() {
   const t = useTranslations('study');
 
   if (!ctx?.ready || ctx.signedIn) return null;
-  return <p className="text-xs text-white/35">{t('signInToSave')}</p>;
+  return <p className="text-xs text-[#858c80]">{t('signInToSave')}</p>;
 }
 
 export function BookmarkButton({ verseId }: { verseId: string }) {
@@ -115,7 +115,7 @@ export function BookmarkButton({ verseId }: { verseId: string }) {
       className={`rounded-md px-2 py-1 text-xs transition ${
         saved
           ? 'text-accent'
-          : 'text-white/35 hover:bg-white/5 hover:text-white/80'
+          : 'text-[#858c80] hover:bg-[#eee5d6] hover:text-[#48594e]'
       }`}
     >
       {saved ? `★ ${t('bookmarked')}` : `☆ ${t('bookmark')}`}

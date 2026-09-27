@@ -69,7 +69,14 @@
     "retrieving": "Versek keresése…",
     "versesFound": "Megvannak a versek — olvasás folyamatban",
     "export": "Beszélgetés mentése vagy nyomtatása",
-    "exportTitle": "Tanács a Bhagavad-gítából"
+    "exportTitle": "Tanács a Bhagavad-gítából",
+    "newChat": "Új beszélgetés",
+    "conversations": "Beszélgetések",
+    "changeWallpaper": "Háttérkép",
+    "chooseWallpaper": "Háttérkép választása",
+    "closeWallpapers": "Háttérképek bezárása",
+    "wallpaperError": "A háttérképet nem sikerült menteni. Próbáld újra.",
+    "groundingError": "A válasz olyan versre hivatkozott, amely nem szerepelt az ellenőrzött részletek között. Próbáld újra."
   },
   "settings": {
     "heading": "Beállítások",

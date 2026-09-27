@@ -1,5 +1,6 @@
 import { getServerSession } from 'next-auth';
 import { NextResponse } from 'next/server';
+import { CHAT_WALLPAPERS } from '@/lib/ui/chatWallpapers';
 
 import { isLocale, type Locale } from '@/i18n/locales';
 import { authOptions } from '@/lib/auth';
@@ -8,12 +9,17 @@ import {
   buildUserMessage,
   extractCitations,
   findDivineFirstPerson,
+  isSmallTalk,
+  requestedCitations,
+  retrievalQuery,
+  unsupportedCitations,
 } from '@/lib/chat/prompt';
 import { consumeTrialMessage, resolveKey } from '@/lib/chat/keyResolution';
 import { complete, ProviderError } from '@/lib/chat/providers';
 import { prisma } from '@/lib/db';
 import { EmbeddingUnavailableError } from '@/lib/retrieval/embedder';
-import { IndexMissingError, searchVerses } from '@/lib/retrieval/search';
+import { IndexMissingError, searchVerses, type SearchHit } from '@/lib/retrieval/search';
+import { getVerse } from '@/lib/verses/store';
 
 export const runtime = 'nodejs';
 
@@ -50,6 +56,7 @@ export async function POST(request: Request) {
   let body: {
     message?: string;
     conversationId?: string;
+    wallpaperIndex?: number;
     locale?: string;
     provider?: string;
   };
@@ -96,10 +103,29 @@ export async function POST(request: Request) {
   }
   const { provider, apiKey, source } = resolution.key;
 
-  // --- Retrieve grounding verses.
+  const history = [...(conversation?.messages ?? [])]
+    // Loaded newest-first above; providers want oldest-first.
+    .reverse()
+    .map((m) => {
+      const role = m.role as 'user' | 'assistant';
+      const content =
+        role === 'assistant' && m.content.length > HISTORY_ASSISTANT_CHARS
+          ? `${m.content.slice(0, HISTORY_ASSISTANT_CHARS).trimEnd()}…`
+          : m.content;
+      return { role, content };
+    });
+
+  // --- Retrieve grounding verses. A greeting has no scripture question;
+  // --- otherwise short follow-ups carry their previous question into search.
   let hits;
   try {
-    hits = await searchVerses(message, { topK: TOP_K, locale, includeVerseData: true });
+    hits = isSmallTalk(message)
+      ? []
+      : await searchVerses(retrievalQuery(message, history), {
+          topK: TOP_K,
+          locale,
+          includeVerseData: true,
+        });
   } catch (err) {
     if (err instanceof EmbeddingUnavailableError) {
       return NextResponse.json(
@@ -113,27 +139,66 @@ export async function POST(request: Request) {
     throw err;
   }
 
-  const history = [...(conversation?.messages ?? [])]
-    // Loaded newest-first above; providers want oldest-first.
-    .reverse()
-    .map((m) => {
-      const role = m.role as 'user' | 'assistant';
-      const content =
-        role === 'assistant' && m.content.length > HISTORY_ASSISTANT_CHARS
-          ? `${m.content.slice(0, HISTORY_ASSISTANT_CHARS).trimEnd()}…`
-          : m.content;
-      return { role, content };
-    });
+  // A named verse is the strongest retrieval signal. Semantic search may rank
+  // nearby themes higher; that must not make "What does 2.47 mean?" impossible
+  // to answer while the citation guard quite rightly rejects an absent 2.47.
+  const requested = requestedCitations(message);
+  if (requested.length) {
+    const exactHits: SearchHit[] = [];
+    for (const ref of requested) {
+      const [chapter, verseNumber] = ref.split('.').map(Number);
+      const verse = await getVerse(`bhagavad-gita:${chapter}:${verseNumber}`);
+      if (!verse) continue;
+      const translated = verse.translations[locale]?.trim();
+      const fallback = verse.translations.en?.trim();
+      exactHits.push({
+        verseId: verse.id,
+        scripture: verse.scripture,
+        chapter,
+        verse: verseNumber,
+        score: 1,
+        matchedLocale: translated ? locale : 'en',
+        text: translated || fallback || verse.sanskrit,
+        verse_data: verse,
+      });
+    }
+    const exactIds = new Set(exactHits.map((hit) => hit.verseId));
+    hits = [...exactHits, ...hits.filter((hit) => !exactIds.has(hit.verseId))].slice(0, TOP_K);
+  }
 
   // --- Call the user's provider.
   let reply: string;
+  const promptMessages = [
+    ...history,
+    { role: 'user' as const, content: buildUserMessage({ question: message, hits, locale }) },
+  ];
   try {
     reply = await complete({
       provider,
       apiKey,
       system: buildSystemPrompt(locale),
-      messages: [...history, { role: 'user', content: buildUserMessage({ question: message, hits, locale }) }],
+      messages: promptMessages,
     });
+    const unsupported = unsupportedCitations(reply, hits);
+    if (unsupported.length && !findDivineFirstPerson(reply)) {
+      // One correction attempt is cheaper for the reader than surfacing an
+      // avoidable error, but an unsupported verse is never shown as fact.
+      reply = await complete({
+        provider,
+        apiKey,
+        system: buildSystemPrompt(locale),
+        messages: [
+          ...promptMessages,
+          { role: 'assistant', content: reply },
+          {
+            role: 'user',
+            content:
+              `Your draft cited ${unsupported.join(', ')}, which was not in the supplied verses. ` +
+              'Rewrite the answer using only the supplied verse references. If none fit, say so without citing a verse.',
+          },
+        ],
+      });
+    }
   } catch (err) {
     const kind = err instanceof ProviderError ? err.kind : 'unknown';
     const status = kind === 'auth' ? 401 : kind === 'quota' ? 429 : 502;
@@ -183,6 +248,10 @@ export async function POST(request: Request) {
     );
   }
 
+  if (unsupportedCitations(reply, hits).length > 0) {
+    return NextResponse.json({ error: 'unsupported_citation' }, { status: 422 });
+  }
+
   const citations = extractCitations(reply);
 
   // --- Persist. Best-effort, deliberately.
@@ -208,6 +277,13 @@ export async function POST(request: Request) {
           // be locked to the operator's provider, so that when they later add
           // their own key the thread simply continues on it.
           provider: source === 'user' ? provider : null,
+          wallpaperIndex:
+            typeof body.wallpaperIndex === 'number' &&
+            Number.isInteger(body.wallpaperIndex) &&
+            body.wallpaperIndex >= 0 &&
+            body.wallpaperIndex < CHAT_WALLPAPERS.length
+              ? body.wallpaperIndex
+              : 0,
         },
         include: { messages: true },
       });
@@ -250,6 +326,7 @@ export async function POST(request: Request) {
 
   return NextResponse.json({
     conversationId: conversation?.id ?? null,
+    wallpaperIndex: conversation?.wallpaperIndex ?? null,
     reply,
     citations,
     provider,

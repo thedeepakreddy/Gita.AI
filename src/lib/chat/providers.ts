@@ -73,7 +73,9 @@ const MODELS: Record<ProviderId, string> = {
   // it keeps working for whoever set it and fails for everyone who arrives
   // afterwards. `npm run models:check` is the thing that catches it.
   gemini: process.env.GEMINI_MODEL || 'gemini-3.6-flash',
-  groq: process.env.GROQ_MODEL || 'llama-3.3-70b-versatile',
+  // Groq decommissioned llama-3.3-70b-versatile for free/developer tiers in
+  // August 2026 and recommends gpt-oss-120b as its replacement.
+  groq: process.env.GROQ_MODEL || 'openai/gpt-oss-120b',
   openai: process.env.OPENAI_MODEL || 'gpt-4o-mini',
   anthropic: process.env.ANTHROPIC_MODEL || 'claude-opus-5',
 };

@@ -1,15 +1,18 @@
 import type { Metadata } from 'next';
+import { Cormorant_Garamond, Libre_Baskerville } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
-import { BackgroundSlideshow } from '@/components/BackgroundSlideshow';
 import { Providers } from '@/components/Providers';
 import { ServiceWorker } from '@/components/ServiceWorker';
 import { SiteHeader } from '@/components/SiteHeader';
 import { isLocale, locales, localeMeta } from '@/i18n/locales';
 
 import '../globals.css';
+
+const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-cormorant-garamond', display: 'swap' });
+const baskerville = Libre_Baskerville({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-libre-baskerville', display: 'swap' });
 
 type LocaleParams = { locale: string };
 
@@ -50,11 +53,8 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={localeMeta[locale].dir} className="dark">
-      <body className="flex h-screen w-screen flex-col overflow-hidden bg-stone-950 text-stone-100 antialiased">
-        {/* Full-screen artwork on every page, crossfading. See
-            src/lib/ui/backgrounds.ts for the list and the crop anchors. */}
-        <BackgroundSlideshow />
+    <html lang={locale} dir={localeMeta[locale].dir}>
+      <body className={`${cormorant.variable} ${baskerville.variable} gallery-paper flex h-screen w-screen flex-col overflow-hidden text-[#263e48] antialiased`}>
 
         <NextIntlClientProvider messages={messages}>
           <Providers>

@@ -69,7 +69,14 @@
     "retrieving": "Looking for verses…",
     "versesFound": "Verses found — reading them now",
     "export": "Save or print this conversation",
-    "exportTitle": "Counsel from the Bhagavad Gita"
+    "exportTitle": "Counsel from the Bhagavad Gita",
+    "newChat": "New chat",
+    "conversations": "Conversations",
+    "changeWallpaper": "Artwork",
+    "chooseWallpaper": "Choose artwork",
+    "closeWallpapers": "Close artwork choices",
+    "wallpaperError": "The artwork could not be saved. Please try again.",
+    "groundingError": "That reply cited a verse outside the passages checked here. Please try again."
   },
   "settings": {
     "heading": "Settings",

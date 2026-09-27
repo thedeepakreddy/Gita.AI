@@ -69,6 +69,7 @@ CREATE TABLE "Conversation" (
     "title" TEXT NOT NULL,
     "locale" TEXT NOT NULL DEFAULT 'en',
     "provider" TEXT,
+    "wallpaperIndex" INTEGER,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 

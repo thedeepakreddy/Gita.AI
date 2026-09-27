@@ -56,13 +56,12 @@ export function ChapterReader({
 
   return (
     <BookmarksProvider>
-      {(available.length > 1 || true) && (
-        <div className="mb-8 flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-4">
+      <div className="mb-8 flex flex-wrap items-center justify-between gap-3 border-b border-[#dfd4c2] pb-4">
           <BookmarkNotice />
 
           {available.length > 1 && (
             <div className="flex items-center gap-1">
-              <span className="me-2 text-xs text-white/40">{t('languageForVerse')}</span>
+              <span className="me-2 text-xs text-[#858c80]">{t('languageForVerse')}</span>
               {available.map((l) => (
                 <button
                   key={l}
@@ -71,7 +70,7 @@ export function ChapterReader({
                   className={`rounded-md px-2.5 py-1 text-xs transition ${
                     active === l
                       ? 'bg-accent/20 text-accent'
-                      : 'text-white/45 hover:bg-white/5 hover:text-white/80'
+                      : 'text-[#858c80] hover:bg-[#eee5d6] hover:text-[#48594e]'
                   }`}
                 >
                   {localeMeta[l].nativeLabel}
@@ -79,15 +78,14 @@ export function ChapterReader({
               ))}
             </div>
           )}
-        </div>
-      )}
+      </div>
 
       {/* Whose translation the reader is actually looking at. Taken from the
           verses themselves rather than the chapter's `sources` block, because
           that block only ever described the English and so credited Annie
           Besant on a page showing Schmidt's Hungarian. */}
       {activeSource && (
-        <p className="-mt-4 mb-8 text-xs leading-relaxed text-white/30">{activeSource}</p>
+        <p className="-mt-4 mb-8 text-xs leading-relaxed text-[#858c80]">{activeSource}</p>
       )}
 
       <div>

@@ -212,10 +212,10 @@ export function SettingsClient() {
     return (
       <main className="flex-1 w-full overflow-y-auto px-4 py-16 sm:px-6">
         <div className="surface-glass mx-auto max-w-md rounded-2xl px-8 py-10 text-center">
-          <h1 className="font-serif-text text-[1.375rem] font-semibold text-white">
+          <h1 className="font-serif-text text-[1.375rem] font-semibold text-[#1c3b32]">
             {tAuth('signInHeading')}
           </h1>
-          <p className="mt-4 text-[0.9375rem] leading-relaxed text-white/55">
+          <p className="mt-4 text-[0.9375rem] leading-relaxed text-[#68766c]">
             {tAuth('signInIntro')}
           </p>
           <button onClick={() => signIn('google')} className="btn btn-primary mt-7">
@@ -229,26 +229,26 @@ export function SettingsClient() {
   return (
     <main className="flex-1 w-full overflow-y-auto px-4 py-10 sm:px-6">
       <div className="surface mx-auto max-w-2xl rounded-2xl px-6 py-10 sm:px-12 sm:py-14">
-      <h1 className="font-serif-text text-[1.75rem] font-semibold text-white">{t('heading')}</h1>
+      <h1 className="font-serif-text text-[1.75rem] font-semibold text-[#1c3b32]">{t('heading')}</h1>
 
       {/* Trial standing */}
       {trial?.configured && (
         <section className="mt-8 rounded-xl border border-accent/15 bg-accent/[0.06] p-5">
           <h2 className="eyebrow">{t('trialHeading')}</h2>
-          <p className="mt-2 text-sm text-white/80">
+          <p className="mt-2 text-sm text-[#48594e]">
             {trial.remaining > 0
               ? t('trialStatus', { remaining: trial.remaining, limit: trial.limit })
               : t('trialSpent', { limit: trial.limit })}
           </p>
-          <p className="mt-2 text-xs leading-relaxed text-white/45">
+          <p className="mt-2 text-xs leading-relaxed text-[#858c80]">
             {t('trialIntro', { limit: trial.limit })}
           </p>
         </section>
       )}
 
       <section className="mt-8">
-        <h2 className="font-serif-text text-[1.125rem] text-white">{t('keyHeading')}</h2>
-        <p className="mt-2 text-sm leading-relaxed text-white/45">{t('keyIntro')}</p>
+        <h2 className="font-serif-text text-[1.125rem] text-[#1c3b32]">{t('keyHeading')}</h2>
+        <p className="mt-2 text-sm leading-relaxed text-[#858c80]">{t('keyIntro')}</p>
 
         <div className="mt-5 flex flex-wrap gap-2">
           {PROVIDERS.map((p) => (
@@ -262,7 +262,7 @@ export function SettingsClient() {
               className={`rounded-lg px-3 py-1.5 text-sm transition-colors ${
                 provider === p.id
                   ? 'bg-accent/15 text-accent'
-                  : 'border border-white/10 text-white/60 hover:border-white/25 hover:text-white'
+                  : 'border border-[#dfd4c2] text-[#68766c] hover:border-[#dfd4c2] hover:text-[#1c3b32]'
               }`}
             >
               {t(p.labelKey as never)}
@@ -276,7 +276,7 @@ export function SettingsClient() {
             className={
               meta.free
                 ? 'rounded bg-emerald-100 px-2 py-0.5 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-300'
-                : 'rounded bg-stone-200 px-2 py-0.5 text-stone-700 dark:bg-stone-800 dark:text-stone-300'
+                : 'rounded bg-stone-200 px-2 py-0.5 text-[#45594c] dark:bg-stone-800 dark:text-[#5f6f62]'
             }
           >
             {meta.free ? t('freeBadge') : t('paidBadge')}
@@ -284,9 +284,9 @@ export function SettingsClient() {
         </p>
 
         {/* Guided setup */}
-        <div className="mt-6 rounded-xl border border-white/[0.08] bg-white/[0.02] p-5">
+        <div className="mt-6 rounded-xl border border-[#dfd4c2] bg-[#f6efe4] p-5">
           <h3 className="eyebrow">{t('wizardHeading')}</h3>
-          <p className="mt-2 text-sm text-white/45">{t('wizardIntro')}</p>
+          <p className="mt-2 text-sm text-[#858c80]">{t('wizardIntro')}</p>
 
           <ol className="mt-4 list-decimal space-y-2 ps-5 text-sm">
             <li>{t(`${meta.wizardKey}.step1` as never)}</li>
@@ -294,7 +294,7 @@ export function SettingsClient() {
             <li>{t(`${meta.wizardKey}.step3` as never)}</li>
           </ol>
 
-          <p className="mt-3 text-sm italic text-stone-600 dark:text-stone-400">
+          <p className="mt-3 text-sm italic text-[#667268] dark:text-[#68766c]">
             {t(`${meta.wizardKey}.note` as never)}
           </p>
 
@@ -321,9 +321,9 @@ export function SettingsClient() {
             value={apiKey}
             onChange={(e) => setApiKey(e.target.value)}
             placeholder={t('apiKeyPlaceholder')}
-            className="mt-2 w-full rounded-lg border border-white/12 bg-white/[0.04] px-3.5 py-2.5 font-mono text-sm text-white transition-colors hover:border-white/20"
+            className="mt-2 w-full rounded-lg border border-[#dfd4c2] bg-[#f6efe4] px-3.5 py-2.5 font-mono text-sm text-[#1c3b32] transition-colors hover:border-[#dfd4c2]"
           />
-          <p className="mt-2 text-xs text-stone-500">{t('storedNote')}</p>
+          <p className="mt-2 text-xs text-[#7a8076]">{t('storedNote')}</p>
 
           <div className="mt-4 flex flex-wrap items-center gap-3">
             <button
@@ -336,7 +336,7 @@ export function SettingsClient() {
 
             {current ? (
               <>
-                <span className="text-sm text-stone-600 dark:text-stone-400">
+                <span className="text-sm text-[#667268] dark:text-[#68766c]">
                   {t('currentKey')}: ····{current.keyHint}
                 </span>
                 <button
@@ -349,7 +349,7 @@ export function SettingsClient() {
                 </button>
               </>
             ) : (
-              <span className="text-sm text-stone-500">{t('noKey')}</span>
+              <span className="text-sm text-[#7a8076]">{t('noKey')}</span>
             )}
           </div>
         </form>

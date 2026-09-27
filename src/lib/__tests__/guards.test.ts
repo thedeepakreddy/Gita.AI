@@ -1,13 +1,25 @@
 import assert from 'node:assert/strict';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import test from 'node:test';
 
-import { extractCitations, looksLikeDivineFirstPerson } from '../chat/prompt';
+import {
+  buildVerseContext,
+  extractCitations,
+  isSmallTalk,
+  looksLikeDivineFirstPerson,
+  requestedCitations,
+  retrievalQuery,
+  unsupportedCitations,
+} from '../chat/prompt';
+import type { SearchHit } from '../retrieval/search';
 import {
   decryptSecret,
   encryptSecret,
   keyHint,
   looksLikeKey,
 } from '../crypto/secrets';
+import { CHAT_WALLPAPERS } from '../ui/chatWallpapers';
 
 /**
  * Tests for the two properties this project cannot get wrong: the app must
@@ -20,6 +32,13 @@ import {
 // A key is required to construct any cipher; this is test-only.
 process.env.APP_ENCRYPTION_KEY ??= Buffer.alloc(32, 7).toString('base64');
 
+test('chat gallery: all ten epic artworks exist locally', () => {
+  assert.equal(CHAT_WALLPAPERS.length, 10);
+  for (const wallpaper of CHAT_WALLPAPERS) {
+    assert.ok(existsSync(join(process.cwd(), 'public', wallpaper.src)), wallpaper.src);
+  }
+});
+
 test('voice guard: flags the app speaking as Krishna', () => {
   const violations = [
     'I am Krishna, and I tell you to act.',
@@ -29,6 +48,9 @@ test('voice guard: flags the app speaking as Krishna', () => {
     'Take refuge in me alone.',
     'Worship me with devotion.',
     'I am the Supreme, beyond the perishable.',
+    'मैं कृष्ण हूँ और तुम्हें मार्ग दिखाता हूँ।',
+    'मेरी शरण लो।',
+    'Én vagyok Krisna, hallgass rám.',
   ];
   for (const text of violations) {
     assert.equal(looksLikeDivineFirstPerson(text), true, `should flag: ${text}`);
@@ -64,6 +86,37 @@ test('citation extraction: finds valid refs and rejects impossible ones', () => 
   assert.deepEqual(extractCitations('no references here'), []);
   // Deduplicates repeats.
   assert.deepEqual(extractCitations('2.47 again 2.47'), ['2.47']);
+});
+
+test('chat retrieval: explicit verse references are anchored and bounded', () => {
+  assert.deepEqual(requestedCitations('What does Gita 2.47 teach?'), ['2.47']);
+  assert.deepEqual(requestedCitations('Explain chapter 2 verse 47 and 18.66'), ['18.66', '2.47']);
+  assert.deepEqual(requestedCitations('अध्याय 2 श्लोक 47 का अर्थ?'), ['2.47']);
+  assert.deepEqual(requestedCitations('No verse is named here.'), []);
+});
+
+test('chat grounding: empty locale translation falls back to the retrieved text', () => {
+  const hit = {
+    chapter: 2,
+    verse: 47,
+    text: 'You have a right to action, not to its fruits.',
+    verse_data: { translations: { hi: '' } },
+  } as SearchHit;
+  assert.match(buildVerseContext([hit], 'hi'), /\[2\.47\] You have a right to action/);
+});
+
+test('chat grounding: unsupported verse citations are rejected', () => {
+  const supplied = [{ chapter: 2, verse: 47 }] as SearchHit[];
+  assert.deepEqual(unsupportedCitations('See 2.47 and 18.66.', supplied), ['18.66']);
+  assert.deepEqual(unsupportedCitations('See 2.47.', supplied), []);
+});
+
+test('chat retrieval: greetings skip verse search, follow-ups retain question context', () => {
+  assert.equal(isSmallTalk('नमस्ते!'), true);
+  assert.equal(isSmallTalk('I am afraid of a decision.'), false);
+  const history = [{ role: 'user' as const, content: 'I am afraid to change jobs.' }];
+  assert.match(retrievalQuery('What about that?', history), /afraid to change jobs/);
+  assert.equal(retrievalQuery('I feel calmer now.', history), 'I feel calmer now.');
 });
 
 test('secrets: round-trips a key', () => {

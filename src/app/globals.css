@@ -22,19 +22,19 @@
       'Noto Sans', 'Noto Sans Devanagari', 'Nirmala UI', 'Kohinoor Devanagari',
       Mangal, sans-serif;
 
-    --font-serif:
-      Charter, 'Bitstream Charter', 'Iowan Old Style', 'Sitka Text', Cambria,
-      Georgia, 'Times New Roman', serif;
+    --folio-ink: #173d56;
+    --folio-muted: #52616a;
+    --folio-gold: #ad865a;
+    --folio-paper: #f9f3e7;
 
-    /*
-     * One accent, and a quiet one. The previous amber-600 was a saturated
-     * orange carrying filled buttons, headings, links and labels all at once —
-     * loud, and the loudest thing on a page is what a reader reads as most
-     * important. This is closer to old gold: it reads as an accent rather than
-     * an alarm, and it is used on small things.
-     */
-    --accent: 45 86% 62%;
-    --accent-dim: 42 40% 72%;
+    /* Indigo ink for actions, with muted copper reserved for small labels. */
+    --accent: 205 47% 28%;
+    --accent-dim: 34 29% 45%;
+  }
+
+  body {
+    /* next/font declares this variable on body, so the alias belongs here too. */
+    --font-serif: var(--font-libre-baskerville), Baskerville, 'Iowan Old Style', Georgia, 'Times New Roman', serif;
   }
 
   html {
@@ -49,7 +49,7 @@
    * navigating by keyboard with no idea where they are.
    */
   :focus-visible {
-    outline: 2px solid hsl(var(--accent) / 0.85);
+    outline: 2px solid #a45c39;
     outline-offset: 2px;
     border-radius: 2px;
   }
@@ -71,6 +71,14 @@
   .font-serif-text {
     font-family: var(--font-serif);
   }
+
+  .font-cormorant {
+    font-family: var(--font-cormorant-garamond), 'Iowan Old Style', Georgia, serif;
+  }
+
+  .font-literary {
+    font-family: var(--font-serif);
+  }
 }
 
 @layer components {
@@ -82,28 +90,54 @@
    * heavy that the painting turns to mud, and then neither the art nor the
    * reading is any good.
    *
-   * So the two are separated. Hero pages let the art through behind a light
-   * panel; reading pages get this — a calm, near-opaque surface with the art
-   * showing at the margins. It is the same decision a printed book makes by
-   * putting the plate on its own page.
+   * So the two are separated. Reading pages get opaque ivory paper and
+   * illustrations sit in their own framed panels, like plates in a book.
    */
   .surface {
-    background: linear-gradient(
-      hsl(20 14% 4% / 0.94),
-      hsl(20 14% 4% / 0.97)
-    );
-    border: 1px solid hsl(0 0% 100% / 0.07);
-    box-shadow:
-      0 1px 0 hsl(0 0% 100% / 0.04) inset,
-      0 24px 64px -24px hsl(0 0% 0% / 0.7);
+    background: #fffdf8;
+    border: 1px solid #e4dac8;
+    box-shadow: 0 18px 50px -38px #65523d80;
   }
 
-  /* The lighter treatment, for hero panels where the art should read through. */
+  /* A slightly translucent variant for a short sign-in or status panel. */
   .surface-glass {
-    background: hsl(20 14% 4% / 0.62);
+    background: #fffdf8f2;
     backdrop-filter: blur(16px);
-    border: 1px solid hsl(0 0% 100% / 0.09);
-    box-shadow: 0 24px 64px -24px hsl(0 0% 0% / 0.6);
+    border: 1px solid #e4dac8;
+    box-shadow: 0 18px 50px -38px #65523d80;
+  }
+
+  /* Counsel alone is an artwork-first room; every reading surface floats above it. */
+  .counsel-glass {
+    background: rgba(255, 253, 247, 0.36);
+    border: 1px solid rgba(255, 255, 255, 0.68);
+    box-shadow: 0 16px 48px -34px rgba(45, 56, 60, 0.55), inset 0 1px rgba(255, 255, 255, 0.55);
+    -webkit-backdrop-filter: blur(13px) saturate(1.12);
+    backdrop-filter: blur(13px) saturate(1.12);
+  }
+
+  .counsel-glass-soft {
+    background: rgba(255, 253, 247, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    box-shadow: 0 12px 34px -28px rgba(45, 56, 60, 0.5), inset 0 1px rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(11px) saturate(1.12);
+    backdrop-filter: blur(11px) saturate(1.12);
+  }
+
+  .counsel-glass-strong {
+    background: rgba(255, 253, 247, 0.58);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    box-shadow: 0 18px 45px -28px rgba(45, 56, 60, 0.48), inset 0 1px rgba(255, 255, 255, 0.64);
+    -webkit-backdrop-filter: blur(20px) saturate(1.15);
+    backdrop-filter: blur(20px) saturate(1.15);
+  }
+
+  .counsel-artwork-picker {
+    background: rgba(255, 253, 247, 0.9);
+  }
+
+  .counsel-mobile-intro[open] {
+    background: rgba(255, 253, 247, 0.9);
   }
 
   .accent {
@@ -126,21 +160,21 @@
   }
 
   .btn-primary {
-    background: hsl(var(--accent) / 0.92);
-    color: hsl(20 14% 6%);
+    background: #173d56;
+    color: #fffdf8;
     font-weight: 600;
   }
   .btn-primary:hover:not(:disabled) {
-    background: hsl(var(--accent));
+    background: #254d65;
   }
 
   .btn-quiet {
-    border: 1px solid hsl(0 0% 100% / 0.14);
-    color: hsl(0 0% 100% / 0.85);
+    border: 1px solid #cabda7;
+    color: #173d56;
   }
   .btn-quiet:hover:not(:disabled) {
-    background: hsl(0 0% 100% / 0.07);
-    border-color: hsl(0 0% 100% / 0.22);
+    background: #f4ecde;
+    border-color: #9a876d;
   }
 
   .btn:disabled {
@@ -154,7 +188,42 @@
     font-weight: 600;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: hsl(var(--accent) / 0.9);
+    color: #925b37;
+  }
+
+  .gallery-paper {
+    background-color: var(--folio-paper);
+  }
+
+  .gallery-rule { border-color: #dfd3bd; }
+
+  .manuscript-page {
+    background-color: var(--folio-paper);
+  }
+
+  .manuscript-kicker {
+    font-family: var(--font-libre-baskerville), Baskerville, Georgia, serif;
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: #986d47;
+  }
+
+  .manuscript-text-link {
+    font-family: var(--font-libre-baskerville), Baskerville, Georgia, serif;
+    color: #24435a;
+    border-bottom: 1px solid #a99072;
+    padding-bottom: 0.24rem;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    transition: color 150ms ease, border-color 150ms ease;
+  }
+
+  .manuscript-text-link:hover {
+    color: #9a6039;
+    border-color: #9a6039;
   }
 }
 

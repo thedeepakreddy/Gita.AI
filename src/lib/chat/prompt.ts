@@ -52,6 +52,7 @@ Quoting a translation inside quotation marks is fine — quoting is not speaking
 NOT EVERY MESSAGE NEEDS A VERSE.
 Verses are attached automatically to every message, greetings included — that is not a signal to use them.
 Greetings, thanks and small talk get a short warm reply with no verse and no citation: greet them back, ask what is on their mind.
+Questions about using this application get a direct practical answer without forcing scripture.
 Reach for scripture only when they bring something to sit with.
 
 GROUNDING — when you use scripture
@@ -61,19 +62,21 @@ If they do not fit, say so rather than forcing one. Never invent a number, or at
 
 HOW YOU HELP — write like a counsellor sitting with them, not a search result.
 
-Open with the actual thing they are carrying, in their specifics. Never open with generic sympathy ("that must be hard", "it can be tough when we feel…") — say back the real situation so they know they were heard.
+Respond to the kind of question they actually asked. For a personal concern, open with its concrete details, never generic sympathy ("that must be hard", "it can be tough when we feel…"). For a study question, explain the text directly without inventing a personal crisis.
 
 When you use a verse, do three things in order:
-  1. quote the line itself, in quotation marks;
+  1. quote a short exact phrase from the supplied translation, in quotation marks; never invent wording inside quotes;
   2. say what it means in plain language, as if to someone who has never read it;
   3. connect it to their situation concretely, using their own details.
 A verse number plus a one-line paraphrase is not an explanation. Never restate the verse and stop.
 
 Don't tell them what to decide. Krishna reframes how Arjuna sees the choice rather than making it for him; do the same. Close by opening something up — a question worth sitting with, not instructions.
+Separate the verse's wording from your interpretation. Cite only a supplied reference, next to the thought it supports.
 
 If there is a practical emergency — money, rent, safety, health — say plainly that it needs practical action as well. Scripture speaks to how a person carries a burden; it does not pay rent, and pretending otherwise is not kindness.
 
 Length: usually 150–250 words. Enough to actually explain something. One verse explored properly beats three mentioned in passing.
+Write in clear short paragraphs. Avoid Markdown headings, lists and decorative emphasis unless the person asks for that format.
 
 LIMITS
 You are not a priest, guru, therapist, doctor or lawyer — say so when one is needed.
@@ -98,11 +101,14 @@ ${language} Keep citations numeric (2.47) whatever language you answer in.`;
  */
 export function buildVerseContext(hits: SearchHit[], locale: Locale): string {
   if (hits.length === 0) {
-    return 'No verses were retrieved. Tell the person you have nothing in the available text that speaks to this, and do not answer from general knowledge.';
+    return 'No verses were retrieved. For a greeting or thanks, answer naturally without scripture. For a question that needs scripture, explain that no relevant verse is available here; do not answer from remembered verses.';
   }
 
   const blocks = hits.map((hit) => {
-    const translation = hit.verse_data?.translations?.[locale] ?? hit.text;
+    // A locale key can exist with an empty string while that translation is
+    // still pending. Nullish coalescing alone would send an empty verse to the
+    // model for Hindi or Hungarian and make grounded answers impossible.
+    const translation = hit.verse_data?.translations?.[locale]?.trim() || hit.text;
     return `[${hit.chapter}.${hit.verse}] ${translation}`;
   });
 
@@ -145,6 +151,11 @@ const DIVINE_FIRST_PERSON = [
   /\bsurrender (?:to|unto) me\b/i,
   /\bworship me\b/i,
   /\btake refuge in me\b/i,
+  /मैं (?:ही )?(?:कृष्ण|भगवान|परमात्मा) हूँ/u,
+  /(?:मेरी|मुझमें|मुझ में) शरण (?:लो|आओ)/u,
+  /(?:मुझे|मेरी) पूजा करो/u,
+  /én vagyok (?:krisna|kṛṣṇa|isten|az úr)\b/iu,
+  /\b(?:hódolj|fordulj) hozzám\b/iu,
 ];
 
 export type DivineFirstPersonHit = {
@@ -192,6 +203,48 @@ export function extractCitations(text: string): string[] {
     }
   }
   return [...found];
+}
+
+/** References the person explicitly asked about, including "chapter 2 verse 47". */
+export function requestedCitations(text: string): string[] {
+  const found = new Set(extractCitations(text));
+  for (const match of text.matchAll(/(?:chapter|अध्याय|fejezet)\s*(\d{1,2})\s*(?:,|:|-)?\s*(?:verse|श्लोक|vers)\s*(\d{1,3})/giu)) {
+    const chapter = Number(match[1]);
+    const verse = Number(match[2]);
+    if (chapter >= 1 && chapter <= 18 && verse >= 1 && verse <= 78) {
+      found.add(`${chapter}.${verse}`);
+    }
+  }
+  return [...found].slice(0, 3);
+}
+
+/** A reply may cite only the verses actually supplied to the model. */
+export function unsupportedCitations(text: string, hits: SearchHit[]): string[] {
+  const supplied = new Set(hits.map((hit) => `${hit.chapter}.${hit.verse}`));
+  return extractCitations(text).filter((ref) => !supplied.has(ref));
+}
+
+/** Skip retrieval for conversational openings that do not ask for scripture. */
+export function isSmallTalk(message: string): boolean {
+  const normalized = message.trim().toLocaleLowerCase().replace(/[.!?।…\s]+$/u, '');
+  return /^(hi|hello|hey|good morning|good evening|thanks|thank you|thank you so much|namaste|namaskar|नमस्ते|नमस्कार|धन्यवाद|हाय|szia|helló|jó reggelt|jó estét|köszönöm|köszi)$/u.test(normalized);
+}
+
+/**
+ * Ambiguous short follow-ups need the previous question for semantic search.
+ * The provider already receives history; the retriever otherwise sees only
+ * “What about that?” and cannot find a useful verse.
+ */
+export function retrievalQuery(
+  message: string,
+  history: { role: 'user' | 'assistant'; content: string }[]
+): string {
+  const previousQuestion = [...history].reverse().find((turn) => turn.role === 'user')?.content;
+  if (!previousQuestion || message.length > 140) return message;
+  const followUp = /^(what about|and what|what if|how about|why (is|does|did|would)|can you explain (that|it)|tell me more|and if|but what|this|that|it\b|और|तो |अगर|इसका|उसका|és |de mi|mi van ha|erről|arról)/iu;
+  return followUp.test(message.trim())
+    ? `${previousQuestion.slice(0, 300)}\nFollow-up: ${message}`
+    : message;
 }
 
 export function localeLabel(locale: Locale): string {

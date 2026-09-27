@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
@@ -34,26 +35,26 @@ export default async function ChapterPage({
   const next = all.find((c) => c.chapter === chapterNumber + 1);
 
   return (
-    <main className="flex-1 w-full overflow-y-auto px-4 py-10 sm:px-6">
-      {/* Reading happens on its own surface, not directly on the artwork —
-          see the `.surface` note in globals.css. */}
-      <div className="surface mx-auto max-w-2xl rounded-2xl px-6 py-10 sm:px-12 sm:py-14">
+    <main className="manuscript-page flex-1 w-full overflow-y-auto px-4 py-8 sm:px-6">
+      <div className="mx-auto max-w-6xl overflow-hidden border border-[#c5ac86] bg-[#fffdf8]">
+        <div className="grid lg:grid-cols-[minmax(0,1fr)_17rem]">
+        <div className="px-6 py-10 sm:px-12 sm:py-14">
         <Link
           href="/study"
-          className="text-xs text-white/40 transition-colors hover:text-accent"
+          className="text-xs text-[#858c80] transition-colors hover:text-accent"
         >
           ← {tCommon('back')}
         </Link>
 
-        <header className="mt-6 border-b border-white/10 pb-8">
+        <header className="mt-6 border-b border-[#dfd4c2] pb-8">
           <p className="eyebrow">{t('chapterLabel', { number: doc.chapter })}</p>
-          <h1 className="font-serif-text mt-2 text-[1.75rem] font-semibold leading-tight text-white sm:text-[2rem]">
+          <h1 className="font-cormorant mt-2 text-[2.4rem] leading-[1.1] text-[#173d56] sm:text-[3rem]">
             {doc.title[locale as Locale] ?? doc.title.en}
           </h1>
           {doc.titleSanskrit && (
-            <p className="font-devanagari mt-2 text-base text-white/45">{doc.titleSanskrit}</p>
+            <p className="font-devanagari mt-2 text-base text-[#858c80]">{doc.titleSanskrit}</p>
           )}
-          <p className="mt-4 text-xs leading-relaxed text-white/35">
+          <p className="mt-4 text-xs leading-relaxed text-[#858c80]">
             {t('verseCount', { count: doc.verses.length })}
           </p>
         </header>
@@ -64,13 +65,13 @@ export default async function ChapterPage({
 
         <TrackProgress chapter={chapterNumber} />
 
-        <nav className="mt-12 flex items-start justify-between gap-6 border-t border-white/10 pt-8 text-sm">
+        <nav className="mt-12 flex items-start justify-between gap-6 border-t border-[#dfd4c2] pt-8 text-sm">
           {prev ? (
             <Link
               href={`/study/${prev.chapter}`}
-              className="group max-w-[45%] text-white/55 transition-colors hover:text-accent"
+              className="group max-w-[45%] text-[#68766c] transition-colors hover:text-accent"
             >
-              <span className="block text-xs text-white/30">← {prev.chapter}</span>
+              <span className="block text-xs text-[#858c80]">← {prev.chapter}</span>
               <span className="block">{prev.title[locale as Locale] ?? prev.title.en}</span>
             </Link>
           ) : (
@@ -79,15 +80,26 @@ export default async function ChapterPage({
           {next ? (
             <Link
               href={`/study/${next.chapter}`}
-              className="group max-w-[45%] text-end text-white/55 transition-colors hover:text-accent"
+              className="group max-w-[45%] text-end text-[#68766c] transition-colors hover:text-accent"
             >
-              <span className="block text-xs text-white/30">{next.chapter} →</span>
+              <span className="block text-xs text-[#858c80]">{next.chapter} →</span>
               <span className="block">{next.title[locale as Locale] ?? next.title.en}</span>
             </Link>
           ) : (
             <span />
           )}
         </nav>
+        </div>
+        <aside className="hidden border-s border-[#c5ac86] bg-[#eee3d0] p-5 lg:block">
+          <div className="sticky top-6">
+            <div className="relative h-72 overflow-hidden border-[8px] border-[#173d56]">
+              <Image src="/chat-wallpapers/mahabharata-chariot.jpg" alt="" fill sizes="272px" className="object-cover object-right" />
+            </div>
+            <p className="eyebrow mt-5">Bhagavad Gita · {doc.chapter}</p>
+            <p className="font-literary mt-2 text-xs leading-relaxed text-[#52616a]">{doc.title[locale as Locale] ?? doc.title.en}</p>
+          </div>
+        </aside>
+        </div>
       </div>
     </main>
   );
