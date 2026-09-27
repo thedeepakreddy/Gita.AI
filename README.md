@@ -26,6 +26,49 @@ authority until that review has happened.
 
 ---
 
+## What it looks like
+
+| | |
+|---|---|
+| **Home** — the daily verse, drawn deterministically so everyone sees the same one<br><img src="docs/screenshots/home.jpg" width="100%"> | **Study** — all 18 chapters<br><img src="docs/screenshots/study-index.jpg" width="100%"> |
+| **A chapter** — Devanagari, IAST, translation, each verse saveable<br><img src="docs/screenshots/chapter.jpg" width="100%"> | **The same chapter in Hungarian** — Schmidt's draft, every verse marked unreviewed<br><img src="docs/screenshots/hungarian.jpg" width="100%"> |
+| **Search** — semantic, over the whole corpus, no sign-in and no AI key<br><img src="docs/screenshots/search.jpg" width="100%"> | **Counsel** — signed out<br><img src="docs/screenshots/counsel.jpg" width="100%"> |
+
+<img src="docs/screenshots/settings.jpg" width="49%">
+
+**The administration screens are deliberately not shown here.** `/admin/accounts`
+lists real people's email addresses and the guard log contains the questions
+they asked. A screenshot of either in a public README would publish exactly the
+data those pages are gated to protect.
+
+## The artwork
+
+Two sets, both fully attributed. `npm run ship:check` fails if any image on
+disk is not declared by a manifest, or if a declared one lacks a licence — see
+[`src/lib/ui/provenance.ts`](src/lib/ui/provenance.ts).
+
+### Reading backgrounds — CC0 museum folios
+
+Seven public-domain plates from the Cleveland Museum of Art and The Met, each
+with an accession page you can open and check.
+[`src/lib/ui/backgrounds.ts`](src/lib/ui/backgrounds.ts)
+
+| | | |
+|---|---|---|
+| <img src="public/backgrounds/battle-scene-at-kurukshetra.jpg" width="230"><br>**Battle Scene at Kurukshetra**<br>Shri Gobinda Chandra Roy, c. 1890<br>[Cleveland](https://clevelandart.org/art/2003.111.b) · CC0 | <img src="public/backgrounds/krishna-govardhan-harivamsa.jpg" width="230"><br>**Krishna Holds Up Mount Govardhan**<br>Harivamsa folio, ca. 1590–95<br>[The Met](https://www.metmuseum.org/art/collection/search/448183) · CC0 | <img src="public/backgrounds/draupadi-rescued-from-abduction.jpg" width="230"><br>**Draupadi Rescued from Abduction**<br>Mahabharata folio, c. 1615<br>[Cleveland](https://clevelandart.org/art/2018.189) · CC0 |
+| <img src="public/backgrounds/a-charioteer-riding-through.jpg" width="230"><br>**A charioteer riding through a rocky landscape**<br>Yusuf Ali, 1616–17<br>[Cleveland](https://clevelandart.org/art/2013.322) · CC0 | <img src="public/backgrounds/krishna-returns-with-the.jpg" width="230"><br>**Krishna returns with the cowherds to Braj**<br>Bhagavata Purana, c. 1830<br>[Cleveland](https://clevelandart.org/art/1971.301) · CC0 | <img src="public/backgrounds/nanda-elders-council.jpg" width="230"><br>**Nanda and the Elders in Council**<br>Bhagavata Purana, c. 1690–1700<br>[Cleveland](https://clevelandart.org/art/2018.192) · CC0 |
+| <img src="public/backgrounds/krishna-summoning-cows.jpg" width="230"><br>**Krishna summoning the cows**<br>c. 1780–90<br>[Cleveland](https://clevelandart.org/art/1989.339) · CC0 | | |
+
+### Conversation artwork — original
+
+Ten scenes from the two epics, made for this project.
+[`src/lib/ui/chatWallpapers.ts`](src/lib/ui/chatWallpapers.ts)
+
+| | | | | |
+|---|---|---|---|---|
+| <img src="public/chat-wallpapers/ramayana-forest.jpg" width="150"><br>The forest exile | <img src="public/chat-wallpapers/ramayana-hanuman.jpg" width="150"><br>Hanuman at the sea | <img src="public/chat-wallpapers/ramayana-ashoka.jpg" width="150"><br>Sita in the Ashoka grove | <img src="public/chat-wallpapers/ramayana-bridge.jpg" width="150"><br>The bridge to Lanka | <img src="public/chat-wallpapers/ramayana-ayodhya.jpg" width="150"><br>The return to Ayodhya |
+| <img src="public/chat-wallpapers/mahabharata-chariot.jpg" width="150"><br>Counsel at Kurukshetra | <img src="public/chat-wallpapers/mahabharata-swayamvara.jpg" width="150"><br>Arjuna at the swayamvara | <img src="public/chat-wallpapers/mahabharata-forest.jpg" width="150"><br>The Pandavas in exile | <img src="public/chat-wallpapers/mahabharata-lake.jpg" width="150"><br>Questions at the lake | <img src="public/chat-wallpapers/mahabharata-peace.jpg" width="150"><br>Krishna seeks peace |
+
 ## The two rules this project is built around
 
 **1. The application explains Krishna's teaching in the third person. It never

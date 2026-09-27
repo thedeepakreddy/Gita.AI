@@ -482,12 +482,14 @@ test('roles: the gate and the session hint cannot disagree', () => {
   const original = process.env.ADMIN_EMAILS;
   process.env.ADMIN_EMAILS = ' Temple@example.org , second@example.org ';
   try {
-    for (const [email, stored] of [
+    const cases: [string, string | null][] = [
       ['temple@example.org', 'user'],
       ['second@example.org', null],
       ['nobody@example.org', 'reviewer'],
+      ['nobody@example.org', 'admin'],
       ['nobody@example.org', 'user'],
-    ] as const) {
+    ];
+    for (const [email, stored] of cases) {
       const gate = effectiveRole(email, stored);
       const hint = effectiveRole(email, stored);
       assert.equal(gate, hint, `${email} must resolve the same way in both paths`);
