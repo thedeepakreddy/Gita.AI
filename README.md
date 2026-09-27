@@ -71,8 +71,8 @@ Ten scenes from the two epics, made for this project.
 
 ## The two rules this project is built around
 
-**1. The application explains Krishna's teaching in the third person. It never
-speaks as Krishna, or as God.**
+**1. The application explains Lord's teaching in the third person. It never
+speaks as the Supreme Lord.**
 
 "Krishna's counsel in 2.47 speaks to this" is correct. A first-person line
 presented as divine speech is not — including one that merely drops the name.
