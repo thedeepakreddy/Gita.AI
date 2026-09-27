@@ -7,6 +7,9 @@ import { hasAtLeast, isAdminEmail, normaliseRole } from '../access/roles';
 import { inspectKey, normalisePastedKey } from '../crypto/secrets';
 import { providerMessage } from '../chat/providers';
 import { BACKGROUNDS } from '../ui/backgrounds';
+import { CHAT_WALLPAPERS } from '../ui/chatWallpapers';
+import { MANUSCRIPT_FILES, MANUSCRIPT_PROVENANCE } from '../ui/manuscript';
+import { isFullyAttributed, isOpenLicence, NO_EXTERNAL_SOURCE } from '../ui/provenance';
 import { caveatKey, needsCaveat } from '../verses/confidence';
 import { embed, embedBackend, embedderInfo, embeddingServiceHealthy } from '../retrieval/embedder';
 
@@ -270,39 +273,68 @@ test('provider errors: a retired model is recognised from Google’s own wording
 // temple. The previous set was seven files from stock sites and Reddit with no
 // rights metadata at all, and nothing in the codebase objected.
 
-test('backgrounds: every image declares complete provenance', () => {
-  assert.ok(BACKGROUNDS.length > 0, 'there should be at least one background');
-  for (const bg of BACKGROUNDS) {
-    for (const field of ['title', 'artist', 'date', 'holder', 'credit', 'url', 'licence'] as const) {
-      assert.ok(
-        typeof bg[field] === 'string' && bg[field].trim().length > 0,
-        `${bg.src} is missing ${field}`
-      );
-    }
+test('artwork: every declared image has complete provenance', () => {
+  const all = [
+    ...BACKGROUNDS.map((b) => ({ src: b.src, p: b.provenance })),
+    ...CHAT_WALLPAPERS.map((w) => ({ src: w.src, p: w.provenance })),
+    { src: 'public/manuscript/*', p: MANUSCRIPT_PROVENANCE },
+  ];
+  assert.ok(all.length > 0, 'there should be artwork to check');
+  for (const { src, p } of all) {
+    assert.ok(isFullyAttributed(p), `${src} is not fully attributed`);
   }
 });
 
-test('backgrounds: every licence is an open one', () => {
-  // Narrow on purpose. "Probably fine" and "found on a site that did not say
-  // otherwise" are not licences, and this is the line where that gets caught.
-  for (const bg of BACKGROUNDS) {
-    assert.match(
-      bg.licence,
-      /^(CC0|Public domain|CC BY(-SA)? )/i,
-      `${bg.src} has a licence this project does not accept: ${bg.licence}`
+test('artwork: a missing field is caught, whichever field it is', () => {
+  // The failure that matters is a blank nobody notices, so every field is
+  // asserted individually rather than trusting one spot-check.
+  const good = BACKGROUNDS[0].provenance;
+  for (const field of ['title', 'artist', 'date', 'holder', 'credit', 'url', 'licence'] as const) {
+    assert.equal(
+      isFullyAttributed({ ...good, [field]: '   ' }),
+      false,
+      `a blank ${field} must fail attribution`
     );
   }
 });
 
-test('backgrounds: every credit links somewhere checkable', () => {
-  for (const bg of BACKGROUNDS) {
-    assert.match(bg.url, /^https:\/\//, `${bg.src} has no verifiable source URL`);
+test('artwork: only open licences are accepted', () => {
+  for (const ok of ['CC0 1.0 (public domain dedication)', 'Public domain', 'CC BY 4.0', 'Original work — project-owned']) {
+    assert.equal(isOpenLicence(ok), true, `${ok} should be accepted`);
+  }
+  for (const bad of ['All rights reserved', 'Royalty-free', 'Free for personal use', 'Unknown', '']) {
+    assert.equal(isOpenLicence(bad), false, `${bad} must not be accepted`);
   }
 });
 
-test('backgrounds: sources are unique, so the slideshow cannot repeat itself', () => {
-  const seen = new Set(BACKGROUNDS.map((b) => b.src));
-  assert.equal(seen.size, BACKGROUNDS.length, 'duplicate background src');
+test('artwork: original work may skip an external URL, but nothing else may', () => {
+  const p = CHAT_WALLPAPERS[0].provenance;
+  assert.equal(p.url, NO_EXTERNAL_SOURCE, 'original work uses the sentinel, not a blank');
+  assert.equal(isFullyAttributed(p), true);
+  // A museum work claiming no external source would hide an unverifiable claim.
+  assert.equal(isFullyAttributed({ ...p, url: 'not-a-url' }), false);
+});
+
+test('artwork: every image on disk is declared by a manifest', async () => {
+  // The bug this exists for: twenty images shipped while the gate reported
+  // "7 backgrounds, all open-licensed", because it only read one manifest.
+  const { readdir } = await import('node:fs/promises');
+  const declared = new Set([
+    ...BACKGROUNDS.map((b) => b.src),
+    ...CHAT_WALLPAPERS.map((w) => w.src),
+    ...MANUSCRIPT_FILES.map((f) => `/manuscript/${f}`),
+  ]);
+  for (const dir of ['backgrounds', 'chat-wallpapers', 'manuscript']) {
+    let files: string[] = [];
+    try {
+      files = await readdir(`public/${dir}`);
+    } catch {
+      continue;
+    }
+    for (const f of files.filter((x) => /\.(jpe?g|png|webp|avif|gif|svg)$/i.test(x))) {
+      assert.ok(declared.has(`/${dir}/${f}`), `/${dir}/${f} is on disk but no manifest declares it`);
+    }
+  }
 });
 
 // --- Translation confidence -------------------------------------------------

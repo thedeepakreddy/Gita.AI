@@ -21,6 +21,9 @@ import { join } from 'node:path';
 import { PrismaClient } from '@prisma/client';
 
 import { BACKGROUNDS } from '../src/lib/ui/backgrounds';
+import { CHAT_WALLPAPERS } from '../src/lib/ui/chatWallpapers';
+import { MANUSCRIPT_FILES, MANUSCRIPT_PROVENANCE } from '../src/lib/ui/manuscript';
+import { isFullyAttributed } from '../src/lib/ui/provenance';
 import { locales } from '../src/i18n/locales';
 import type { Chapter } from '../src/lib/verses/types';
 
@@ -114,14 +117,49 @@ async function main() {
   }
 
   // --- Artwork ------------------------------------------------------------
-  const badArt = BACKGROUNDS.filter(
-    (b) =>
-      !/^(CC0|Public domain|CC BY)/i.test(b.licence) ||
-      !b.url.startsWith('https://') ||
-      ![b.title, b.artist, b.holder, b.credit].every((f) => f?.trim())
-  );
-  if (badArt.length) fail('Artwork licensing', `${badArt.length} background(s) without an open licence or full provenance`);
-  else pass('Artwork licensing', `${BACKGROUNDS.length} backgrounds, all open-licensed with an accession URL`);
+  //
+  // Checked in two directions, because one direction was not enough. Reading
+  // the manifests proves that what is DECLARED is attributed; it says nothing
+  // about images that were never declared. Twenty of those once shipped while
+  // this check reported "7 backgrounds, all open-licensed".
+  const declared = [
+    ...BACKGROUNDS.map((b) => ({ src: b.src, p: b.provenance })),
+    ...CHAT_WALLPAPERS.map((w) => ({ src: w.src, p: w.provenance })),
+    ...MANUSCRIPT_FILES.map((f) => ({ src: `/manuscript/${f}`, p: MANUSCRIPT_PROVENANCE })),
+  ];
+
+  const unattributed = declared.filter((d) => !isFullyAttributed(d.p));
+  if (unattributed.length) {
+    fail(
+      'Artwork provenance',
+      `${unattributed.length} without full provenance or an accepted licence, e.g. ${unattributed[0].src}`
+    );
+  } else {
+    pass('Artwork provenance', `${declared.length} images, each with a declared origin and licence`);
+  }
+
+  // Direction two: every image on disk must be accounted for by a manifest.
+  const declaredPaths = new Set(declared.map((d) => d.src));
+  const onDisk: string[] = [];
+  for (const dir of ['backgrounds', 'chat-wallpapers', 'manuscript']) {
+    try {
+      for (const f of await readdir(join(process.cwd(), 'public', dir))) {
+        if (/\.(jpe?g|png|webp|avif|gif|svg)$/i.test(f)) onDisk.push(`/${dir}/${f}`);
+      }
+    } catch {
+      // A directory that does not exist declares nothing; not an error.
+    }
+  }
+  const undeclared = onDisk.filter((f) => !declaredPaths.has(f));
+  if (undeclared.length) {
+    fail(
+      'Artwork all declared',
+      `${undeclared.length} image(s) on disk that no manifest declares: ${undeclared.slice(0, 3).join(', ')}` +
+        `${undeclared.length > 3 ? ' …' : ''}`
+    );
+  } else {
+    pass('Artwork all declared', `${onDisk.length} files on disk, all covered by a manifest`);
+  }
 
   // --- Index parity -------------------------------------------------------
   try {

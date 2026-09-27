@@ -27,6 +27,8 @@
  *   Smithsonian Open Access   api.si.edu
  */
 
+import type { Provenance } from './provenance';
+
 export type Background = {
   src: string;
   /**
@@ -50,17 +52,12 @@ export type Background = {
    */
   scrim: number;
 
-  // --- Provenance. All required: an image without it must not compile. ---
-  title: string;
-  artist: string;
-  date: string;
-  /** The museum holding the work. */
-  holder: string;
-  /** The institution's own credit line, reproduced as given. */
-  credit: string;
-  /** The accession page, so any claim here can be checked. */
-  url: string;
-  licence: string;
+  /**
+   * Required. Nested rather than flattened so it is the same shape the chat
+   * wallpapers use — one shape means one validator, and a manifest cannot
+   * quietly grow a different idea of what provenance is.
+   */
+  provenance: Provenance;
 };
 
 export const BACKGROUNDS: Background[] = [
@@ -69,91 +66,105 @@ export const BACKGROUNDS: Background[] = [
     position: 'center',
     note: 'The armies engaged — the setting of the Gita itself.',
     scrim: 0.44,
-    title: 'Battle Scene at Kurukshetra from the Mahabharata War (verso), from a Kalighat album',
-    artist: 'Shri Gobinda Chandra Roy (Indian, active late 1800s)',
-    date: 'c. 1890',
-    holder: 'Cleveland Museum of Art',
-    credit: 'Gift of William E. Ward in memory of his wife, Evelyn Svec Ward',
-    url: 'https://clevelandart.org/art/2003.111.b',
-    licence: 'CC0 1.0 (public domain dedication)',
+    provenance: {
+      title: 'Battle Scene at Kurukshetra from the Mahabharata War (verso), from a Kalighat album',
+      artist: 'Shri Gobinda Chandra Roy (Indian, active late 1800s)',
+      date: 'c. 1890',
+      holder: 'Cleveland Museum of Art',
+      credit: 'Gift of William E. Ward in memory of his wife, Evelyn Svec Ward',
+      url: 'https://clevelandart.org/art/2003.111.b',
+      licence: 'CC0 1.0 (public domain dedication)',
+    },
   },
   {
     src: '/backgrounds/krishna-govardhan-harivamsa.jpg',
     position: 'center 35%',
     note: 'Tall folio (0.73): the raised arm and hill are in the upper half, and a centred crop loses them.',
     scrim: 0.36,
-    title: '"Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj", Folio from a Harivamsa (The Legend of Hari (Krishna))',
-    artist: 'Unknown',
-    date: 'ca. 1590–95',
-    holder: 'The Metropolitan Museum of Art',
-    credit: 'Purchase, Edward C. Moore Jr. Gift, 1928',
-    url: 'https://www.metmuseum.org/art/collection/search/448183',
-    licence: 'CC0 1.0 (public domain dedication)',
+    provenance: {
+      title: '"Krishna Holds Up Mount Govardhan to Shelter the Villagers of Braj", Folio from a Harivamsa (The Legend of Hari (Krishna))',
+      artist: 'Unknown',
+      date: 'ca. 1590–95',
+      holder: 'The Metropolitan Museum of Art',
+      credit: 'Purchase, Edward C. Moore Jr. Gift, 1928',
+      url: 'https://www.metmuseum.org/art/collection/search/448183',
+      licence: 'CC0 1.0 (public domain dedication)',
+    },
   },
   {
     src: '/backgrounds/draupadi-rescued-from-abduction.jpg',
     position: 'center',
     note: 'A Mahabharata folio.',
     scrim: 0.5,
-    title: 'Draupadi Rescued from Abduction, from a Mahabharata',
-    artist: 'Unknown',
-    date: 'c. 1615',
-    holder: 'Cleveland Museum of Art',
-    credit: 'Purchase and partial gift from the Catherine and Ralph Benkaim Collection; Severance and Greta Millikin Purchase Fund',
-    url: 'https://clevelandart.org/art/2018.189',
-    licence: 'CC0 1.0 (public domain dedication)',
+    provenance: {
+      title: 'Draupadi Rescued from Abduction, from a Mahabharata',
+      artist: 'Unknown',
+      date: 'c. 1615',
+      holder: 'Cleveland Museum of Art',
+      credit: 'Purchase and partial gift from the Catherine and Ralph Benkaim Collection; Severance and Greta Millikin Purchase Fund',
+      url: 'https://clevelandart.org/art/2018.189',
+      licence: 'CC0 1.0 (public domain dedication)',
+    },
   },
   {
     src: '/backgrounds/a-charioteer-riding-through.jpg',
     position: 'center 40%',
     note: 'Tall Razmnama folio (0.67): the chariot sits above centre.',
     scrim: 0.43,
-    title: 'A charioteer riding through a rocky landscape with an entourage of footmen and musicians, page from a Razm-nama (Book of Wars) adapted from the Sanskrit Mahabharata and translated into Persian by Mir Ghiyath al-Din Ali Qazvini, known as Naqib Khan (Persian, d. 1614)',
-    artist: 'Yusuf Ali (Indian, active early 1600s)',
-    date: '1616–17',
-    holder: 'Cleveland Museum of Art',
-    credit: 'Gift in honor of Madeline Neves Clapp; Gift of Mrs. Henry White Cannon by exchange; Bequest of Louise T. Cooper; Leonard C. Hanna Jr. Fund; From the Catherine and Ralph Benkaim Collection',
-    url: 'https://clevelandart.org/art/2013.322',
-    licence: 'CC0 1.0 (public domain dedication)',
+    provenance: {
+      title: 'A charioteer riding through a rocky landscape with an entourage of footmen and musicians, page from a Razm-nama (Book of Wars) adapted from the Sanskrit Mahabharata and translated into Persian by Mir Ghiyath al-Din Ali Qazvini, known as Naqib Khan (Persian, d. 1614)',
+      artist: 'Yusuf Ali (Indian, active early 1600s)',
+      date: '1616–17',
+      holder: 'Cleveland Museum of Art',
+      credit: 'Gift in honor of Madeline Neves Clapp; Gift of Mrs. Henry White Cannon by exchange; Bequest of Louise T. Cooper; Leonard C. Hanna Jr. Fund; From the Catherine and Ralph Benkaim Collection',
+      url: 'https://clevelandart.org/art/2013.322',
+      licence: 'CC0 1.0 (public domain dedication)',
+    },
   },
   {
     src: '/backgrounds/krishna-returns-with-the.jpg',
     position: 'center 45%',
     note: 'The herds fill the lower half of the page.',
     scrim: 0.36,
-    title: 'Krishna returns with the cowherds to Braj, from a Bhagavata Purana',
-    artist: 'Unknown',
-    date: 'c. 1830',
-    holder: 'Cleveland Museum of Art',
-    credit: 'Gift of Mr. and Mrs. John D. MacDonald',
-    url: 'https://clevelandart.org/art/1971.301',
-    licence: 'CC0 1.0 (public domain dedication)',
+    provenance: {
+      title: 'Krishna returns with the cowherds to Braj, from a Bhagavata Purana',
+      artist: 'Unknown',
+      date: 'c. 1830',
+      holder: 'Cleveland Museum of Art',
+      credit: 'Gift of Mr. and Mrs. John D. MacDonald',
+      url: 'https://clevelandart.org/art/1971.301',
+      licence: 'CC0 1.0 (public domain dedication)',
+    },
   },
   {
     src: '/backgrounds/nanda-elders-council.jpg',
     position: 'center',
     note: 'Elders in council — apt for an app about counsel.',
     scrim: 0.49,
-    title: 'Nanda and the Elders in Council with the Cowherds, from a Bhagavata Purana',
-    artist: 'Unknown',
-    date: 'c. 1690–1700',
-    holder: 'Cleveland Museum of Art',
-    credit: 'Purchase and partial gift from the Catherine and Ralph Benkaim Collection; Severance and Greta Millikin Purchase Fund',
-    url: 'https://clevelandart.org/art/2018.192',
-    licence: 'CC0 1.0 (public domain dedication)',
+    provenance: {
+      title: 'Nanda and the Elders in Council with the Cowherds, from a Bhagavata Purana',
+      artist: 'Unknown',
+      date: 'c. 1690–1700',
+      holder: 'Cleveland Museum of Art',
+      credit: 'Purchase and partial gift from the Catherine and Ralph Benkaim Collection; Severance and Greta Millikin Purchase Fund',
+      url: 'https://clevelandart.org/art/2018.192',
+      licence: 'CC0 1.0 (public domain dedication)',
+    },
   },
   {
     src: '/backgrounds/krishna-summoning-cows.jpg',
     position: 'center 40%',
     note: 'Figures sit above the midline.',
     scrim: 0.29,
-    title: 'Krishna summoning the cows',
-    artist: 'Unknown',
-    date: 'c. 1780–90',
-    holder: 'Cleveland Museum of Art',
-    credit: 'Bequest of Mrs. Severance A. Millikin',
-    url: 'https://clevelandart.org/art/1989.339',
-    licence: 'CC0 1.0 (public domain dedication)',
+    provenance: {
+      title: 'Krishna summoning the cows',
+      artist: 'Unknown',
+      date: 'c. 1780–90',
+      holder: 'Cleveland Museum of Art',
+      credit: 'Bequest of Mrs. Severance A. Millikin',
+      url: 'https://clevelandart.org/art/1989.339',
+      licence: 'CC0 1.0 (public domain dedication)',
+    },
   },
 ];
 
