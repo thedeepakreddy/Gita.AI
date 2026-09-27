@@ -22,16 +22,33 @@ export async function GET(request: Request) {
   const since = new Date();
   since.setDate(since.getDate() - 30);
 
-  const [violations, total, last30, byPattern, assistantMessages] = await Promise.all([
+  const [
+    violations,
+    total,
+    last30,
+    byPattern,
+    assistantMessages,
+    citations,
+    citationTotal,
+    citationLast30,
+    citationAfterRetry,
+  ] = await Promise.all([
     prisma.voiceViolation.findMany({ orderBy: { createdAt: 'desc' }, take }),
     prisma.voiceViolation.count(),
     prisma.voiceViolation.count({ where: { createdAt: { gte: since } } }),
     prisma.voiceViolation.groupBy({ by: ['pattern'], _count: { pattern: true } }),
     // The denominator. "4 violations" means nothing without "out of how many".
     prisma.message.count({ where: { role: 'assistant' } }),
+
+    // The grounding guard's log, alongside the voice guard's. Both answer the
+    // same shape of question and a temple will ask both.
+    prisma.citationViolation.findMany({ orderBy: { createdAt: 'desc' }, take }),
+    prisma.citationViolation.count(),
+    prisma.citationViolation.count({ where: { createdAt: { gte: since } } }),
+    prisma.citationViolation.count({ where: { afterRetry: true } }),
   ]);
 
-  const delivered = assistantMessages + total;
+  const delivered = assistantMessages + total + citationTotal;
 
   return NextResponse.json({
     violations,
@@ -44,6 +61,21 @@ export async function GET(request: Request) {
       byPattern: byPattern
         .map((p) => ({ pattern: p.pattern, count: p._count.pattern }))
         .sort((a, b) => b.count - a.count),
+    },
+    citations: citations.map((c) => ({
+      ...c,
+      cited: JSON.parse(c.cited) as string[],
+      supplied: JSON.parse(c.supplied) as string[],
+    })),
+    citationSummary: {
+      total: citationTotal,
+      last30Days: citationLast30,
+      /**
+       * Failures that survived the correction attempt. A run of these means the
+       * retry is not working, which is a different problem from an odd slip.
+       */
+      afterRetry: citationAfterRetry,
+      ratePerThousand: delivered ? Number(((citationTotal / delivered) * 1000).toFixed(2)) : 0,
     },
   });
 }

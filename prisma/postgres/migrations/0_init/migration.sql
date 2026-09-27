@@ -147,6 +147,23 @@ CREATE TABLE "ReadingProgress" (
     CONSTRAINT "ReadingProgress_pkey" PRIMARY KEY ("id")
 );
 
+-- CreateTable
+CREATE TABLE "CitationViolation" (
+    "id" TEXT NOT NULL,
+    "userId" TEXT,
+    "conversationId" TEXT,
+    "provider" TEXT NOT NULL,
+    "locale" TEXT NOT NULL,
+    "cited" TEXT NOT NULL,
+    "supplied" TEXT NOT NULL,
+    "afterRetry" BOOLEAN NOT NULL DEFAULT false,
+    "question" TEXT NOT NULL,
+    "reply" TEXT NOT NULL,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "CitationViolation_pkey" PRIMARY KEY ("id")
+);
+
 -- CreateIndex
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
 
@@ -197,6 +214,9 @@ CREATE UNIQUE INDEX "Bookmark_userId_verseId_key" ON "Bookmark"("userId", "verse
 
 -- CreateIndex
 CREATE UNIQUE INDEX "ReadingProgress_userId_scripture_key" ON "ReadingProgress"("userId", "scripture");
+
+-- CreateIndex
+CREATE INDEX "CitationViolation_createdAt_idx" ON "CitationViolation"("createdAt");
 
 -- AddForeignKey
 ALTER TABLE "Account" ADD CONSTRAINT "Account_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;

@@ -311,3 +311,52 @@ model ReadingProgress {
 
   @@unique([userId, scripture])
 }
+
+// ---------------------------------------------------------------------------
+// The grounding guard's audit trail.
+//
+// A reply may cite only the verses actually supplied to the model. When one
+// cites something that was never retrieved, the route gives it a single
+// correction attempt and then refuses the turn outright.
+//
+// That refusal used to leave no trace, while the voice guard wrote a row for
+// every firing. The asymmetry made no sense: both guards exist so a temple can
+// be shown a rate with the transcripts behind it, and "how often does it invent
+// a verse reference" is exactly as fair a question as "how often does it speak
+// as Krishna". A fabricated citation is arguably worse — it looks like
+// scholarship.
+//
+// Admin-only, like VoiceViolation: it contains what people asked.
+// ---------------------------------------------------------------------------
+
+model CitationViolation {
+  id String @id @default(cuid())
+
+  /// Null if the account was deleted afterwards — the audit line survives.
+  userId         String?
+  conversationId String?
+
+  provider String
+  locale   String
+
+  /// The references the reply cited that were never supplied, e.g. ["9.22"].
+  /// JSON array, as elsewhere in this schema.
+  cited String
+
+  /// What WAS supplied, so a reader of the log can see how far off it was.
+  supplied String
+
+  /// True when this was the second failure: the model was told its draft cited
+  /// an unsupplied verse and did it again. A run of these means the correction
+  /// step is not working, which is a different problem from an occasional slip.
+  afterRetry Boolean @default(false)
+
+  /// What the person asked, and the reply that was refused and never stored
+  /// as a Message.
+  question String
+  reply    String
+
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}

@@ -43,13 +43,12 @@ type Overview = {
   chapters: { chapter: number; title: Record<string, string>; verses: number }[];
 };
 
-const CARD = 'rounded-xl border border-white/10 bg-black/40 backdrop-blur-md';
+const CARD = 'border border-[#c5ac86] bg-[#fbf6ec]';
 
 function StatusChip({ status }: { status: string }) {
   const styles: Record<string, string> = {
-    reviewed: 'bg-emerald-900/60 text-emerald-300 border-emerald-500/30',
-    'in-review': 'bg-accent/12 text-accent border-accent/25',
-    placeholder: 'bg-white/10 text-white/50 border-white/20',
+    reviewed: 'bg-[#e4ecdf] text-[#3f6b4f] border-[#9ab5a2]', 'in-review': 'bg-[#f1e7d5] text-[#925b37] border-[#c5ac86]',
+    placeholder: 'bg-[#eadcc4] text-[#6b7780] border-[#c5ac86]',
   };
   return (
     <span className={`rounded border px-2 py-0.5 text-xs ${styles[status] ?? styles.placeholder}`}>
@@ -157,11 +156,11 @@ export function ReviewClient() {
       <section className={`${CARD} p-4`}>
         <div className="flex flex-wrap items-end gap-4">
           <label className="text-sm">
-            <span className="block text-xs uppercase tracking-wide text-white/40">Language</span>
+            <span className="block text-xs uppercase tracking-wide text-[#7c8891]">Language</span>
             <select
               value={locale}
               onChange={(e) => setLocale(e.target.value as Locale)}
-              className="mt-1 rounded border border-white/20 bg-black/40 px-2 py-1.5 text-white"
+              className="mt-1 rounded border border-[#c5ac86] bg-[#f4ecda] px-2 py-1.5 text-[#173d56]"
             >
               {locales.map((l) => (
                 <option key={l} value={l}>
@@ -172,11 +171,11 @@ export function ReviewClient() {
           </label>
 
           <label className="text-sm">
-            <span className="block text-xs uppercase tracking-wide text-white/40">Chapter</span>
+            <span className="block text-xs uppercase tracking-wide text-[#7c8891]">Chapter</span>
             <select
               value={chapter}
               onChange={(e) => setChapter(Number(e.target.value))}
-              className="mt-1 max-w-xs rounded border border-white/20 bg-black/40 px-2 py-1.5 text-white"
+              className="mt-1 max-w-xs rounded border border-[#c5ac86] bg-[#f4ecda] px-2 py-1.5 text-[#173d56]"
             >
               {(overview?.chapters ?? []).map((c) => (
                 <option key={c.chapter} value={c.chapter}>
@@ -186,7 +185,7 @@ export function ReviewClient() {
             </select>
           </label>
 
-          <label className="flex items-center gap-2 pb-1.5 text-sm text-white/70">
+          <label className="flex items-center gap-2 pb-1.5 text-sm text-[#52616a]">
             <input
               type="checkbox"
               checked={onlyUnreviewed}
@@ -197,31 +196,31 @@ export function ReviewClient() {
           </label>
 
           {progress && (
-            <p className="ms-auto pb-1.5 text-sm tabular-nums text-white/50">
+            <p className="ms-auto pb-1.5 text-sm tabular-nums text-[#6b7780]">
               {progress.reviewed}/{progress.total} approved
             </p>
           )}
         </div>
 
-        <div className="mt-4 grid gap-3 border-t border-white/10 pt-4 sm:grid-cols-2">
+        <div className="mt-4 grid gap-3 border-t border-[#c5ac86] pt-4 sm:grid-cols-2">
           <label className="text-sm">
-            <span className="block text-xs uppercase tracking-wide text-white/40">
+            <span className="block text-xs uppercase tracking-wide text-[#7c8891]">
               Translator credit (applied to what you save)
             </span>
             <input
               value={translator}
               onChange={(e) => setTranslator(e.target.value)}
               placeholder="e.g. Bhaktivedanta Book Trust"
-              className="mt-1 w-full rounded border border-white/20 bg-black/40 px-2 py-1.5 text-white placeholder-white/30"
+              className="mt-1 w-full rounded border border-[#c5ac86] bg-[#f4ecda] px-2 py-1.5 text-[#173d56] placeholder-[#a09280]"
             />
           </label>
           <label className="text-sm">
-            <span className="block text-xs uppercase tracking-wide text-white/40">Source</span>
+            <span className="block text-xs uppercase tracking-wide text-[#7c8891]">Source</span>
             <input
               value={source}
               onChange={(e) => setSource(e.target.value)}
               placeholder="Edition, permission reference…"
-              className="mt-1 w-full rounded border border-white/20 bg-black/40 px-2 py-1.5 text-white placeholder-white/30"
+              className="mt-1 w-full rounded border border-[#c5ac86] bg-[#f4ecda] px-2 py-1.5 text-[#173d56] placeholder-[#a09280]"
             />
           </label>
         </div>
@@ -231,8 +230,8 @@ export function ReviewClient() {
         <p
           className={`rounded px-3 py-2 text-sm ${
             notice.tone === 'ok'
-              ? 'bg-emerald-950/50 text-emerald-300'
-              : 'bg-red-950/50 text-red-300'
+              ? 'bg-[#e4ecdf] text-[#3f6b4f]'
+              : 'bg-[#f6e3de] text-[#9b3a2f]'
           }`}
         >
           {notice.text}
@@ -240,7 +239,7 @@ export function ReviewClient() {
       )}
 
       {shown.length === 0 && (
-        <p className="text-sm text-white/50">
+        <p className="text-sm text-[#6b7780]">
           {verses.length === 0 ? 'Loading…' : 'Every verse in this chapter is approved.'}
         </p>
       )}
@@ -251,44 +250,44 @@ export function ReviewClient() {
         return (
           <article key={verse.id} className={`${CARD} p-5`}>
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="font-medium text-accent">
+              <h3 className="font-medium text-[#925b37]">
                 {verse.chapter}.{verse.verse}
               </h3>
               <div className="flex items-center gap-2">
                 <StatusChip status={status} />
                 {verse.revision?.reviewedBy && (
-                  <span className="text-xs text-white/40">
+                  <span className="text-xs text-[#7c8891]">
                     approved by {verse.revision.reviewedBy}
                   </span>
                 )}
               </div>
             </div>
 
-            <p className="font-devanagari mt-3 whitespace-pre-line text-lg leading-loose text-white/90">
+            <p className="font-devanagari mt-3 whitespace-pre-line text-lg leading-loose text-[#173d56]">
               {verse.sanskrit}
             </p>
-            <p className="font-iast mt-1 whitespace-pre-line text-xs text-white/40">
+            <p className="font-iast mt-1 whitespace-pre-line text-xs text-[#7c8891]">
               {verse.transliteration}
             </p>
 
             {locale !== 'en' && verse.english && (
-              <div className="mt-4 rounded border border-white/10 bg-white/5 p-3">
-                <p className="text-xs uppercase tracking-wide text-white/40">English reference</p>
-                <p className="mt-1 text-sm text-white/70">{verse.english}</p>
+              <div className="mt-4 rounded border border-[#c5ac86] bg-[#f1e7d5] p-3">
+                <p className="text-xs uppercase tracking-wide text-[#7c8891]">English reference</p>
+                <p className="mt-1 text-sm text-[#52616a]">{verse.english}</p>
               </div>
             )}
 
             {verse.shipped && verse.revision && verse.shipped !== verse.revision.text && (
               <details className="mt-3 text-sm">
-                <summary className="cursor-pointer text-xs uppercase tracking-wide text-white/40">
+                <summary className="cursor-pointer text-xs uppercase tracking-wide text-[#7c8891]">
                   Text as shipped (being replaced)
                 </summary>
-                <p className="mt-1 text-white/50">{verse.shipped}</p>
+                <p className="mt-1 text-[#6b7780]">{verse.shipped}</p>
               </details>
             )}
 
             <label className="mt-4 block">
-              <span className="text-xs uppercase tracking-wide text-white/40">
+              <span className="text-xs uppercase tracking-wide text-[#7c8891]">
                 {localeMeta[locale].label} translation
               </span>
               <textarea
@@ -296,7 +295,7 @@ export function ReviewClient() {
                 onChange={(e) => setDrafts((d) => ({ ...d, [verse.id]: e.target.value }))}
                 rows={3}
                 placeholder={`Translation into ${localeMeta[locale].label}…`}
-                className="mt-1 w-full resize-y rounded border border-white/20 bg-black/40 px-3 py-2 text-white placeholder-white/30 focus:border-accent/50"
+                className="mt-1 w-full resize-y rounded border border-[#c5ac86] bg-[#f4ecda] px-3 py-2 text-[#173d56] placeholder-[#a09280] focus:border-[#ad865a]"
               />
             </label>
 
@@ -304,14 +303,14 @@ export function ReviewClient() {
               <button
                 onClick={() => save(verse, 'in-review')}
                 disabled={busy === verse.id || !dirty}
-                className="rounded border border-white/20 px-3 py-1.5 text-sm text-white hover:bg-white/10 disabled:opacity-40"
+                className="rounded border border-[#c5ac86] px-3 py-1.5 text-sm text-[#173d56] hover:bg-[#eadcc4] disabled:opacity-40"
               >
                 Save draft
               </button>
               <button
                 onClick={() => save(verse, 'reviewed')}
                 disabled={busy === verse.id}
-                className="rounded bg-emerald-700 px-3 py-1.5 text-sm text-white hover:bg-emerald-600 disabled:opacity-40"
+                className="rounded bg-[#4a6f55] px-3 py-1.5 text-sm text-[#173d56] hover:bg-[#3f6b4f] disabled:opacity-40"
               >
                 Approve
               </button>
@@ -319,12 +318,12 @@ export function ReviewClient() {
                 <button
                   onClick={() => revert(verse)}
                   disabled={busy === verse.id}
-                  className="text-sm text-red-400 underline disabled:opacity-40"
+                  className="text-sm text-[#9b3a2f] underline disabled:opacity-40"
                 >
                   Revert to shipped text
                 </button>
               )}
-              {dirty && <span className="text-xs text-accent">unsaved</span>}
+              {dirty && <span className="text-xs text-[#925b37]">unsaved</span>}
             </div>
           </article>
         );

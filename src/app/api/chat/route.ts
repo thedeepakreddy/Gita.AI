@@ -168,6 +168,8 @@ export async function POST(request: Request) {
 
   // --- Call the user's provider.
   let reply: string;
+  /** Refs the first draft invented, so the log can say whether the retry helped. */
+  let firstDraftUnsupported: string[] = [];
   const promptMessages = [
     ...history,
     { role: 'user' as const, content: buildUserMessage({ question: message, hits, locale }) },
@@ -180,6 +182,7 @@ export async function POST(request: Request) {
       messages: promptMessages,
     });
     const unsupported = unsupportedCitations(reply, hits);
+    firstDraftUnsupported = unsupported;
     if (unsupported.length && !findDivineFirstPerson(reply)) {
       // One correction attempt is cheaper for the reader than surfacing an
       // avoidable error, but an unsupported verse is never shown as fact.
@@ -248,7 +251,36 @@ export async function POST(request: Request) {
     );
   }
 
-  if (unsupportedCitations(reply, hits).length > 0) {
+  // --- Grounding backstop, recorded.
+  //
+  // The reply cited a verse that was never supplied — after already being told
+  // once. It is refused rather than shown, and the refusal is written down for
+  // the same reason voice violations are: a temple asking "how often does it
+  // invent a reference" deserves a number with the transcripts behind it, not
+  // an assurance. A fabricated citation is arguably the worse of the two,
+  // because it looks like scholarship.
+  const stillUnsupported = unsupportedCitations(reply, hits);
+  if (stillUnsupported.length > 0) {
+    try {
+      await prisma.citationViolation.create({
+        data: {
+          userId,
+          conversationId: conversation?.id ?? null,
+          provider,
+          locale,
+          cited: JSON.stringify(stillUnsupported),
+          supplied: JSON.stringify(hits.map((h) => `${h.chapter}.${h.verse}`)),
+          afterRetry: firstDraftUnsupported.length > 0,
+          question: message,
+          reply,
+        },
+      });
+    } catch (err) {
+      // Best-effort, exactly as the voice log is. Failing to write the audit
+      // line must not turn a correctly-refused answer into a 500.
+      console.error('[chat] unsupported citation caught but not logged:', err);
+    }
+
     return NextResponse.json({ error: 'unsupported_citation' }, { status: 422 });
   }
 
